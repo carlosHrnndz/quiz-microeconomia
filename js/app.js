@@ -1,24 +1,33 @@
 // =====================
-// Quiz App - Ultimate Edition
+// Quiz App - V3 Ultimate Edition
+// With Session Sync & Swipe Navigation
 // =====================
 
 class QuizApp {
     constructor() {
-        this.allQuestions = [];      // All loaded questions
-        this.questions = [];         // Filtered questions for current session
+        this.allQuestions = [];
+        this.questions = [];
         this.currentQuestionIndex = 0;
         this.userAnswers = {};
         this.pendingQuestions = new Set();
         this.mode = 'quiz';
         this.score = 0;
         this.selectedUnits = new Set();
-        this.unitQuestionCounts = {}; // { unitNumber: count }
+        this.unitQuestionCounts = {};
+        this.sessionCode = '';
 
-        // UI References
+        // Touch swipe tracking
+        this.touchStartX = 0;
+        this.touchEndX = 0;
+
         this.ui = {
             // Splash
             splashScreen: document.getElementById('splash-screen'),
             quizApp: document.getElementById('quiz-app'),
+            sessionCodeInput: document.getElementById('session-code'),
+            btnLoadSession: document.getElementById('btn-load-session'),
+            btnExport: document.getElementById('btn-export'),
+            btnImport: document.getElementById('btn-import'),
             modeQuiz: document.getElementById('mode-quiz'),
             modeStudy: document.getElementById('mode-study'),
             modeDescription: document.getElementById('mode-description'),
@@ -42,6 +51,7 @@ class QuizApp {
             btnPrev: document.getElementById('btn-prev'),
             btnNext: document.getElementById('btn-next'),
             btnPending: document.getElementById('btn-pending'),
+            questionArea: document.querySelector('.question-area'),
 
             // Modals
             modalPending: document.getElementById('modal-pending'),
@@ -61,8 +71,118 @@ class QuizApp {
 
     async init() {
         await this.loadData();
+        this.loadStoredSessionCode();
         this.setupSplash();
         this.bindQuizEvents();
+        this.setupSwipe();
+    }
+
+    // =====================
+    // SESSION MANAGEMENT
+    // =====================
+    loadStoredSessionCode() {
+        const stored = localStorage.getItem('quizSessionCode');
+        if (stored) {
+            this.sessionCode = stored;
+            this.ui.sessionCodeInput.value = stored;
+            this.loadProgress();
+        }
+    }
+
+    saveSessionCode() {
+        this.sessionCode = this.ui.sessionCodeInput.value.trim().toLowerCase();
+        if (this.sessionCode) {
+            localStorage.setItem('quizSessionCode', this.sessionCode);
+        }
+    }
+
+    getStorageKey() {
+        return this.sessionCode ? `quizProgress_${this.sessionCode}` : 'quizProgress_default';
+    }
+
+    saveProgress() {
+        const data = {
+            userAnswers: this.userAnswers,
+            pendingQuestions: Array.from(this.pendingQuestions),
+            currentQuestionIndex: this.currentQuestionIndex,
+            score: this.score,
+            mode: this.mode,
+            selectedUnits: Array.from(this.selectedUnits),
+            timestamp: Date.now()
+        };
+        localStorage.setItem(this.getStorageKey(), JSON.stringify(data));
+    }
+
+    loadProgress() {
+        const stored = localStorage.getItem(this.getStorageKey());
+        if (stored) {
+            try {
+                const data = JSON.parse(stored);
+                this.userAnswers = data.userAnswers || {};
+                this.pendingQuestions = new Set(data.pendingQuestions || []);
+                this.currentQuestionIndex = data.currentQuestionIndex || 0;
+                this.score = data.score || 0;
+                if (data.mode) this.mode = data.mode;
+                if (data.selectedUnits) {
+                    this.selectedUnits = new Set(data.selectedUnits);
+                }
+                console.log(`Loaded progress for session: ${this.sessionCode}`);
+                return true;
+            } catch (e) {
+                console.error('Error loading progress:', e);
+            }
+        }
+        return false;
+    }
+
+    exportProgress() {
+        this.saveProgress();
+        const data = localStorage.getItem(this.getStorageKey());
+        const blob = new Blob([data], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `quiz-progress-${this.sessionCode || 'default'}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    importProgress() {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = '.json';
+        input.onchange = (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    localStorage.setItem(this.getStorageKey(), JSON.stringify(data));
+                    this.loadProgress();
+                    alert('✅ Progreso importado correctamente');
+                    // Update UI
+                    this.updateUnitGridFromSelection();
+                    this.setMode(this.mode);
+                } catch (err) {
+                    alert('❌ Error al importar el archivo');
+                }
+            };
+            reader.readAsText(file);
+        };
+        input.click();
+    }
+
+    updateUnitGridFromSelection() {
+        document.querySelectorAll('.unit-chip').forEach(c => {
+            const unit = Number(c.dataset.unit);
+            if (this.selectedUnits.has(unit)) {
+                c.classList.add('selected');
+            } else {
+                c.classList.remove('selected');
+            }
+        });
+        this.updateSelectedCount();
     }
 
     // =====================
@@ -92,14 +212,11 @@ class QuizApp {
                         opciones: q.opciones,
                         respuesta_correcta: (q.respuesta_correcta || q.correcta || '').toLowerCase().trim()
                     });
-
-                    // Count per unit
                     this.unitQuestionCounts[unitNum] = (this.unitQuestionCounts[unitNum] || 0) + 1;
                 });
             });
 
-            console.log(`Loaded ${this.allQuestions.length} questions from ${Object.keys(this.unitQuestionCounts).length} units`);
-
+            console.log(`Loaded ${this.allQuestions.length} questions`);
         } catch (err) {
             console.error('Error loading data:', err);
             this.ui.questionText.innerText = "Error cargando preguntas.";
@@ -110,6 +227,21 @@ class QuizApp {
     // SPLASH SCREEN
     // =====================
     setupSplash() {
+        // Session buttons
+        this.ui.btnLoadSession.addEventListener('click', () => {
+            this.saveSessionCode();
+            if (this.loadProgress()) {
+                this.updateUnitGridFromSelection();
+                this.setMode(this.mode);
+                alert('✅ Sesión cargada');
+            } else {
+                alert('No hay progreso guardado para este código');
+            }
+        });
+
+        this.ui.btnExport.addEventListener('click', () => this.exportProgress());
+        this.ui.btnImport.addEventListener('click', () => this.importProgress());
+
         // Mode buttons
         this.ui.modeQuiz.addEventListener('click', () => this.setMode('quiz'));
         this.ui.modeStudy.addEventListener('click', () => this.setMode('study'));
@@ -125,6 +257,11 @@ class QuizApp {
             this.ui.unitGrid.appendChild(chip);
             this.selectedUnits.add(u);
         });
+
+        // If we loaded progress, update the grid
+        if (this.sessionCode) {
+            this.updateUnitGridFromSelection();
+        }
 
         this.updateSelectedCount();
 
@@ -180,7 +317,10 @@ class QuizApp {
     }
 
     startQuiz() {
-        // Filter questions by selected units
+        // Save session code
+        this.saveSessionCode();
+
+        // Filter questions
         this.questions = this.allQuestions.filter(q => this.selectedUnits.has(Number(q.unidad)));
 
         if (this.questions.length === 0) {
@@ -188,20 +328,52 @@ class QuizApp {
             return;
         }
 
-        // Reset state
-        this.currentQuestionIndex = 0;
-        this.userAnswers = {};
-        this.pendingQuestions.clear();
-        this.score = 0;
+        // Check if we have saved progress for THIS selection
+        const hasProgress = Object.keys(this.userAnswers).length > 0;
+        if (!hasProgress) {
+            // Fresh start
+            this.currentQuestionIndex = 0;
+            this.userAnswers = {};
+            this.pendingQuestions.clear();
+            this.score = 0;
+        }
 
         // Switch screens
         this.ui.splashScreen.classList.add('hidden');
         this.ui.quizApp.classList.remove('hidden');
-
-        // Update mode icon
         this.ui.modeBtn.innerText = this.mode === 'quiz' ? '🎓' : '📖';
 
         this.renderQuestion();
+    }
+
+    // =====================
+    // SWIPE NAVIGATION
+    // =====================
+    setupSwipe() {
+        const area = this.ui.questionArea;
+        if (!area) return;
+
+        area.addEventListener('touchstart', (e) => {
+            this.touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        area.addEventListener('touchend', (e) => {
+            this.touchEndX = e.changedTouches[0].screenX;
+            this.handleSwipe();
+        }, { passive: true });
+    }
+
+    handleSwipe() {
+        const diff = this.touchStartX - this.touchEndX;
+        const threshold = 80; // Minimum swipe distance
+
+        if (diff > threshold) {
+            // Swipe left -> Next
+            this.nextQuestion();
+        } else if (diff < -threshold) {
+            // Swipe right -> Prev
+            this.prevQuestion();
+        }
     }
 
     // =====================
@@ -230,7 +402,7 @@ class QuizApp {
 
         // Keyboard
         document.addEventListener('keydown', (e) => {
-            if (this.ui.splashScreen.classList.contains('hidden') === false) return;
+            if (!this.ui.splashScreen.classList.contains('hidden')) return;
             if (e.key === 'ArrowRight') this.nextQuestion();
             if (e.key === 'ArrowLeft') this.prevQuestion();
             if (e.key === 'p' || e.key === 'P') this.togglePending();
@@ -310,6 +482,9 @@ class QuizApp {
             this.ui.feedbackText.innerText = isCorrect ? "¡Correcto!" : `Incorrecto. Era ${q.respuesta_correcta.toUpperCase()}`;
             this.ui.feedbackArea.style.borderLeft = `4px solid ${isCorrect ? 'var(--correct-color)' : 'var(--incorrect-color)'}`;
         }
+
+        // Auto-save progress
+        this.saveProgress();
     }
 
     handleOptionSelect(key) {
@@ -331,7 +506,6 @@ class QuizApp {
             this.currentQuestionIndex++;
             this.renderQuestion();
         } else {
-            // End of quiz
             this.showResults();
         }
     }
@@ -393,7 +567,6 @@ class QuizApp {
         this.ui.statWrong.textContent = wrong;
         this.ui.statScore.textContent = `${percent}%`;
 
-        // Emoji based on score
         if (percent >= 90) {
             this.ui.resultsIcon.textContent = '🏆';
             this.ui.resultsTitle.textContent = '¡Excelente!';

@@ -703,6 +703,64 @@ body {
     color: var(--text-secondary);
 }
 
+/* Session Input */
+.session-input-wrap {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.session-input {
+    flex: 1;
+    padding: 12px 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.session-input:focus {
+    border-color: var(--accent-color);
+}
+
+.session-input::placeholder {
+    color: var(--text-secondary);
+}
+
+.session-btn {
+    padding: 12px 16px;
+    background: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.session-btn:active {
+    transform: scale(0.95);
+}
+
+.session-hint {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.sync-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+/* Hidden file input for import */
+#import-file {
+    display: none;
+}
+
 /* Results Modal */
 .results-modal {
     text-align: center;
