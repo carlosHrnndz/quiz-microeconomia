@@ -771,3 +771,184 @@ body {
         grid-template-columns: repeat(5, 1fr);
     }
 }
+
+/* ===================== */
+/* DESKTOP / TV LAYOUT   */
+/* ===================== */
+@media (min-width: 900px) {
+    .app-container {
+        max-width: 1200px;
+        padding: var(--spacing-lg) 40px;
+    }
+
+    .app-header {
+        padding: var(--spacing-md) 0;
+        margin-bottom: var(--spacing-md);
+    }
+
+    #question-counter {
+        font-size: 1.2rem;
+    }
+
+    .badge {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+
+    .score-pill {
+        padding: 8px 16px;
+    }
+
+    .score-label {
+        font-size: 0.9rem;
+    }
+
+    #score-val {
+        font-size: 1.3rem;
+    }
+
+    .icon-btn {
+        font-size: 1.6rem;
+        padding: 10px;
+    }
+
+    .progress-bar-container {
+        height: 8px;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .question-text {
+        font-size: 1.8rem;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    /* 2-column options for wide screens */
+    .options-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .option-card {
+        padding: 20px 24px;
+        font-size: 1.2rem;
+        border-radius: 14px;
+    }
+
+    .option-letter {
+        min-width: 28px;
+        font-size: 1.3rem;
+    }
+
+    .feedback-area {
+        font-size: 1.2rem;
+        padding: var(--spacing-md);
+    }
+
+    .app-footer {
+        padding-top: var(--spacing-lg);
+    }
+
+    .nav-btn {
+        padding: 16px 28px;
+        font-size: 1.1rem;
+        border-radius: 12px;
+    }
+
+    .nav-btn.primary {
+        max-width: 300px;
+    }
+
+    /* Splash Desktop */
+    .splash-content {
+        max-width: 700px;
+    }
+
+    .splash-logo {
+        font-size: 5rem;
+    }
+
+    .splash-title {
+        font-size: 2.5rem;
+    }
+
+    .splash-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .splash-section {
+        padding: var(--spacing-lg);
+    }
+
+    .splash-section h3 {
+        font-size: 1rem;
+    }
+
+    .mode-btn {
+        padding: 16px;
+        font-size: 1.1rem;
+    }
+
+    .unit-grid {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 10px;
+        max-height: 200px;
+    }
+
+    .unit-chip {
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .start-btn {
+        padding: 20px;
+        font-size: 1.4rem;
+    }
+
+    .selected-count {
+        font-size: 1rem;
+    }
+
+    /* Results Desktop */
+    .results-icon {
+        font-size: 6rem;
+    }
+
+    .results-modal h2 {
+        font-size: 2rem;
+    }
+
+    .stat-value {
+        font-size: 3rem;
+    }
+
+    .stat-label {
+        font-size: 1rem;
+    }
+}
+
+/* TV / 4K (very large screens) */
+@media (min-width: 1400px) {
+    .app-container {
+        max-width: 1600px;
+        padding: 40px 60px;
+    }
+
+    .question-text {
+        font-size: 2.2rem;
+    }
+
+    .option-card {
+        padding: 24px 30px;
+        font-size: 1.4rem;
+    }
+
+    .splash-title {
+        font-size: 3rem;
+    }
+
+    .start-btn {
+        padding: 24px;
+        font-size: 1.6rem;
+    }
+}
