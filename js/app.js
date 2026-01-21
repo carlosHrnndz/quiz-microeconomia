@@ -1,18 +1,39 @@
+// =====================
+// Quiz App - Ultimate Edition
+// =====================
+
 class QuizApp {
     constructor() {
-        this.questions = [];
+        this.allQuestions = [];      // All loaded questions
+        this.questions = [];         // Filtered questions for current session
         this.currentQuestionIndex = 0;
-        this.userAnswers = {}; // { questionIndex: 'a' }
+        this.userAnswers = {};
         this.pendingQuestions = new Set();
-        this.mode = 'quiz'; // 'quiz' or 'study'
+        this.mode = 'quiz';
         this.score = 0;
+        this.selectedUnits = new Set();
+        this.unitQuestionCounts = {}; // { unitNumber: count }
 
-        // UI Elements
+        // UI References
         this.ui = {
+            // Splash
+            splashScreen: document.getElementById('splash-screen'),
+            quizApp: document.getElementById('quiz-app'),
+            modeQuiz: document.getElementById('mode-quiz'),
+            modeStudy: document.getElementById('mode-study'),
+            modeDescription: document.getElementById('mode-description'),
+            unitGrid: document.getElementById('unit-grid'),
+            btnSelectAll: document.getElementById('btn-select-all'),
+            btnSelectNone: document.getElementById('btn-select-none'),
+            btnStart: document.getElementById('btn-start'),
+            selectedCount: document.getElementById('selected-count'),
+
+            // Quiz
             questionCounter: document.getElementById('question-counter'),
             unitBadge: document.getElementById('unit-badge'),
             scoreVal: document.getElementById('score-val'),
             modeBtn: document.getElementById('btn-mode-toggle'),
+            btnRestart: document.getElementById('btn-restart'),
             progressBar: document.getElementById('progress-fill'),
             questionText: document.getElementById('question-text'),
             optionsContainer: document.getElementById('options-container'),
@@ -21,38 +42,195 @@ class QuizApp {
             btnPrev: document.getElementById('btn-prev'),
             btnNext: document.getElementById('btn-next'),
             btnPending: document.getElementById('btn-pending'),
+
+            // Modals
             modalPending: document.getElementById('modal-pending'),
             pendingList: document.getElementById('pending-list'),
-            btnCloseModal: document.getElementById('btn-close-modal')
+            btnCloseModal: document.getElementById('btn-close-modal'),
+            modalResults: document.getElementById('modal-results'),
+            resultsIcon: document.getElementById('results-icon'),
+            resultsTitle: document.getElementById('results-title'),
+            statCorrect: document.getElementById('stat-correct'),
+            statWrong: document.getElementById('stat-wrong'),
+            statScore: document.getElementById('stat-score'),
+            btnRestartResults: document.getElementById('btn-restart-results')
         };
 
         this.init();
     }
 
     async init() {
-        this.bindEvents();
         await this.loadData();
+        this.setupSplash();
+        this.bindQuizEvents();
     }
 
-    bindEvents() {
+    // =====================
+    // DATA LOADING
+    // =====================
+    async loadData() {
+        try {
+            const manifestRes = await fetch('data/questions_index.json');
+            const files = await manifestRes.json();
+
+            const promises = files.map(f => fetch(`data/${f}`).then(r => r.json()));
+            const results = await Promise.all(promises);
+
+            this.allQuestions = [];
+            this.unitQuestionCounts = {};
+
+            results.forEach(data => {
+                let unit = data.unidad || '?';
+                let items = Array.isArray(data) ? data : (data.preguntas || []);
+
+                items.forEach(q => {
+                    const unitNum = q.unidad || unit;
+                    this.allQuestions.push({
+                        unidad: unitNum,
+                        numero: q.numero,
+                        pregunta: q.pregunta || q.enunciado || q.texto,
+                        opciones: q.opciones,
+                        respuesta_correcta: (q.respuesta_correcta || q.correcta || '').toLowerCase().trim()
+                    });
+
+                    // Count per unit
+                    this.unitQuestionCounts[unitNum] = (this.unitQuestionCounts[unitNum] || 0) + 1;
+                });
+            });
+
+            console.log(`Loaded ${this.allQuestions.length} questions from ${Object.keys(this.unitQuestionCounts).length} units`);
+
+        } catch (err) {
+            console.error('Error loading data:', err);
+            this.ui.questionText.innerText = "Error cargando preguntas.";
+        }
+    }
+
+    // =====================
+    // SPLASH SCREEN
+    // =====================
+    setupSplash() {
+        // Mode buttons
+        this.ui.modeQuiz.addEventListener('click', () => this.setMode('quiz'));
+        this.ui.modeStudy.addEventListener('click', () => this.setMode('study'));
+
+        // Unit grid
+        const units = Object.keys(this.unitQuestionCounts).map(Number).sort((a, b) => a - b);
+        units.forEach(u => {
+            const chip = document.createElement('div');
+            chip.className = 'unit-chip selected';
+            chip.textContent = u;
+            chip.dataset.unit = u;
+            chip.addEventListener('click', () => this.toggleUnit(u, chip));
+            this.ui.unitGrid.appendChild(chip);
+            this.selectedUnits.add(u);
+        });
+
+        this.updateSelectedCount();
+
+        // Select All / None
+        this.ui.btnSelectAll.addEventListener('click', () => {
+            document.querySelectorAll('.unit-chip').forEach(c => {
+                c.classList.add('selected');
+                this.selectedUnits.add(Number(c.dataset.unit));
+            });
+            this.updateSelectedCount();
+        });
+
+        this.ui.btnSelectNone.addEventListener('click', () => {
+            document.querySelectorAll('.unit-chip').forEach(c => {
+                c.classList.remove('selected');
+            });
+            this.selectedUnits.clear();
+            this.updateSelectedCount();
+        });
+
+        // Start button
+        this.ui.btnStart.addEventListener('click', () => this.startQuiz());
+    }
+
+    setMode(mode) {
+        this.mode = mode;
+        this.ui.modeQuiz.classList.toggle('active', mode === 'quiz');
+        this.ui.modeStudy.classList.toggle('active', mode === 'study');
+        this.ui.modeDescription.textContent = mode === 'quiz'
+            ? 'Responde preguntas y obtén tu puntuación.'
+            : 'Ve directamente la respuesta correcta.';
+    }
+
+    toggleUnit(unitNum, chip) {
+        if (this.selectedUnits.has(unitNum)) {
+            this.selectedUnits.delete(unitNum);
+            chip.classList.remove('selected');
+        } else {
+            this.selectedUnits.add(unitNum);
+            chip.classList.add('selected');
+        }
+        this.updateSelectedCount();
+    }
+
+    updateSelectedCount() {
+        let count = 0;
+        this.selectedUnits.forEach(u => {
+            count += this.unitQuestionCounts[u] || 0;
+        });
+        this.ui.selectedCount.textContent = `Preguntas seleccionadas: ${count}`;
+        this.ui.btnStart.disabled = count === 0;
+        this.ui.btnStart.style.opacity = count === 0 ? '0.5' : '1';
+    }
+
+    startQuiz() {
+        // Filter questions by selected units
+        this.questions = this.allQuestions.filter(q => this.selectedUnits.has(Number(q.unidad)));
+
+        if (this.questions.length === 0) {
+            alert('Selecciona al menos una unidad.');
+            return;
+        }
+
+        // Reset state
+        this.currentQuestionIndex = 0;
+        this.userAnswers = {};
+        this.pendingQuestions.clear();
+        this.score = 0;
+
+        // Switch screens
+        this.ui.splashScreen.classList.add('hidden');
+        this.ui.quizApp.classList.remove('hidden');
+
+        // Update mode icon
+        this.ui.modeBtn.innerText = this.mode === 'quiz' ? '🎓' : '📖';
+
+        this.renderQuestion();
+    }
+
+    // =====================
+    // QUIZ EVENTS
+    // =====================
+    bindQuizEvents() {
         this.ui.btnNext.addEventListener('click', () => this.nextQuestion());
         this.ui.btnPrev.addEventListener('click', () => this.prevQuestion());
         this.ui.btnPending.addEventListener('click', () => this.togglePending());
         this.ui.modeBtn.addEventListener('click', () => this.toggleMode());
+        this.ui.btnRestart.addEventListener('click', () => this.showSplash());
 
-        // Modal logic
         this.ui.btnCloseModal.addEventListener('click', () => {
             this.ui.modalPending.classList.add('hidden');
         });
 
-        // Long press/Right click on pending button to view list
         this.ui.btnPending.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             this.showPendingList();
         });
 
-        // Keyboard support
+        this.ui.btnRestartResults.addEventListener('click', () => {
+            this.ui.modalResults.classList.add('hidden');
+            this.showSplash();
+        });
+
+        // Keyboard
         document.addEventListener('keydown', (e) => {
+            if (this.ui.splashScreen.classList.contains('hidden') === false) return;
             if (e.key === 'ArrowRight') this.nextQuestion();
             if (e.key === 'ArrowLeft') this.prevQuestion();
             if (e.key === 'p' || e.key === 'P') this.togglePending();
@@ -62,69 +240,37 @@ class QuizApp {
         });
     }
 
-    async loadData() {
-        try {
-            // 1. Fetch manifest
-            const manifestRes = await fetch('data/questions_index.json');
-            const files = await manifestRes.json();
-
-            // 2. Fetch all files
-            const promises = files.map(f => fetch(`data/${f}`).then(r => r.json()));
-            const results = await Promise.all(promises);
-
-            // 3. Process and flatten
-            this.questions = [];
-            results.forEach(data => {
-                let unit = data.unidad || '?';
-                let items = Array.isArray(data) ? data : (data.preguntas || []);
-
-                items.forEach(q => {
-                    // Normalize data structure
-                    this.questions.push({
-                        unidad: q.unidad || unit,
-                        numero: q.numero,
-                        pregunta: q.pregunta || q.enunciado || q.texto,
-                        opciones: q.opciones,
-                        respuesta_correcta: (q.respuesta_correcta || q.correcta || '').toLowerCase().trim()
-                    });
-                });
-            });
-
-            console.log(`Loaded ${this.questions.length} questions`);
-            this.renderQuestion();
-
-        } catch (err) {
-            console.error(err);
-            this.ui.questionText.innerText = "Error cargando preguntas. Revisa la consola.";
-        }
+    showSplash() {
+        this.ui.quizApp.classList.add('hidden');
+        this.ui.splashScreen.classList.remove('hidden');
     }
 
+    // =====================
+    // QUESTION RENDERING
+    // =====================
     renderQuestion() {
         const q = this.questions[this.currentQuestionIndex];
         if (!q) return;
 
-        // Header Updates
+        // Header
         this.ui.questionCounter.innerText = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
         this.ui.unitBadge.innerText = `Unidad ${q.unidad}`;
         this.ui.scoreVal.innerText = this.score;
         this.ui.progressBar.style.width = `${((this.currentQuestionIndex + 1) / this.questions.length) * 100}%`;
 
-        // Question Text
+        // Question
         this.ui.questionText.innerHTML = q.pregunta;
 
-        // Pending Data
+        // Pending
         const isPending = this.pendingQuestions.has(this.currentQuestionIndex);
-        this.ui.btnPending.innerHTML = isPending ? '✅ Pendiente' : '📝 Pendiente';
+        this.ui.btnPending.innerHTML = isPending ? '✅' : '📝';
         this.ui.btnPending.style.background = isPending ? 'rgba(255, 167, 38, 0.2)' : '';
 
         // Options
         this.ui.optionsContainer.innerHTML = '';
         this.ui.feedbackArea.className = 'feedback-area hidden';
 
-        // Check if already answered
         const userAnswer = this.userAnswers[this.currentQuestionIndex];
-
-        // Mode logic
         const showCorrect = this.mode === 'study' || (this.mode === 'quiz' && userAnswer);
 
         Object.entries(q.opciones).forEach(([key, text]) => {
@@ -135,21 +281,19 @@ class QuizApp {
             const isCorrect = key.toLowerCase() === q.respuesta_correcta;
             const isSelected = userAnswer === key.toLowerCase();
 
-            // Styling based on state
             if (showCorrect) {
                 if (isCorrect) {
                     btn.classList.add('correct');
-                    // In study mode, keep correct visible.
                 } else {
                     if (this.mode === 'study') {
-                        btn.style.display = 'none'; // Hide incorrect in study mode
+                        btn.style.display = 'none';
                     } else if (isSelected) {
-                        btn.classList.add('incorrect'); // Show error in quiz mode
+                        btn.classList.add('incorrect');
                     } else {
                         btn.classList.add('disabled');
                     }
                 }
-                btn.style.pointerEvents = 'none'; // Disable clicks
+                btn.style.pointerEvents = 'none';
             }
 
             if (!showCorrect) {
@@ -159,18 +303,18 @@ class QuizApp {
             this.ui.optionsContainer.appendChild(btn);
         });
 
-        // Feedback Text (Quiz mode only when answered)
+        // Feedback
         if (this.mode === 'quiz' && userAnswer) {
             const isCorrect = userAnswer === q.respuesta_correcta;
             this.ui.feedbackArea.classList.remove('hidden');
-            this.ui.feedbackText.innerText = isCorrect ? "¡Correcto!" : `Incorrecto. La respuesta era ${q.respuesta_correcta.toUpperCase()}`;
+            this.ui.feedbackText.innerText = isCorrect ? "¡Correcto!" : `Incorrecto. Era ${q.respuesta_correcta.toUpperCase()}`;
             this.ui.feedbackArea.style.borderLeft = `4px solid ${isCorrect ? 'var(--correct-color)' : 'var(--incorrect-color)'}`;
         }
     }
 
     handleOptionSelect(key) {
         if (this.mode === 'study') return;
-        if (this.userAnswers[this.currentQuestionIndex]) return; // Already answered
+        if (this.userAnswers[this.currentQuestionIndex]) return;
 
         this.userAnswers[this.currentQuestionIndex] = key.toLowerCase();
 
@@ -186,6 +330,9 @@ class QuizApp {
         if (this.currentQuestionIndex < this.questions.length - 1) {
             this.currentQuestionIndex++;
             this.renderQuestion();
+        } else {
+            // End of quiz
+            this.showResults();
         }
     }
 
@@ -208,7 +355,6 @@ class QuizApp {
     toggleMode() {
         this.mode = this.mode === 'quiz' ? 'study' : 'quiz';
         this.ui.modeBtn.innerText = this.mode === 'quiz' ? '🎓' : '📖';
-        alert(`Modo cambiado a: ${this.mode === 'quiz' ? 'Quiz' : 'Estudio'}`);
         this.renderQuestion();
     }
 
@@ -235,9 +381,38 @@ class QuizApp {
 
         this.ui.modalPending.classList.remove('hidden');
     }
+
+    showResults() {
+        const total = this.questions.length;
+        const answered = Object.keys(this.userAnswers).length;
+        const correct = this.score;
+        const wrong = answered - correct;
+        const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+        this.ui.statCorrect.textContent = correct;
+        this.ui.statWrong.textContent = wrong;
+        this.ui.statScore.textContent = `${percent}%`;
+
+        // Emoji based on score
+        if (percent >= 90) {
+            this.ui.resultsIcon.textContent = '🏆';
+            this.ui.resultsTitle.textContent = '¡Excelente!';
+        } else if (percent >= 70) {
+            this.ui.resultsIcon.textContent = '🎉';
+            this.ui.resultsTitle.textContent = '¡Muy bien!';
+        } else if (percent >= 50) {
+            this.ui.resultsIcon.textContent = '👍';
+            this.ui.resultsTitle.textContent = 'Aprobado';
+        } else {
+            this.ui.resultsIcon.textContent = '📚';
+            this.ui.resultsTitle.textContent = 'Sigue estudiando';
+        }
+
+        this.ui.modalResults.classList.remove('hidden');
+    }
 }
 
-// Start App
+// Start
 window.addEventListener('DOMContentLoaded', () => {
     new QuizApp();
 });

@@ -19,7 +19,50 @@
 </head>
 
 <body>
-    <div class="app-container">
+    <!-- ============ SPLASH SCREEN ============ -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">📚</div>
+            <h1 class="splash-title">Microeconomía Quiz</h1>
+            <p class="splash-subtitle">320 preguntas · 32 unidades</p>
+
+            <!-- Mode Selection -->
+            <div class="splash-section">
+                <h3>Modo</h3>
+                <div class="mode-toggle">
+                    <button id="mode-quiz" class="mode-btn active" data-mode="quiz">
+                        🎓 Quiz
+                    </button>
+                    <button id="mode-study" class="mode-btn" data-mode="study">
+                        📖 Estudio
+                    </button>
+                </div>
+                <p class="mode-desc" id="mode-description">Responde preguntas y obtén tu puntuación.</p>
+            </div>
+
+            <!-- Unit Selection -->
+            <div class="splash-section">
+                <h3>Unidades</h3>
+                <div class="unit-actions">
+                    <button id="btn-select-all" class="unit-action-btn">Todas</button>
+                    <button id="btn-select-none" class="unit-action-btn">Ninguna</button>
+                </div>
+                <div id="unit-grid" class="unit-grid">
+                    <!-- Unit checkboxes will be injected here -->
+                </div>
+            </div>
+
+            <!-- Start Button -->
+            <button id="btn-start" class="start-btn">
+                ¡Comenzar! 🚀
+            </button>
+
+            <p id="selected-count" class="selected-count">Preguntas seleccionadas: 320</p>
+        </div>
+    </div>
+
+    <!-- ============ QUIZ APP ============ -->
+    <div id="quiz-app" class="app-container hidden">
         <!-- Header / Stats -->
         <header class="app-header">
             <div class="header-left">
@@ -33,6 +76,9 @@
                 </div>
                 <button id="btn-mode-toggle" class="icon-btn" title="Cambiar Modo (Quiz/Estudio)">
                     🎓
+                </button>
+                <button id="btn-restart" class="icon-btn" title="Reiniciar">
+                    🔄
                 </button>
             </div>
         </header>
@@ -73,7 +119,7 @@
         </footer>
     </div>
 
-    <!-- Modals -->
+    <!-- ============ MODALS ============ -->
     <div id="modal-pending" class="modal hidden">
         <div class="modal-content">
             <h3>Preguntas Pendientes</h3>
@@ -81,6 +127,29 @@
                 <!-- List items -->
             </div>
             <button id="btn-close-modal" class="nav-btn secondary full-width">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div id="modal-results" class="modal hidden">
+        <div class="modal-content results-modal">
+            <div class="results-icon" id="results-icon">🏆</div>
+            <h2 id="results-title">¡Quiz Completado!</h2>
+            <div class="results-stats">
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-correct">0</span>
+                    <span class="stat-label">Correctas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-wrong">0</span>
+                    <span class="stat-label">Incorrectas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" id="stat-score">0%</span>
+                    <span class="stat-label">Nota</span>
+                </div>
+            </div>
+            <button id="btn-restart-results" class="start-btn">Volver al inicio</button>
         </div>
     </div>
 
