@@ -1,0 +1,116 @@
+{
+  "unidad": 6,
+  "titulo": "Examen Unidad 6",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Las curvas de isocuantas...",
+      "opciones": {
+        "a": "Nos muestran la flexibilidad que tienen las empresas para determinar qué factores de producción utilizan para producir sus productos.",
+        "b": "Nos sirve para elegir qué combinación de factores minimiza el coste y maximiza los beneficios.",
+        "c": "Nos muestran los factores de producción que deben utilizar las empresas para producir sus productos.",
+        "d": "La respuesta a y b son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "A largo plazo, las empresas...",
+      "opciones": {
+        "a": "No pueden alterar uno o más factores de producción.",
+        "b": "Sólo pueden cambiarse los factores variables como el trabajo o los materiales.",
+        "c": "Pueden alterar todos los factores de producción.",
+        "d": "Hay unos factores fijos de producción que no pueden ser alterados."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "La ley de los rendimientos decrecientes...",
+      "opciones": {
+        "a": "Explica porqué la curva de producto marginal es inicialmente creciente y porqué –llegado a un punto máximo– decrece.",
+        "b": "Explica porqué la curva de producto marginal es inicialmente decreciente y porqué –llegado a un punto máximo– crece.",
+        "c": "Explica porqué la curva de producto marginal es inicialmente creciente y se mantiene siempre creciente.",
+        "d": "Explica porqué la curva de producto marginal es inicialmente decreciente."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La ley de rendimientos decrecientes...",
+      "opciones": {
+        "a": "Explica porqué a medida que se incorpora una mayor cantidad de factores de producción la producción siempre crece del mismo modo.",
+        "b": "Explica porqué a medida que se incorporan nuevas máquinas e inventos para producir determinado bien o servicio, se consigue producir más con los mismos factores.",
+        "c": "Explica porqué a medida que se incorporan nuevas máquinas e inventos para producir determinado bien o servicio, es imprescindible aportar más factores de producción para conseguir más productos.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Quién fue el inventor de la ley de rendimientos decrecientes?",
+      "opciones": {
+        "a": "Thomas Malthus.",
+        "b": "Adam Smith.",
+        "c": "David Ricardo.",
+        "d": "J. M. Keynes."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Cuando las curvas isocuantas tienen la forma de ángulos rectos...",
+      "opciones": {
+        "a": "Estamos ante una función de producción en que los factores de producción son perfectamente sustituibles.",
+        "b": "Estamos ante una función de producción de proporciones fijas.",
+        "c": "El nivel de producción esperado sólo se puede alcanzar con una determinada combinación de factores de producción.",
+        "d": "Las respuestas b y c son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "A largo plazo, el rendimiento de escala creciente...",
+      "opciones": {
+        "a": "Se produce cuando hay factores de producción variables y fijos que varían en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
+        "b": "Se produce cuando hay factores de producción variables y fijos que varían en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción menor.",
+        "c": "Se produce cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
+        "d": "Se produce cuando la cantidad utilizada de todos los factores y la cantidad obtenida de producto varían en la misma proporción."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "A largo plazo, se da un rendimiento de escala constante...",
+      "opciones": {
+        "a": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
+        "b": "Cuando la cantidad utilizada de todos los factores y la cantidad obtenida de producto varían en la misma proporción.",
+        "c": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción más pequeña.",
+        "d": "Las respuestas a y b son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "A largo plazo, se da un rendimiento de escala decreciente...",
+      "opciones": {
+        "a": "Cuando la cantidad utilizada de todos los factores y la cantidad obtenida de producto varían en la misma proporción.",
+        "b": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción más pequeña.",
+        "c": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La relación marginal de sustitución técnica (RMST)...",
+      "opciones": {
+        "a": "Es la cantidad que puede reducirse de un factor cuando se utiliza una unidad adicional del otro para obtener el mismo nivel de producción.",
+        "b": "Es la cantidad que se debe aumentar de un factor cuando se utiliza una unidad adicional del otro para obtener el mismo nivel de producción.",
+        "c": "Es la cantidad que puede aumentarse de un factor cuando se utiliza otro factor para obtener el mismo nivel de producción.",
+        "d": "Todas las repuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

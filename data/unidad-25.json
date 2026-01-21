@@ -1,0 +1,116 @@
+{
+  "unidad": 25,
+  "titulo": "Examen Unidad 25",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La inflación...",
+      "opciones": {
+        "a": "Consiste en un aumento continuo y generalizado de los precios de los bienes y servicios de una economía.",
+        "b": "Consiste en una reducción continua y generalizada de los precios de los bienes y servicios de una economía.",
+        "c": "Implica un aumento del valor del dinero.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La inflación se puede medir por...",
+      "opciones": {
+        "a": "El índice de precios al consumo (IPC).",
+        "b": "El deflector implícito del PIB.",
+        "c": "El Índice de Precios Industriales y los costes laborales.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Para calcular el IPC hay que tener en cuenta...",
+      "opciones": {
+        "a": "Los grupos de precios que tenemos que utilizar y la ponderación de los precios de los bienes de consumo.",
+        "b": "Los grupos de precios que tenemos que utilizar y la totalidad de los precios de cada uno de los bienes que cada familia compra.",
+        "c": "Los valores reales y los nominales del PIB, afectados por los incrementos de precios de bienes y servicios.",
+        "d": "Los salarios de los trabajadores en relación con la productividad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Para comparan los índices de precios entre los diversos países de la Unión Europea se utiliza...",
+      "opciones": {
+        "a": "El índice de precios al consumo (IPC).",
+        "b": "El índice de precios de consumo armonizado (IPCA).",
+        "c": "El índice de precios al consumo (IPC), el deflector implícito del PIB y el Índice de Precios Industriales y los costes laborales.",
+        "d": "El índice de precios al consumo (IPC) y el índice de precios de consumo armonizado (IPCA)."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La inflación por exceso de demanda...",
+      "opciones": {
+        "a": "Surge por un aumento de la cantidad de dinero en circulación.",
+        "b": "Surge por un aumento de los costes laborales de las empresas.",
+        "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La inflación monetarista...",
+      "opciones": {
+        "a": "Surge por un aumento de la cantidad de dinero en circulación.",
+        "b": "Surge por un aumento de los costes laborales de las empresas.",
+        "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La inflación...",
+      "opciones": {
+        "a": "Altera el valor del dinero.",
+        "b": "Perjudica las inversiones a largo plazo.",
+        "c": "Encarece el precio nominal del dinero.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cómo se puede combatir la inflación por exceso de demanda?",
+      "opciones": {
+        "a": "Aumentando los tipos de interés.",
+        "b": "Aumentando los impuestos.",
+        "c": "Disminuyendo el gasto.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo se ha lograr estabilizar y reducir de forma ininterrumpida la inflación en los países desarrollados?",
+      "opciones": {
+        "a": "Reduciendo el déficit público y con la práctica de políticas monetarias rigurosas.",
+        "b": "Con las políticas de liberalización acometidas.",
+        "c": "Ausencia de fuertes subidas en los precios de la energía.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué objetivos persigue la política monetaria?",
+      "opciones": {
+        "a": "Control de la inflación.",
+        "b": "Crecimiento económico.",
+        "c": "Pleno empleo.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

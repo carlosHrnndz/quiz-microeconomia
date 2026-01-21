@@ -1,0 +1,116 @@
+{
+  "unidad": 31,
+  "titulo": "Examen Unidad 31",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué representaba el diagrama trazado en 1958 por A. W. Phillips?",
+      "opciones": {
+        "a": "La relación entre los tipos de cambio de divisas y el tipo de interés nominal en el Reino Unido desde 1861 hasta 1957.",
+        "b": "La relación entre la tasa de inflación y la tasa de desempleo en el Reino Unido desde 1861 hasta 1957.",
+        "c": "La relación entre la tasa de inflación y el tipo de interés nominal en el Reino Unido desde 1861 hasta 1957.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cuándo se rompió la relación que establecía la curva de Phillips?",
+      "opciones": {
+        "a": "En la década de 1970.",
+        "b": "En la década de 1980.",
+        "c": "En la década de 1960.",
+        "d": "Nunca."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cómo ha dado en llamarse también al mecanismo que describe la curva de Phillips?",
+      "opciones": {
+        "a": "Espiral de precios y ganancias.",
+        "b": "Espiral de paro e inflación.",
+        "c": "Espiral de salarios y precios.",
+        "d": "Espiral de precios e inflación."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Por qué desapareció la curva original de Phillips?",
+      "opciones": {
+        "a": "Por la repentina subida del precio del petróleo.",
+        "b": "Por un cambio en la manera de formar las expectativas de los que fijan los salarios.",
+        "c": "Nunca desapareció. Sigue en vigor y se estudia hoy en vigor por su validez indiscutida.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Quiénes pusieron en duda la existencia de la relación que describe la curva de Phillips?",
+      "opciones": {
+        "a": "M. Friedman y P. Solow.",
+        "b": "M. Friedman y Lucas.",
+        "c": "M. Friedman y E. Phelps.",
+        "d": "M. Friedman y J. M. Keynes."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿De qué otra forma se puede concebir la tasa natural de desempleo?",
+      "opciones": {
+        "a": "Como la tasa de desempleo necesaria para reducir la inflación.",
+        "b": "Como la tasa de desempleo necesaria para mantener constante la inflación.",
+        "c": "Como la tasa de desempleo necesaria para aumentar la inflación.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Desde 1970, la tasa de desempleo del Imperio de Japón ha sido en promedio...",
+      "opciones": {
+        "a": "Del 4%.",
+        "b": "Del 6,5%.",
+        "c": "Del 2,3%.",
+        "d": "Del 7%."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Qué causas explican la alta tasa de desempleo natural que se da en España?",
+      "opciones": {
+        "a": "Falta de competitividad de las empresas.",
+        "b": "Baja productividad de las empresas.",
+        "c": "Personal poco calificado.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En 1998, la tasa de desempleo de la Unión Europea era...",
+      "opciones": {
+        "a": "Del 19,5%.",
+        "b": "Del 10,6%.",
+        "c": "Del 6%.",
+        "d": "Del 3,5%."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En los años sesenta del siglo XX, la tasa media de desempleo de los países que componen actualmente la Unión Europea era...",
+      "opciones": {
+        "a": "Del 3%.",
+        "b": "Del 19,5%.",
+        "c": "Del 10,6%.",
+        "d": "Del 6%."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

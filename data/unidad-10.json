@@ -1,0 +1,116 @@
+{
+  "unidad": 10,
+  "titulo": "Examen Unidad 10",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Cómo se denomina el mercado en el que hay un solo comprador y un solo vendedor?",
+      "opciones": {
+        "a": "Un monopolio bilateral.",
+        "b": "Un monopolio natural.",
+        "c": "Un monopolio artificial.",
+        "d": "Un oligopolio."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cómo se denominan aquellas condiciones que disuaden la entrada a nuevos competidores?",
+      "opciones": {
+        "a": "Defensas de escala.",
+        "b": "Barreras de entrada.",
+        "c": "Muros presentes.",
+        "d": "Licencias del Estado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cómo se denomina el mercado en el que sólo hay un comprador?",
+      "opciones": {
+        "a": "Un monopsonio.",
+        "b": "Un monopolio natural.",
+        "c": "Un monopolio artificial.",
+        "d": "Un oligopolio."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La capacidad de un vendedor o de un comprador de influir en el precio de un bien se denomina...",
+      "opciones": {
+        "a": "Monopsonio.",
+        "b": "Monopolio.",
+        "c": "Poder de mercado.",
+        "d": "Maximización de los beneficios."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "En la empresa competitiva, esto es, que se halla en un mercado perfectamente competitivo...",
+      "opciones": {
+        "a": "El precio es superior al coste marginal.",
+        "b": "El precio es igual al coste marginal.",
+        "c": "El precio es inferior al coste marginal.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La diferencia entre el precio y el coste marginal dividido por el precio se denomina...",
+      "opciones": {
+        "a": "Índice de Smith del poder de monopolio.",
+        "b": "Índice de Barthel del poder de monopolio.",
+        "c": "Índice de Gini del poder de monopolio.",
+        "d": "Índice de Lerner del poder de monopolio."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Aquella empresa que puede producir toda la producción del mercado con menos costes que si hubiera varias empresas constituye...",
+      "opciones": {
+        "a": "Un monopsonio.",
+        "b": "Un monopolio natural.",
+        "c": "Un monopolio artificial.",
+        "d": "Un oligopolio."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El coste adicional generado por la compra de una unidad más de un bien se denomina...",
+      "opciones": {
+        "a": "Valor marginal.",
+        "b": "Gasto marginal.",
+        "c": "Gasto medio.",
+        "d": "Gasto ponderado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El coste adicional generado por la compra de una unidad más de un bien se denomina...",
+      "opciones": {
+        "a": "Valor marginal.",
+        "b": "Gasto marginal.",
+        "c": "Gasto medio.",
+        "d": "Gasto ponderado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El monopsonista puede comprar un bien...",
+      "opciones": {
+        "a": "Al mismo precio que en el mercado competitivo.",
+        "b": "A un precio superior al del mercado competitivo.",
+        "c": "A un precio inferior al del mercado competitivo.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

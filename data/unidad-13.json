@@ -1,0 +1,116 @@
+{
+  "unidad": 13,
+  "titulo": "Examen Unidad 13",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La media de los valores correspondientes a todos los resultados posibles ponderada por las probabilidades hace referencia a...",
+      "opciones": {
+        "a": "La probabilidad.",
+        "b": "El valor esperado.",
+        "c": "El rendimiento.",
+        "d": "La variabilidad."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El grado en que pueden variar los posibles resultados de un acontecimiento incierto se denomina...",
+      "opciones": {
+        "a": "Probabilidad.",
+        "b": "Valor esperado.",
+        "c": "Rendimiento.",
+        "d": "Variabilidad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "Las posibilidades que se produzca un resultado son...",
+      "opciones": {
+        "a": "La probabilidad.",
+        "b": "El valor esperado.",
+        "c": "El rendimiento.",
+        "d": "La variabilidad."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Las desviaciones constituyen por si solas una medida de variabilidad?",
+      "opciones": {
+        "a": "No porque a veces son positivas y otras veces negativas.",
+        "b": "Sí, cuando son positivas.",
+        "c": "Sí, cuando son negativas.",
+        "d": "Sí, cuando son positivas, no cuando son negativas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La suma de las utilidades correspondientes a todos los resultados posibles, ponderada por la probabilidad de que se produzca cada resultado es...",
+      "opciones": {
+        "a": "La utilidad necesaria.",
+        "b": "La utilidad esperada.",
+        "c": "La utilidad óptima.",
+        "d": "La utilidad por el riesgo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cómo se denomina aquella persona que prefiere una renta segura a una renta arriesgada que tenga el mismo valor esperado?",
+      "opciones": {
+        "a": "Renuente al riesgo.",
+        "b": "Neutral al riesgo.",
+        "c": "Amante del riesgo.",
+        "d": "Pasivo ante el riesgo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La cantidad máxima de dinero que está dispuesta a pagar una persona renuente al riesgo para evitarlo se denomina...",
+      "opciones": {
+        "a": "Prima por emisión.",
+        "b": "Prima por entrega.",
+        "c": "Prima por peligro concreto.",
+        "d": "Prima por el riesgo."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La situación en la que la prima de un seguro es igual al desembolso esperado se denomina...",
+      "opciones": {
+        "a": "Variable justa.",
+        "b": "Diversificación justa.",
+        "c": "Actuarialmente justo.",
+        "d": "Ajuste justo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo se denomina el activo que genera una corriente incierta de dinero o de servicios a su propietario?",
+      "opciones": {
+        "a": "Activo arriesgado.",
+        "b": "Activo real.",
+        "c": "Activo positivo.",
+        "d": "Activo negativo."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La tendencia a basarse principalmente en la información anterior cuando se toman decisiones se denomina...",
+      "opciones": {
+        "a": "Efecto de dotación.",
+        "b": "Aversión a las pérdidas.",
+        "c": "Anclaje.",
+        "d": "Fijación."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

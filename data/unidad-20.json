@@ -1,0 +1,116 @@
+{
+  "unidad": 20,
+  "titulo": "Examen Unidad 20",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El ahorro es igual a...",
+      "opciones": {
+        "a": "La renta menos el consumo.",
+        "b": "La renta más el consumo.",
+        "c": "Los ingresos menos los gastos menos los beneficios.",
+        "d": "Los ingresos menos los gastos más los beneficios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La cantidad agregada de bienes y servicios que quieren consumir los hogares, dada la renta y otros factores que determinan las oportunidades económicas de los hogares es...",
+      "opciones": {
+        "a": "La inversión deseada.",
+        "b": "El ahorro deseado.",
+        "c": "El consumo deseado.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El efecto-renta de una subida del tipo de interés real es...",
+      "opciones": {
+        "a": "El consumo deseado.",
+        "b": "Un aumento del consumo actual y una reducción del ahorro actual.",
+        "c": "La inflación deseada.",
+        "d": "Las respuestas a y b son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "La riqueza de todo un país es igual...",
+      "opciones": {
+        "a": "A sus activos menos sus deudas o pasivos.",
+        "b": "A sus activos más sus deudas o pasivos.",
+        "c": "A sus activos dividido entre sus deudas o pasivos.",
+        "d": "A sus activos multiplicado por sus deudas o pasivos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La variación que experimenta el consumo actual debido a que un consumidor se vuelve más rico o más pobre cuando sube el tipo de interés real se denomina...",
+      "opciones": {
+        "a": "Efecto-sustitución de interés real en el ahorro.",
+        "b": "Efecto-renta de interés real en el ahorro.",
+        "c": "Efecto-causa de interés real en el ahorro.",
+        "d": "Efecto-directo de interés real en el ahorro."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La tendencia a aumentar el ahorro cuando sube el precio relativo del consumo actual se denomina...",
+      "opciones": {
+        "a": "Efecto-sustitución de interés real en el ahorro.",
+        "b": "Efecto-renta de interés real en el ahorro.",
+        "c": "Efecto-causa de interés real en el ahorro.",
+        "d": "Efecto-directo de interés real en el ahorro."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La idea de que las reducciones de los impuestos no afectan al consumo deseado ni tampoco al ahorro nacional deseado se denomina...",
+      "opciones": {
+        "a": "Proposición de la equivalencia keynesiana.",
+        "b": "Proposición de la equivalencia ricardiana.",
+        "c": "Proposición de la equivalencia de Smith.",
+        "d": "Proposición de la equivalencia de Blanchart."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El coste de uso del capital ajustado para tener en cuenta los impuestos muestra...",
+      "opciones": {
+        "a": "Cuál debe ser el producto marginal futuro del capital antes de impuestos para que una empresa esté dispuesta a invertir.",
+        "b": "Cuál debe ser el producto marginal futuro del capital después de impuestos para que una empresa esté dispuesta a adquirir una unidad más de capital.",
+        "c": "Cuál debe ser el producto marginal futuro del capital antes de impuestos para que una empresa esté dispuesta a adquirir una unidad más de capital.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Cuando la inversión bruta es mayor que la depreciación...",
+      "opciones": {
+        "a": "El stock de capital disminuye.",
+        "b": "El stock de capital disminuye para luego aumentar.",
+        "c": "El stock de capital se queda igual.",
+        "d": "El stock de capital aumenta."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El mercado de bienes se encuentra en equilibrio cuando...",
+      "opciones": {
+        "a": "La cantidad agregada ofrecida de bienes es superior a la demandada.",
+        "b": "La cantidad agregada ofrecida de bienes es inferior a la demandada.",
+        "c": "El ahorro nacional deseado es igual al consumo óptimo.",
+        "d": "El ahorro nacional deseado es igual a la inversión deseada."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

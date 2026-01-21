@@ -1,0 +1,116 @@
+{
+  "unidad": 29,
+  "titulo": "Examen Unidad 29",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué autor formuló la Teoría de las ventajas absolutas?",
+      "opciones": {
+        "a": "David Ricardo.",
+        "b": "Adam Smith.",
+        "c": "John M. Keynes.",
+        "d": "Karl Marx."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué fuentes de ganancias asociadas al comercio intraindustrial deben añadirse a los postulados clásicos?",
+      "opciones": {
+        "a": "Las economías de escala.",
+        "b": "El acceso de los compradores a una mayor variedad de productos.",
+        "c": "Más competencia en las economías nacionales.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué medidas integran la política comercial de un país?",
+      "opciones": {
+        "a": "Los aranceles y los contingentes a la importación.",
+        "b": "Las barreras no arancelarias.",
+        "c": "Las subvenciones a la exportación.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "Son limitaciones cuantitativas que los gobiernos imponen a las importaciones de determinados bienes y servicios que se pueden llevar a cabo durante un período de tiempo...",
+      "opciones": {
+        "a": "Los contingentes a las importaciones.",
+        "b": "Los aranceles.",
+        "c": "Las subvenciones a la exportación.",
+        "d": "Las barreras no arancelarias."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Los controles medioambientales muy estrictos se consideran...",
+      "opciones": {
+        "a": "Barreras arancelarias.",
+        "b": "Subvenciones a la exportación.",
+        "c": "Barreras no arancelarias.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Eximir a los fabricantes nacionales de ciertos impuestos se considera...",
+      "opciones": {
+        "a": "Barreras arancelarias.",
+        "b": "Subvenciones a la exportación.",
+        "c": "Barreras no arancelarias.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La balanza de pagos está compuesta por los epígrafes...",
+      "opciones": {
+        "a": "La cuenta corriente.",
+        "b": "La cuenta de capital y la financiera.",
+        "c": "La partida de errores y omisiones.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Las relaciones comerciales internacionales son beneficiosas para aquellos países que son más competitivos en materia de...",
+      "opciones": {
+        "a": "El coste del transporte.",
+        "b": "Los servicios prestados a las empresas.",
+        "c": "Los servicios de seguros.",
+        "d": "Precios y cualidad."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Las subvenciones para la agricultura desde la Unión Europea a los Estados miembros se incluyen...",
+      "opciones": {
+        "a": "En la balanza comercial.",
+        "b": "En la balanza de rentas.",
+        "c": "En la balanza de transferencias.",
+        "d": "En la balanza de servicios."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Cuando un país tienen superávit implica que...",
+      "opciones": {
+        "a": "Tiene disponibilidad financiera frente el resto de países exteriores.",
+        "b": "No tiene disponibilidad financiera frente el resto de países exteriores.",
+        "c": "Ha gastado más de lo que ingresa, necesita financiación exterior para poder obtener recursos corrientes.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

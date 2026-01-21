@@ -1,0 +1,116 @@
+{
+  "unidad": 9,
+  "titulo": "Examen Unidad 9",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Los mercados perfectamente competitivos...",
+      "opciones": {
+        "a": "Son aquellos que están integrados por un número muy elevado de vendedores y compradores y ninguno de ellos tiene una influencia real sobre el precio.",
+        "b": "Están compuestos por un único productor de un determinado bien que no tiene un sustituto y dicho bien es demandado por un número significativo de consumidores.",
+        "c": "Están integrados por un número muy elevado de vendedores y compradores y estos tienen una influencia real sobre el precio.",
+        "d": "Están integrados por pocos productores de un determinado bien y muchos consumidores."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los monopolios...",
+      "opciones": {
+        "a": "Están integrados un único productor de un determinado bien que no tiene un sustituto y dicho bien es demandado por un número significativo de consumidores.",
+        "b": "Son aquellos que están integrados por un número muy elevado de vendedores y compradores y estos tienen una influencia real sobre el precio.",
+        "c": "Están compuestos por un número de empresas que producen bienes y servicios parecidos pero diferenciados.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cual no es una condición de un mercado perfectamente competitivo?",
+      "opciones": {
+        "a": "La empresa son precio aceptantes.",
+        "b": "Las empresas venden productos homogéneos",
+        "c": "Existen barreras de entradas perfectas",
+        "d": "Hay muchos consumidores y productores."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El funcionamiento del mercado de competencia perfecta se basa...",
+      "opciones": {
+        "a": "En el establecimiento del precio del producto por parte de las empresas que lo producen.",
+        "b": "En la oferta y la demanda del mercado que marca un precio de equilibrio.",
+        "c": "Las empresas no son precio-aceptantes.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La curva de la demanda de una empresa perfectamente competitiva...",
+      "opciones": {
+        "a": "Es horizontal.",
+        "b": "Tiene pendiente negativa.",
+        "c": "Tiene forma de U.",
+        "d": "Es en forma de ángulos."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "A corto plazo, la empresa perfectamente competitiva obtendrá beneficios...",
+      "opciones": {
+        "a": "Si el precio del producto es superior al coste total medio.",
+        "b": "Si el precio del producto es inferior al coste total medio.",
+        "c": "Si el precio es inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "A corto plazo, la empresa perfectamente competitiva obtendrá pérdidas pero continuará produciendo...",
+      "opciones": {
+        "a": "Si el precio del producto fuera inferior al coste variable medio.",
+        "b": "Si el precio es inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
+        "c": "Si el precio del producto es superior al coste total medio.",
+        "d": "Las respuestas a y b son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "A corto plazo, a la empresa perfectamente competitiva no le interesará continuar produciendo cuando...",
+      "opciones": {
+        "a": "El precio del producto sea inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
+        "b": "El precio del producto sea superior al coste variable medio.",
+        "c": "El precio del producto sea inferior al coste variable medio.",
+        "d": "El precio del producto sea superior a CTMi e inferior al CVMi, y el coste fijo sea recuperable."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "A largo plazo, la existencia de beneficios extraordinarios en un mercado competitivo...",
+      "opciones": {
+        "a": "Conlleva implícitamente la entrada de nuevas empresas.",
+        "b": "Conlleva implícitamente la salida de nuevas empresas.",
+        "c": "Implica que haya una igualdad entre el precio del producto y CTMi.",
+        "d": "Las respuestas a y c son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La curva de la oferta de la industria en un mercado competitivo a largo plazo...",
+      "opciones": {
+        "a": "Es en forma de ángulo recto.",
+        "b": "Es horizontal.",
+        "c": "Es decreciente.",
+        "d": "Es en forma de U."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

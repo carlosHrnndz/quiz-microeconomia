@@ -1,0 +1,116 @@
+{
+  "unidad": 23,
+  "titulo": "Examen Unidad 23",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "La mercancía que se cualificaba de dinero era preciso que cumpliera los siguientes requisitos...",
+      "opciones": {
+        "a": "Transportable, homogénea, divisible, de oferta ilimitada y duradera.",
+        "b": "Transportable, heterogénea, divisible, de oferta limitada y duradera.",
+        "c": "Transportable, homogénea, indivisible, de oferta limitada y duradera.",
+        "d": "Transportable, homogénea, divisible, de oferta limitada y duradera."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El dinero tiene las siguientes funciones...",
+      "opciones": {
+        "a": "Es un medio de intercambio y de pago.",
+        "b": "Es una unidad de cuenta.",
+        "c": "Es un depósito de valores.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El dinero legal es...",
+      "opciones": {
+        "a": "El dinero que se encuentra depositado en una cuenta del banco.",
+        "b": "El dinero emitido por la institución monetaria competente a cada país (Banco Central).",
+        "c": "Es el dinero emitido en monedas de oro.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "En las economías modernas se puede definir la cantidad de dinero...",
+      "opciones": {
+        "a": "Como la suma del dinero en efectivo y el saldo de los depósitos bancarios.",
+        "b": "Como la suma de dinero en efectivo que es el dinero legal emitido por el Banco Central y está constituido por las monedas y los billetes que estén en manos de los individuos.",
+        "c": "Sólo como la suma de dinero que se encuentra en los depósitos bancarios.",
+        "d": "Como la suma de dinero en papel moneda y el dinero en metálico."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El deposito a la vista...",
+      "opciones": {
+        "a": "Están instrumentados en una libreta y admiten prácticamente las mismas operaciones que las cuentas corrientes, pero el titular tiene menos disponibilidad.",
+        "b": "Goza de disponibilidad inmediata para el titular.",
+        "c": "También se conoce con el nombre de cuenta corriente.",
+        "d": "Las respuestas b) y c) son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Las entidades bancarias están obligadas a mantener como reservas un porcentaje de los depósitos de sus clientes del...",
+      "opciones": {
+        "a": "8%.",
+        "b": "4%.",
+        "c": "2%.",
+        "d": "3%."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Los activos financieros tienen las características siguientes...",
+      "opciones": {
+        "a": "Liquidez, rentabilidad, seguridad y duración.",
+        "b": "Transportabilidad, liquidez y duración.",
+        "c": "Oferta limitada, rentabilidad, seguridad y duración.",
+        "d": "Transportabilidad, rentabilidad, seguridad y duración."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Es un activo financiero...",
+      "opciones": {
+        "a": "Una casa.",
+        "b": "Las acciones.",
+        "c": "El dinero en efectivo.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "En el mercado monetario...",
+      "opciones": {
+        "a": "Es el mercado donde se colocan por primera vez las acciones.",
+        "b": "Es donde se llevan a cabo las operaciones de las acciones.",
+        "c": "Se intercambian activos de renta fija (instrumentos financieros a corto plazo).",
+        "d": "Se intercambian activos financieros por un financiación a largo plazo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En el sistema financiero español los intermediarios financieros bancarios son...",
+      "opciones": {
+        "a": "Los fondos de pensiones o mutualidades, las cooperativas de crédito y las Cajas rurales, el Banco de España y las sociedades y los fondos de inversión mobiliaria.",
+        "b": "Los fondos de pensiones o mutualidades, las cooperativas de crédito y las Cajas rurales, el Banco de España y el Instituto de Crédito Oficial.",
+        "c": "Los bancos comerciales y las cajas de ahorro, las compañías aseguradoras, el Banco de España y el Instituto de Crédito Oficial.",
+        "d": "Los bancos comerciales y las cajas de ahorro, las cooperativas de crédito y las Cajas rurales, el Banco de España y el Instituto de Crédito Oficial."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "unidad": 24,
+  "titulo": "Examen Unidad 24",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El Banco Central de un país se encarga de...",
+      "opciones": {
+        "a": "Sólo supervisa el sistema bancario.",
+        "b": "Supervisar el sistema bancario y regular la cantidad de dinero que hay en la economía.",
+        "c": "Regular la cantidad de dinero que hay en la economía, pero nunca supervisa el sistema bancario.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "En los países que forman parte de la denominada Unión Monetaria Europea las tareas del Banco Central...",
+      "opciones": {
+        "a": "No están condicionadas por el Banco Central Europeo, pues cada Banco Central permanece soberano.",
+        "b": "Están condicionadas por el Sistema Europeo de Bancos Centrales y por el Banco Central Europeo.",
+        "c": "Están dirigidas por la Reserva Federal de los Estados Unidos de América.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El espacio financiero europeo se basa en:",
+      "opciones": {
+        "a": "La libertad de movimiento de capitales.",
+        "b": "La libertad de prestación de servicios financieros.",
+        "c": "El euro.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Quién formula y gestiona la política monetaria de la zona euro?",
+      "opciones": {
+        "a": "El Banco de España.",
+        "b": "La Reserva Federal de Estados Unidos de América.",
+        "c": "El Banco de Santander.",
+        "d": "El Banco Central Europeo."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "El Sistema Europeo de Bancos Centrales está compuesto por...",
+      "opciones": {
+        "a": "El Banco Central Europeo.",
+        "b": "Los Bancos Centrales nacionales de los Estados que pertenecen a la Unión monetaria.",
+        "c": "Los Bancos Centrales nacionales de los Estados que están excluidos temporalmente de la Unión monetaria.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué son los activos reales?",
+      "opciones": {
+        "a": "Son aquellos bienes de capital que están en poder de las empresas, pero que su propiedad corresponde a las economías familiares o domésticas.",
+        "b": "Representan el conjunto de cuentas que tiene el sector público en el Banco Central.",
+        "c": "Representan las reservas de oro de un país.",
+        "d": "Las respuestas b) y c) son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Las operaciones de mercado abierto son...",
+      "opciones": {
+        "a": "Instrumentos estabilizadores de la política fiscal.",
+        "b": "Instrumentos desestabilizadores de la política monetaria.",
+        "c": "Instrumentos estabilizadores de la política monetaria.",
+        "d": "Instrumentos desestabilizadores de la política fiscal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La política monetaria puede ser...",
+      "opciones": {
+        "a": "Sólo contractiva.",
+        "b": "Sólo expansiva.",
+        "c": "Expansiva o contractiva.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "La política monetaria en la eurozona persigue la estabilidad de precios, es decir...",
+      "opciones": {
+        "a": "Lleva a cabo una política económica inflacionista.",
+        "b": "Lleva a cabo una política económica antiinflacionista.",
+        "c": "No lleva a cabo ninguna política económica.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Las reservas mínimas obligatorias...",
+      "opciones": {
+        "a": "Son los depósitos que obligatoriamente tienen que tener las entidades bancarias en los bancos centrales nacionales.",
+        "b": "Son el cabal mínimo de agua de que debe fluir por un río tras su paso por un embalse.",
+        "c": "Son instrumentos de política monetaria que tienen como objetivo estabilizar los tipos de interés a corto plazo.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}

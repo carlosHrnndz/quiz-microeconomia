@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Test Interactivo - Microeconomía</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- PWA Support -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#121212">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Header / Stats -->
+        <header class="app-header">
+            <div class="header-left">
+                <span id="question-counter">-- / --</span>
+                <span id="unit-badge" class="badge">Unidad --</span>
+            </div>
+            <div class="header-right">
+                <div class="score-pill">
+                    <span class="score-label">Aciertos</span>
+                    <span id="score-val">0</span>
+                </div>
+                <button id="btn-mode-toggle" class="icon-btn" title="Cambiar Modo (Quiz/Estudio)">
+                    🎓
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Question Area -->
+        <main class="question-area">
+            <div class="progress-bar-container">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+
+            <div id="question-text" class="question-text">
+                Cargando preguntas...
+            </div>
+
+            <div id="options-container" class="options-container">
+                <!-- Options injected by JS -->
+            </div>
+
+            <div id="feedback-area" class="feedback-area hidden">
+                <div id="feedback-icon"></div>
+                <div id="feedback-text"></div>
+            </div>
+        </main>
+
+        <!-- Footer / Navigation -->
+        <footer class="app-footer">
+            <button id="btn-prev" class="nav-btn secondary">
+                <span class="arrow">❮</span> Anterior
+            </button>
+
+            <button id="btn-pending" class="nav-btn secondary">
+                📝 Pendiente
+            </button>
+
+            <button id="btn-next" class="nav-btn primary">
+                Siguiente <span class="arrow">❯</span>
+            </button>
+        </footer>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal-pending" class="modal hidden">
+        <div class="modal-content">
+            <h3>Preguntas Pendientes</h3>
+            <div id="pending-list" class="pending-list">
+                <!-- List items -->
+            </div>
+            <button id="btn-close-modal" class="nav-btn secondary full-width">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+{
+  "unidad": 11,
+  "titulo": "Examen Unidad 11",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "El conjunto de estrategias o de acciones con las que cada empresa obtiene los mejores resultados posibles, dadas las acciones de sus competidoras se denomina...",
+      "opciones": {
+        "a": "Curva de reacción.",
+        "b": "Equilibrio de Nash.",
+        "c": "Equilibrio de Cournot.",
+        "d": "Modelo de Hotelling."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El mercado en el que dos empresas compiten entre sí se denomina...",
+      "opciones": {
+        "a": "Bipolio.",
+        "b": "Duopolio.",
+        "c": "Bidosonio.",
+        "d": "Duopsonio."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cómo se denomina el modelo de oligopolio en el que las empresas producen un bien homogéneo, cada una considera fijo el nivel de producción de sus competidoras y todas deciden simultáneamente la cantidad que van a producir?",
+      "opciones": {
+        "a": "Modelo de Stackelberg.",
+        "b": "Modelo de Bertrand.",
+        "c": "Modelo de Cournot.",
+        "d": "Modelo de Hotelling."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cómo se denomina el equilibrio en el que cada empresa supone correctamente cuánto producirá su competidora y fija su propio nivel de producción de acuerdo con ello?",
+      "opciones": {
+        "a": "Equilibrio de Chamberlin.",
+        "b": "Equilibrio de Nash.",
+        "c": "Equilibrio de Cournot.",
+        "d": "Equilibrio de Hotelling."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cómo se denomina el modelo de oligopolio en el que una empresa fija el nivel de producción antes que el resto?",
+      "opciones": {
+        "a": "Modelo de Stackelberg.",
+        "b": "Modelo de Bertrand.",
+        "c": "Modelo de Cournot.",
+        "d": "Modelo de Hotelling."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cómo se denomina el modelo de oligopolio en el que las empresas producen un bien homogéneo, cada una considera fijo el precio de sus competidoras y todas deciden simultáneamente el precio que van a cobrar?",
+      "opciones": {
+        "a": "Modelo de Stackelberg.",
+        "b": "Modelo de Bertrand.",
+        "c": "Modelo de Cournot.",
+        "d": "Modelo de Hotelling."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Harold Hotelling fue un matemático...",
+      "opciones": {
+        "a": "Holandés.",
+        "b": "Francés.",
+        "c": "Norteamericano.",
+        "d": "Sueco."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La conclusión del caso del dilema del prisionero es que...",
+      "opciones": {
+        "a": "Supone una flexibilidad de precios en los mercados oligopolísticos.",
+        "b": "Las consecuencias de cooperar con otro en vez de competir contra él, son más favorables para el conjunto.",
+        "c": "Supone una gran oferta de productos en los mercados oligopolísticos.",
+        "d": "Las respuestas b y c son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los productores que acuerdan explícitamente cooperar para fijar los precios y los niveles de producción constituyen un...",
+      "opciones": {
+        "a": "Cártel.",
+        "b": "Monopsonio.",
+        "c": "Monopolio.",
+        "d": "Maximín."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La característica de los mercados oligopolísticos es...",
+      "opciones": {
+        "a": "La rigidez de los precios.",
+        "b": "La flexibilidad de los precios.",
+        "c": "La elasticidad de los precios.",
+        "d": "La fluctuación de los precios."
+      },
+      "respuesta_correcta": "a"
+    }
+  ]
+}

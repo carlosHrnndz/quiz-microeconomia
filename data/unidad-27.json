@@ -1,0 +1,116 @@
+{
+  "unidad": 27,
+  "titulo": "Examen Unidad 27",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿A quién integra la población activa que puede trabajar?",
+      "opciones": {
+        "a": "La población activa que puede trabajar integra todas aquellas personas que tienen entre 16 y 65 años.",
+        "b": "Los parados.",
+        "c": "Los jubilados.",
+        "d": "Los incapacitados."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La tasa de desocupación...",
+      "opciones": {
+        "a": "Determina la cantidad de trabajadores desocupados en relación con la población activa.",
+        "b": "Determina la cantidad de trabajadores desocupados en relación con la población total.",
+        "c": "Determina la cantidad de población activa en relación con la población total del país.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El paro cíclico...",
+      "opciones": {
+        "a": "En épocas de recesión, aumenta el desempleo.",
+        "b": "Está ligado a las fluctuaciones económicas.",
+        "c": "En épocas de crecimiento económico, disminuye.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El paro estacional...",
+      "opciones": {
+        "a": "Está relacionado con el funcionamiento normal del mercado de trabajo.",
+        "b": "Se da por cambios en la demanda de trabajo en los diferentes momentos del año.",
+        "c": "Está ligado a las fluctuaciones económicas y, por lo tanto, las fases del ciclo económico.",
+        "d": "También se denomina paro voluntario."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Los efectos económicos del paro son...",
+      "opciones": {
+        "a": "La caída de la producción real, la disminución de la demanda y el aumento del déficit público.",
+        "b": "Los efectos psicológicos negativos y los efectos discriminatorios.",
+        "c": "La caída de la producción real y los efectos psicológicos negativos.",
+        "d": "La caída de la producción real, la disminución de la demanda, el aumento del déficit público, los efectos psicológicos negativos y los efectos discriminatorios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "En la desocupación voluntaria...",
+      "opciones": {
+        "a": "En el punto de equilibrio entre la oferta y la demanda, todos los trabajadores que quieran encontrarán trabajo.",
+        "b": "Únicamente no tendrán trabajo aquellos que no quieran trabajar porque consideran que el sueldo es demasiado bajo.",
+        "c": "Los empresarios preferirán invertir en maquinaria y nuevas tecnologías porque no pueden contratar a trabajadores que están dispuestos a cobrar menos.",
+        "d": "La respuesta a y b son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "En el modelo keynesiano el desempleo se debe...",
+      "opciones": {
+        "a": "A la reducción de los salarios.",
+        "b": "A la predeterminación de los salarios.",
+        "c": "A nivel insuficiente de demanda agregada.",
+        "d": "A los salarios de eficiencia."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Los economistas clásicos consideraban que era suficiente para luchar contra el paro que...",
+      "opciones": {
+        "a": "Los salarios se redujeran hasta el equilibrio.",
+        "b": "Se deben llevar a cabo políticas de demanda agregada para combatir la desocupación.",
+        "c": "Se lleven a cabo políticas de oferta agregada.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Las políticas de oferta tienen como objetivo...",
+      "opciones": {
+        "a": "Aumentan el gasto y hacen que aumente la producción.",
+        "b": "Incrementar la producción y reducir el nivel de precios.",
+        "c": "Aumentar la ocupación y incrementan el nivel de precios.",
+        "d": "La respuesta a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "En el período de recesión...",
+      "opciones": {
+        "a": "Es el momento en que las empresas empiezan a vender y la ocupación aumenta.",
+        "b": "Se utiliza toda la capacidad productiva e incluso falta mano de obra cualificada.",
+        "c": "Hay un descenso de la producción y con ello un aumento de la desocupación.",
+        "d": "Hay un nivel elevado de paro y un nivel bajo de demanda en relación con la capacidad productiva de la economía."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

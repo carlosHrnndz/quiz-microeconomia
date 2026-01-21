@@ -1,0 +1,116 @@
+{
+  "unidad": 12,
+  "titulo": "Examen Unidad 12",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Cuando la acción de una de las partes beneficia a la otra, estamos ante...",
+      "opciones": {
+        "a": "Una externalidad positiva.",
+        "b": "Una externalidad negativa.",
+        "c": "Una externalidad afirmativa.",
+        "d": "Una externalidad solidaria."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué dos tipos de variables tienen las funciones de utilidad del consumidor?",
+      "opciones": {
+        "a": "Las que decide la publicidad y las que deciden por ellos.",
+        "b": "Las que son objeto de su decisión y las que deciden otros agentes económicos.",
+        "c": "Las que deciden ellos y las que decide la sociedad",
+        "d": "La preferencia del consumidor y las que decide el vendedor"
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuál es el resultado de que las empresas no tengan en cuenta los daños que causan las externalidades negativas?",
+      "opciones": {
+        "a": "Un exceso de producción y costes sociales innecesarios.",
+        "b": "El bajo rendimiento.",
+        "c": "Un elevado precio del producto.",
+        "d": "Mala gestión en la empresa."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuándo se da el nivel de producción eficiente?",
+      "opciones": {
+        "a": "Es aquel en que el coste de producción es 0.",
+        "b": "Es aquel en que el coste de venda es del 90% al de producción.",
+        "c": "Es aquel en el que el precio del producto es igual al coste social marginal (CSM) de producción.",
+        "d": "Es aquel en el que el precio de producir es igual al coste de venta más impuestos."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Cuando hay externalidades negativas, como el vertido de residuos de las empresas siderúrgicas en el río, el coste social marginal es...",
+      "opciones": {
+        "a": "Mayor que el coste marginal.",
+        "b": "Menor que el coste marginal.",
+        "c": "Igual que el coste marginal.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "La suma del beneficio privado marginal más el beneficio externo marginal es el...",
+      "opciones": {
+        "a": "Beneficio productivo marginal.",
+        "b": "Beneficio extremo marginal.",
+        "c": "Beneficio social marginal.",
+        "d": "Beneficio externo marginal."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cómo se denomina el teorema según el cual cuando las partes pueden negociar sin coste alguno y en beneficio mutuo, el resultado es eficiente, independientemente de cómo se especifiquen los derechos de propiedad?",
+      "opciones": {
+        "a": "Teorema de Coase.",
+        "b": "Teorema de Corase.",
+        "c": "Teorema de Corpase.",
+        "d": "Teorema de Coes."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cómo se denominan aquellos impuestos que buscan corregir una externalidad negativa?",
+      "opciones": {
+        "a": "Impuestos zipaquira.",
+        "b": "Impuestos corasianos.",
+        "c": "Impuestos roussonianos.",
+        "d": "Impuestos pigouvianos."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Cómo se denomina un bien por el que su consumo por parte de un individuo reduce las posibilidades de consumo por parte de otro?",
+      "opciones": {
+        "a": "Bien no excluyente.",
+        "b": "Bien rival.",
+        "c": "Bien público.",
+        "d": "Bien privado."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Sobre qué bienes se produce la rivalidad absoluta en el consumo?",
+      "opciones": {
+        "a": "Sobre bienes absolutos y parciales.",
+        "b": "Sobre bienes privados.",
+        "c": "Sobre bienes absolutos.",
+        "d": "Sobre bienes parciales."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

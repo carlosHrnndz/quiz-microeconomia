@@ -1,0 +1,116 @@
+{
+  "unidad": 17,
+  "titulo": "Examen Unidad 17",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿En qué año publicó Keynes su obra la Teoría General del Empleo, el Interés y el Dinero?",
+      "opciones": {
+        "a": "En el año 1937.",
+        "b": "En el año 1938.",
+        "c": "En el año 1936.",
+        "d": "En el año 1939."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Cómo actúa el sector público en la economía?",
+      "opciones": {
+        "a": "A través de la política económica.",
+        "b": "A través de las políticas monetaria y fiscal.",
+        "c": "A través de la emisión de bonos del Estado.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Dónde se produjo el famoso jueves negro?",
+      "opciones": {
+        "a": "En la bolsa de Nueva York.",
+        "b": "En la bolsa de París.",
+        "c": "En la bolsa de Madrid.",
+        "d": "En la bolsa de Chicago."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Qué nombre recibe la teoría macroeconómica elaborada después de la Segunda Guerra Mundial?",
+      "opciones": {
+        "a": "Síntesis Clásica.",
+        "b": "Nueva Síntesis Neoclásica.",
+        "c": "Síntesis Neoclásica.",
+        "d": "Síntesis Keynesiana."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cómo se denomina la tasa de paro natural?",
+      "opciones": {
+        "a": "MAIRU.",
+        "b": "PAIRU.",
+        "c": "CAIRU.",
+        "d": "NAIRU."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuándo se creó el Sistema Monetario Europeo?",
+      "opciones": {
+        "a": "En 1978.",
+        "b": "En 1979.",
+        "c": "En 1977.",
+        "d": "En 1976."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Dónde se reflejan las transacciones de un país con el resto del mundo?",
+      "opciones": {
+        "a": "En el Banco Central.",
+        "b": "En la balanza de pagos.",
+        "c": "En un registro internacional.",
+        "d": "En el Fondo Monetario Internacional."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Quién se encarga de controlar la oferta monetaria?",
+      "opciones": {
+        "a": "El Banco Central.",
+        "b": "El Banco Central Europeo.",
+        "c": "El Banco Central Internacional.",
+        "d": "El Banco Mundial."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Qué se utiliza en las relaciones comerciales internacionales?",
+      "opciones": {
+        "a": "La política económica.",
+        "b": "La política fiscal.",
+        "c": "La política monetaria.",
+        "d": "La política cambiaria."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "La suma total de gastos que están dispuestos a asumir los diferentes sectores de la economía durante un periodo de tiempo se denomina...",
+      "opciones": {
+        "a": "Nivel de gastos.",
+        "b": "Oferta agregada.",
+        "c": "Demanda agregada.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

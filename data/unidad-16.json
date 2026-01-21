@@ -1,0 +1,116 @@
+{
+  "unidad": 16,
+  "titulo": "Examen Unidad 16",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿De qué depende la oferta de capital?",
+      "opciones": {
+        "a": "Del ahorro de las familias.",
+        "b": "Del precio.",
+        "c": "De la demanda.",
+        "d": "De las empresas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué determina el cruce entre la oferta y la demanda de capital?",
+      "opciones": {
+        "a": "El equilibrio del mercado.",
+        "b": "El precio de equilibrio.",
+        "c": "La tasa de interés de equilibrio.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El capital financiero está compuesto por...",
+      "opciones": {
+        "a": "Bienes inmuebles, también conocidos como bienes raíces.",
+        "b": "Pasivos financieros, que son conocidos como valores inmobiliarios.",
+        "c": "Activos financieros, que son conocidos como valores mobiliarios.",
+        "d": "El conjunto de cotizaciones de las principales empresas españolas en el mundo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 4,
+      "pregunta": "El mercado de activos financieros está formado por...",
+      "opciones": {
+        "a": "Por los bonos y las acciones.",
+        "b": "Por las letras del tesoro y los pagarés de empresa.",
+        "c": "Por bancos y cajas.",
+        "d": "El mercado de dinero y el mercado de capitales."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Cuándo se estableció el mercado bursátil en España?",
+      "opciones": {
+        "a": "En 1831.",
+        "b": "En 1832.",
+        "c": "En 1833.",
+        "d": "En 1834."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué nombre recibe la técnica más conocida de análisis del mercado bursátil?",
+      "opciones": {
+        "a": "Análisis esencial.",
+        "b": "Análisis fundamental.",
+        "c": "Análisis eficaz.",
+        "d": "Análisis óptimo."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Cuáles son los instrumentos más característicos del mercado de derivados?",
+      "opciones": {
+        "a": "Son los contratos de compra venta.",
+        "b": "Son los contratos de arrendamineto.",
+        "c": "Son los contratos de subministramiento y contratos de compra venta.",
+        "d": "Son los contratos de futuro y los contratos de opciones."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "El comprador de futuros siempre es...",
+      "opciones": {
+        "a": "Optimista.",
+        "b": "Pesimista.",
+        "c": "Estable.",
+        "d": "Conservador."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "El comprador de la opción, en el mercado de derivados, paga una prima por...",
+      "opciones": {
+        "a": "Estar obligado a comprar.",
+        "b": "Obtener el derecho, que será el precio de la opción.",
+        "c": "Participar en los regalos y promociones que ofrece el vendedor, generalmente, una entidad financiera.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Un swap es...",
+      "opciones": {
+        "a": "Una unidad de élite de las fuerzas y cuerpos de seguridad del Estado.",
+        "b": "Un titulo opcional que otorga el derecho de comprar o vender un producto derivado al emisor del mismo durante un tiempo determinado.",
+        "c": "Un contrato en el que las partes se comprometen a intercambiar dinero en un futuro determinado.",
+        "d": "Todas las opciones anteriores son incorrectas."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "unidad": 28,
+  "titulo": "Examen Unidad 28",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "Si observamos la evolución del PIB de Estados Unidos desde 1890 hasta 1990...",
+      "opciones": {
+        "a": "No existe crecimiento, sino estancamiento.",
+        "b": "Existe un evidente crecimiento negativo.",
+        "c": "Existe un evidente crecimiento positivo.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 2,
+      "pregunta": "La evolución del nivel de vida de un país viene dado por...",
+      "opciones": {
+        "a": "La evolución de la producción total y no por la producción per cápita.",
+        "b": "La evolución de la producción per cápita y no por la producción total.",
+        "c": "La evolución de los tipos de cambio de divisas.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuál fue el PIB per cápita de la India en 1997?",
+      "opciones": {
+        "a": "632 dólares.",
+        "b": "362 dólares.",
+        "c": "3.620 dólares.",
+        "d": "36 dólares."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Quién ha impulsado las Penn World Tables?",
+      "opciones": {
+        "a": "Irving Kravis.",
+        "b": "Robert Summers.",
+        "c": "Alan Heston.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 5,
+      "pregunta": "La creencia existente en los años cincuenta y sesenta que el crecimiento la de renta per cápita iba a ser rápido...",
+      "opciones": {
+        "a": "Ha tenido que dar paso a la realidad de un crecimiento más bajo desde 1973.",
+        "b": "Ha tenido que dar paso a la realidad de un crecimiento mucho más alto de lo esperado desde 1973.",
+        "c": "Ha tenido que dar paso a la realidad de un decrecimiento desde 1973.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué países cuya producción era al menos una cuarta parte de la producción per cápita de Estados Unidos en 1950 no han convergido?",
+      "opciones": {
+        "a": "Uruguay.",
+        "b": "Argentina.",
+        "c": "Venezuela.",
+        "d": "Todas las respuestas anteriores con correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 7,
+      "pregunta": "Respecto del crecimiento desde una perspectiva temporal y espacial más general, debemos tener presente:",
+      "opciones": {
+        "a": "El gran aumento del nivel de vida registrado desde 1950.",
+        "b": "La disminución que ha experimentado el crecimiento desde mediados de los años setenta.",
+        "c": "La convergencia de la producción per cápita de los países ricos.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 8,
+      "pregunta": "Durante la Revolución industrial...",
+      "opciones": {
+        "a": "Las tasas de crecimiento no fueron altas en comparación con las actuales.",
+        "b": "Las tasas de crecimiento fueron muy altas en comparación con las actuales.",
+        "c": "Las tasas de crecimiento fueron las mismas que las actuales.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los países que eran relativamente más pobres en 1960...",
+      "opciones": {
+        "a": "No han crecido, en general, más deprisa.",
+        "b": "Han crecido, en general, más deprisa.",
+        "c": "Han decrecido.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 10,
+      "pregunta": "El crecimiento...",
+      "opciones": {
+        "a": "Es una necesidad histórica.",
+        "b": "No es una necesidad histórica.",
+        "c": "Siempre debe ser positivo.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    }
+  ]
+}

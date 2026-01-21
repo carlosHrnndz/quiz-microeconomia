@@ -1,0 +1,116 @@
+{
+  "unidad": 1,
+  "titulo": "Examen Unidad 1",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué recursos o factores de producción reconoce la ciencia económica?",
+      "opciones": {
+        "a": "Capital (K).",
+        "b": "Tierra (T).",
+        "c": "Trabajo (L).",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 2,
+      "pregunta": "El principio de coste-beneficio...",
+      "opciones": {
+        "a": "Valora la relación que existe entre los beneficios y los costes.",
+        "b": "Busca siempre la eficiencia en cualquier situación.",
+        "c": "Se refiere a la optimización de los recursos.",
+        "d": "Las respuestas b) y c) son correctas."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Cuáles son los agentes económicos más importantes que intervienen en la economía financiera?",
+      "opciones": {
+        "a": "Las familias.",
+        "b": "Las empresas.",
+        "c": "El Estado.",
+        "d": "Todas las respuestas anteriores son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Cuál es el papel de los intermediarios financieros?",
+      "opciones": {
+        "a": "Realizar inversiones con el fin de producir bienes y servicios.",
+        "b": "Facilitar la circulación de flujos financieros entre ahorradores e inversores.",
+        "c": "Los intermediarios financieros no existen.",
+        "d": "Las respuestas a) y c) son correctas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué dos clases de intermediarios financieros existen?",
+      "opciones": {
+        "a": "Brokers y agencias de valores.",
+        "b": "Dealers e intermediarios financieros puros.",
+        "c": "Dealers y brokers.",
+        "d": "Compañías de seguros y sociedades de inversión."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "Hablamos de regulación...",
+      "opciones": {
+        "a": "Cuando los sistemas financieros están sometidos a una intervención por parte de los respectivos países.",
+        "b": "Cuando el Estado no tiene que intervenir para regular la economía.",
+        "c": "Cuando se detecta que determinados mercados financieros pierden competitividad debido a un exceso de reglamentación.",
+        "d": "Como un fenómeno que recientemente se ha producido en contra de la intervención estatal."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "La volatilidad...",
+      "opciones": {
+        "a": "Facilita la confianza en los mercados financieros.",
+        "b": "Es una característica de los mercados financieros que mide en términos relativos el riesgo.",
+        "c": "Sólo está relacionada con la producción mundial de alimentos.",
+        "d": "Sólo está relacionada con la producción mundial de automóviles."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La demanda está relacionada...",
+      "opciones": {
+        "a": "Con la tecnología existente.",
+        "b": "Con los deseos.",
+        "c": "Con los recursos.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "Los vendedores son...",
+      "opciones": {
+        "a": "Las empresas que venden sus bienes y servicios.",
+        "b": "Los trabajadores que venden sus servicios de trabajo en una empresa.",
+        "c": "Los propietarios de los recursos naturales que venden los mismos para que éstos se puedan manipular y pueda venderse el producto final, o bien, que arriendan sus tierras a las empresas.",
+        "d": "Todas las respuestas son correctas."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "Los mercados perfectamente competitivos...",
+      "opciones": {
+        "a": "Son aquellos en que el conjunto de productores se ponen de acuerdo para influir en el precio del producto.",
+        "b": "Son aquellos en que el conjunto de los compradores se ponen de acuerdo para influir en el precio del producto.",
+        "c": "Son aquellos que tienen un número importante de compradores y vendedores, y debido a ello, ninguno de los dos puede influir significativamente en el precio del producto.",
+        "d": "Todas las respuestas son incorrectas."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

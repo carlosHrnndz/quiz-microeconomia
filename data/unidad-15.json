@@ -1,0 +1,116 @@
+{
+  "unidad": 15,
+  "titulo": "Examen Unidad 15",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Quién planteó la propuesta del impuesto único sobre la tierra?",
+      "opciones": {
+        "a": "David Ricardo.",
+        "b": "Henry George.",
+        "c": "Harold Helling.",
+        "d": "Stuart Mill."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué factores de producción constituyen los recursos naturales?",
+      "opciones": {
+        "a": "La tierra, el agua y el aire.",
+        "b": "La tierra, el fuego y el aire.",
+        "c": "Los árboles, la tierra y el agua.",
+        "d": "Los minerales, los árboles y el agua."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 3,
+      "pregunta": "¿Qué recursos naturales no tienen sustitutos?",
+      "opciones": {
+        "a": "Los recursos esenciales.",
+        "b": "Los recursos fundamentales.",
+        "c": "Los recursos originales.",
+        "d": "Los recursos secundarios."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿En qué tipos de recursos naturales se centra el análisis económico?",
+      "opciones": {
+        "a": "En los no apropiables.",
+        "b": "En los apropiables.",
+        "c": "En los renovables.",
+        "d": "En los no renovables."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 5,
+      "pregunta": "¿Qué recursos naturales son de uso gratuito?",
+      "opciones": {
+        "a": "Los renovables.",
+        "b": "Los no renovables.",
+        "c": "Los apropiables.",
+        "d": "Los no apropiables."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Cuál fue el más ecológico de los economistas clásicos?",
+      "opciones": {
+        "a": "Stuart Mill.",
+        "b": "Adam Smith.",
+        "c": "Thomas Malthus.",
+        "d": "David Ricardo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 7,
+      "pregunta": "¿Qué nombre recibe el informe elaborado por una comisión de la ONU en 1987?",
+      "opciones": {
+        "a": "Informe sobre la sostenibilidad.",
+        "b": "Informe Brundtland.",
+        "c": "Informe sobre los recursos naturales.",
+        "d": "Informe sobre la tierra."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 8,
+      "pregunta": "¿Cómo consideran los economistas los recursos naturales?",
+      "opciones": {
+        "a": "Como un bien de consumo.",
+        "b": "Como un activo financiero.",
+        "c": "Como un activo de capital.",
+        "d": "Ninguna de las respuestas anteriores es correcta."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿De qué depende la demanda del stock de un recurso natural?",
+      "opciones": {
+        "a": "Del precio.",
+        "b": "De la tasa de interés.",
+        "c": "De las existencias.",
+        "d": "De la rentabilidad que se espera del recurso natural."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Qué nombre recibe el precio más alto al que puede llegar un recurso natural por su utilización?",
+      "opciones": {
+        "a": "Precio máximo.",
+        "b": "Precio de eficiencia.",
+        "c": "Precio de ahogo.",
+        "d": "Precio de equilibrio."
+      },
+      "respuesta_correcta": "c"
+    }
+  ]
+}

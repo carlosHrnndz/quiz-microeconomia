@@ -1,0 +1,116 @@
+{
+  "unidad": 32,
+  "titulo": "Examen Unidad 32",
+  "preguntas": [
+    {
+      "numero": 1,
+      "pregunta": "¿Qué economista fue el autor de la obra General Theory of Employment, Interest and Money?",
+      "opciones": {
+        "a": "J. M. Keynes.",
+        "b": "A. Smith.",
+        "c": "M. Friedman.",
+        "d": "P. Samuelson."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 2,
+      "pregunta": "¿Qué fue la síntesis neoclásica?",
+      "opciones": {
+        "a": "La imposición de las ideas clásicas del liberalismo heredero de Adam Smith, superadoras de Keynes.",
+        "b": "La recuperación de lo más destacado de la obra de Ricardo.",
+        "c": "Un gran consenso basado en la integración de muchas de las ideas de Keynes y las de los economistas anteriores.",
+        "d": "Las respuestas a) y b) son correctas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 3,
+      "pregunta": "El modelo del crecimiento desarrollado por Robert Solow en 1956...",
+      "opciones": {
+        "a": "Proporcionó un marco para analizar la relación entre paro e inflación.",
+        "b": "Proporcionó un marco para estudiar los determinantes del crecimiento.",
+        "c": "Creó la teoría de la inversión.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 4,
+      "pregunta": "¿Quién fue el líder intelectual de los monetaristas?",
+      "opciones": {
+        "a": "J. M. Keynes.",
+        "b": "A. Smith.",
+        "c": "M. Friedman.",
+        "d": "P. Samuelson."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 5,
+      "pregunta": "Keynes había puesto énfasis para luchar contra las recesiones...",
+      "opciones": {
+        "a": "En el crecimiento perpetuo.",
+        "b": "En la política monetaria más que en la fiscal.",
+        "c": "En la política fiscal más que en la monetaria.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 6,
+      "pregunta": "¿Qué hecho no predicho por los macroeconomistas se produje en los setenta en Occidente?",
+      "opciones": {
+        "a": "La estanflación.",
+        "b": "La inflación.",
+        "c": "La deflación.",
+        "d": "La tasa de paro natural por encima del 30%."
+      },
+      "respuesta_correcta": "a"
+    },
+    {
+      "numero": 7,
+      "pregunta": "El clima intelectual reinante en la macroeconomía a principios de los años setenta era...",
+      "opciones": {
+        "a": "Amistoso.",
+        "b": "Relajado.",
+        "c": "Tenso.",
+        "d": "Tranquilo."
+      },
+      "respuesta_correcta": "c"
+    },
+    {
+      "numero": 8,
+      "pregunta": "La idea de que la expectativas racionales eran la hipótesis de trabajo correcta...",
+      "opciones": {
+        "a": "Consiguió una amplia aceptación con muchos años.",
+        "b": "Consiguió una amplia aceptación en poco tiempo.",
+        "c": "Nunca fue aceptada.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "b"
+    },
+    {
+      "numero": 9,
+      "pregunta": "¿Quién es el líder intelectual de los nuevos clásicos?",
+      "opciones": {
+        "a": "J. M. Keynes.",
+        "b": "A. Smith.",
+        "c": "M. Friedman.",
+        "d": "E. Prescott."
+      },
+      "respuesta_correcta": "d"
+    },
+    {
+      "numero": 10,
+      "pregunta": "¿Quién ha dado una explicación de las fluctuaciones de la producción basada en los costes de menú?",
+      "opciones": {
+        "a": "Prescott.",
+        "b": "Mankiw.",
+        "c": "Akerlof.",
+        "d": "Las respuestas b) y c) son correctas."
+      },
+      "respuesta_correcta": "d"
+    }
+  ]
+}
