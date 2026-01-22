@@ -81,6 +81,9 @@
         <!-- Header / Stats -->
         <header class="app-header">
             <div class="header-left">
+                <button id="btn-home" class="icon-btn" title="Menú Principal">
+                    🏠
+                </button>
                 <span id="question-counter">-- / --</span>
                 <span id="unit-badge" class="badge">Unidad --</span>
             </div>
@@ -121,15 +124,19 @@
         <!-- Footer / Navigation -->
         <footer class="app-footer">
             <button id="btn-prev" class="nav-btn secondary">
-                <span class="arrow">❮</span> Anterior
+                <span class="arrow">❮</span>
             </button>
 
-            <button id="btn-pending" class="nav-btn secondary">
-                📝 Pendiente
+            <button id="btn-wrong" class="nav-btn wrong-btn" title="Ver preguntas falladas">
+                ❌ <span class="btn-count" id="wrong-count"></span>
+            </button>
+
+            <button id="btn-pending" class="nav-btn secondary" title="Ver preguntas marcadas">
+                📝 <span class="btn-count" id="pending-count"></span>
             </button>
 
             <button id="btn-next" class="nav-btn primary">
-                Siguiente <span class="arrow">❯</span>
+                <span class="arrow">❯</span>
             </button>
         </footer>
     </div>
@@ -137,11 +144,22 @@
     <!-- ============ MODALS ============ -->
     <div id="modal-pending" class="modal hidden">
         <div class="modal-content">
-            <h3>Preguntas Pendientes</h3>
+            <h3>📝 Preguntas Marcadas</h3>
             <div id="pending-list" class="pending-list">
                 <!-- List items -->
             </div>
             <button id="btn-close-modal" class="nav-btn secondary full-width">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Wrong Answers Modal -->
+    <div id="modal-wrong" class="modal hidden">
+        <div class="modal-content">
+            <h3>❌ Preguntas Falladas</h3>
+            <div id="wrong-list" class="pending-list">
+                <!-- List items -->
+            </div>
+            <button id="btn-close-wrong-modal" class="nav-btn secondary full-width">Cerrar</button>
         </div>
     </div>
 
@@ -164,10 +182,16 @@
                     <span class="stat-label">Nota</span>
                 </div>
             </div>
-            <button id="btn-restart-results" class="start-btn">Volver al inicio</button>
+            <div class="results-actions">
+                <button id="btn-review-wrong" class="nav-btn wrong-btn full-width">❌ Repasar Falladas</button>
+                <button id="btn-restart-results" class="start-btn">Volver al inicio</button>
+            </div>
         </div>
     </div>
 
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
     <script src="js/app.js"></script>
 </body>
 

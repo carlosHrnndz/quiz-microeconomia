@@ -291,6 +291,30 @@ body {
     color: var(--text-primary);
 }
 
+.nav-btn.wrong-btn {
+    background: rgba(198, 40, 40, 0.2);
+    border: 1px solid rgba(198, 40, 40, 0.4);
+    color: var(--text-primary);
+}
+
+.nav-btn.wrong-btn:hover {
+    background: rgba(198, 40, 40, 0.3);
+}
+
+.btn-count {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2px 6px;
+    border-radius: 8px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.btn-count:empty {
+    display: none;
+}
+
 .nav-btn .arrow {
     font-size: 0.8rem;
 }
@@ -797,6 +821,16 @@ body {
     font-size: 0.8rem;
     color: var(--text-secondary);
     text-transform: uppercase;
+}
+
+.results-actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.results-actions .wrong-btn {
+    margin-bottom: var(--spacing-sm);
 }
 
 /* Mobile Splash */

@@ -1,7 +1,18 @@
 // =====================
-// Quiz App - V3 Ultimate Edition
-// With Session Sync & Swipe Navigation
+// Quiz App - V4 Ultimate Edition
+// With Firebase Cloud Sync, Wrong Answers Review & Enhanced UI
 // =====================
+
+// Firebase Configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyDonMWKNpK1RDWiWSosN5HebMTCALZ-4Y0",
+    authDomain: "quiz-microeconomia.firebaseapp.com",
+    databaseURL: "https://quiz-microeconomia-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "quiz-microeconomia",
+    storageBucket: "quiz-microeconomia.firebasestorage.app",
+    messagingSenderId: "17626414656",
+    appId: "1:17626414656:web:a68231ec8be62555e229a5"
+};
 
 class QuizApp {
     constructor() {
@@ -15,10 +26,13 @@ class QuizApp {
         this.selectedUnits = new Set();
         this.unitQuestionCounts = {};
         this.sessionCode = '';
+        this.firebaseInitialized = false;
+        this.dbRef = null;
 
         // Touch swipe tracking
         this.touchStartX = 0;
         this.touchEndX = 0;
+        this.longPressTimer = null;
 
         this.ui = {
             // Splash
@@ -43,6 +57,7 @@ class QuizApp {
             scoreVal: document.getElementById('score-val'),
             modeBtn: document.getElementById('btn-mode-toggle'),
             btnRestart: document.getElementById('btn-restart'),
+            btnHome: document.getElementById('btn-home'),
             progressBar: document.getElementById('progress-fill'),
             questionText: document.getElementById('question-text'),
             optionsContainer: document.getElementById('options-container'),
@@ -51,19 +66,26 @@ class QuizApp {
             btnPrev: document.getElementById('btn-prev'),
             btnNext: document.getElementById('btn-next'),
             btnPending: document.getElementById('btn-pending'),
+            btnWrong: document.getElementById('btn-wrong'),
+            pendingCount: document.getElementById('pending-count'),
+            wrongCount: document.getElementById('wrong-count'),
             questionArea: document.querySelector('.question-area'),
 
             // Modals
             modalPending: document.getElementById('modal-pending'),
             pendingList: document.getElementById('pending-list'),
             btnCloseModal: document.getElementById('btn-close-modal'),
+            modalWrong: document.getElementById('modal-wrong'),
+            wrongList: document.getElementById('wrong-list'),
+            btnCloseWrongModal: document.getElementById('btn-close-wrong-modal'),
             modalResults: document.getElementById('modal-results'),
             resultsIcon: document.getElementById('results-icon'),
             resultsTitle: document.getElementById('results-title'),
             statCorrect: document.getElementById('stat-correct'),
             statWrong: document.getElementById('stat-wrong'),
             statScore: document.getElementById('stat-score'),
-            btnRestartResults: document.getElementById('btn-restart-results')
+            btnRestartResults: document.getElementById('btn-restart-results'),
+            btnReviewWrong: document.getElementById('btn-review-wrong')
         };
 
         this.init();
@@ -71,10 +93,100 @@ class QuizApp {
 
     async init() {
         await this.loadData();
+        this.initFirebase();
         this.loadStoredSessionCode();
         this.setupSplash();
         this.bindQuizEvents();
         this.setupSwipe();
+    }
+
+    // =====================
+    // FIREBASE INTEGRATION
+    // =====================
+    initFirebase() {
+        try {
+            if (typeof firebase !== 'undefined') {
+                firebase.initializeApp(firebaseConfig);
+                this.firebaseInitialized = true;
+                console.log('Firebase initialized successfully');
+            } else {
+                console.log('Firebase not available, using localStorage only');
+            }
+        } catch (e) {
+            console.warn('Firebase init failed:', e);
+            this.firebaseInitialized = false;
+        }
+    }
+
+    getFirebaseRef() {
+        if (!this.firebaseInitialized || !this.sessionCode) return null;
+        return firebase.database().ref(`sessions/${this.sessionCode}`);
+    }
+
+    async syncToCloud() {
+        const ref = this.getFirebaseRef();
+        if (!ref) return;
+
+        const data = {
+            userAnswers: this.userAnswers,
+            pendingQuestions: Array.from(this.pendingQuestions),
+            currentQuestionIndex: this.currentQuestionIndex,
+            score: this.score,
+            mode: this.mode,
+            selectedUnits: Array.from(this.selectedUnits),
+            timestamp: Date.now()
+        };
+
+        try {
+            await ref.set(data);
+            console.log('Synced to cloud');
+        } catch (e) {
+            console.warn('Cloud sync failed:', e);
+        }
+    }
+
+    async loadFromCloud() {
+        const ref = this.getFirebaseRef();
+        if (!ref) return false;
+
+        try {
+            const snapshot = await ref.once('value');
+            const data = snapshot.val();
+            if (data) {
+                this.userAnswers = data.userAnswers || {};
+                this.pendingQuestions = new Set(data.pendingQuestions || []);
+                this.currentQuestionIndex = data.currentQuestionIndex || 0;
+                this.score = data.score || 0;
+                if (data.mode) this.mode = data.mode;
+                if (data.selectedUnits) {
+                    this.selectedUnits = new Set(data.selectedUnits);
+                }
+                console.log(`Loaded from cloud for session: ${this.sessionCode}`);
+                return true;
+            }
+        } catch (e) {
+            console.warn('Cloud load failed:', e);
+        }
+        return false;
+    }
+
+    setupCloudListener() {
+        const ref = this.getFirebaseRef();
+        if (!ref) return;
+
+        ref.on('value', (snapshot) => {
+            const data = snapshot.val();
+            if (data && data.timestamp > (this.lastSyncTimestamp || 0)) {
+                this.lastSyncTimestamp = data.timestamp;
+                // Only update if we're not currently active
+                if (document.hidden) {
+                    this.userAnswers = data.userAnswers || {};
+                    this.pendingQuestions = new Set(data.pendingQuestions || []);
+                    this.score = data.score || 0;
+                    console.log('Received cloud update');
+                }
+            }
+        });
     }
 
     // =====================
@@ -111,9 +223,22 @@ class QuizApp {
             timestamp: Date.now()
         };
         localStorage.setItem(this.getStorageKey(), JSON.stringify(data));
+
+        // Also sync to cloud
+        this.syncToCloud();
     }
 
-    loadProgress() {
+    async loadProgress() {
+        // Try cloud first
+        if (this.firebaseInitialized && this.sessionCode) {
+            const cloudLoaded = await this.loadFromCloud();
+            if (cloudLoaded) {
+                this.setupCloudListener();
+                return true;
+            }
+        }
+
+        // Fallback to localStorage
         const stored = localStorage.getItem(this.getStorageKey());
         if (stored) {
             try {
@@ -207,7 +332,7 @@ class QuizApp {
                     const unitNum = q.unidad || unit;
                     this.allQuestions.push({
                         unidad: unitNum,
-                        numero: q.numero,
+                        numero: q.numero || '?',
                         pregunta: q.pregunta || q.enunciado || q.texto,
                         opciones: q.opciones,
                         respuesta_correcta: (q.respuesta_correcta || q.correcta || '').toLowerCase().trim()
@@ -228,9 +353,9 @@ class QuizApp {
     // =====================
     setupSplash() {
         // Session buttons
-        this.ui.btnLoadSession.addEventListener('click', () => {
+        this.ui.btnLoadSession.addEventListener('click', async () => {
             this.saveSessionCode();
-            if (this.loadProgress()) {
+            if (await this.loadProgress()) {
                 this.updateUnitGridFromSelection();
                 this.setMode(this.mode);
                 alert('✅ Sesión cargada');
@@ -343,6 +468,9 @@ class QuizApp {
         this.ui.quizApp.classList.remove('hidden');
         this.ui.modeBtn.innerText = this.mode === 'quiz' ? '🎓' : '📖';
 
+        // Setup cloud listener
+        this.setupCloudListener();
+
         this.renderQuestion();
     }
 
@@ -382,22 +510,45 @@ class QuizApp {
     bindQuizEvents() {
         this.ui.btnNext.addEventListener('click', () => this.nextQuestion());
         this.ui.btnPrev.addEventListener('click', () => this.prevQuestion());
-        this.ui.btnPending.addEventListener('click', () => this.togglePending());
+        this.ui.btnPending.addEventListener('click', () => this.showPendingList());
+        this.ui.btnWrong.addEventListener('click', () => this.showWrongList());
         this.ui.modeBtn.addEventListener('click', () => this.toggleMode());
         this.ui.btnRestart.addEventListener('click', () => this.showSplash());
+        this.ui.btnHome.addEventListener('click', () => this.showSplash());
 
         this.ui.btnCloseModal.addEventListener('click', () => {
             this.ui.modalPending.classList.add('hidden');
         });
 
+        this.ui.btnCloseWrongModal.addEventListener('click', () => {
+            this.ui.modalWrong.classList.add('hidden');
+        });
+
+        // Long press on pending button to toggle
+        this.ui.btnPending.addEventListener('touchstart', () => {
+            this.longPressTimer = setTimeout(() => {
+                this.togglePending();
+            }, 500);
+        });
+
+        this.ui.btnPending.addEventListener('touchend', () => {
+            clearTimeout(this.longPressTimer);
+        });
+
+        // Right-click to toggle pending
         this.ui.btnPending.addEventListener('contextmenu', (e) => {
             e.preventDefault();
-            this.showPendingList();
+            this.togglePending();
         });
 
         this.ui.btnRestartResults.addEventListener('click', () => {
             this.ui.modalResults.classList.add('hidden');
             this.showSplash();
+        });
+
+        this.ui.btnReviewWrong.addEventListener('click', () => {
+            this.ui.modalResults.classList.add('hidden');
+            this.showWrongList();
         });
 
         // Keyboard
@@ -406,6 +557,8 @@ class QuizApp {
             if (e.key === 'ArrowRight') this.nextQuestion();
             if (e.key === 'ArrowLeft') this.prevQuestion();
             if (e.key === 'p' || e.key === 'P') this.togglePending();
+            if (e.key === 'm' || e.key === 'M') this.showPendingList();
+            if (e.key === 'w' || e.key === 'W') this.showWrongList();
             if (['a', 'b', 'c', 'd'].includes(e.key.toLowerCase())) {
                 this.handleOptionSelect(e.key.toLowerCase());
             }
@@ -418,25 +571,44 @@ class QuizApp {
     }
 
     // =====================
+    // WRONG ANSWERS TRACKING
+    // =====================
+    getWrongAnswerIndices() {
+        const wrongIndices = [];
+        for (const [idx, answer] of Object.entries(this.userAnswers)) {
+            const q = this.questions[Number(idx)];
+            if (q && answer !== q.respuesta_correcta) {
+                wrongIndices.push(Number(idx));
+            }
+        }
+        return wrongIndices.sort((a, b) => a - b);
+    }
+
+    // =====================
     // QUESTION RENDERING
     // =====================
     renderQuestion() {
         const q = this.questions[this.currentQuestionIndex];
         if (!q) return;
 
-        // Header
+        // Header with question number from original unit
         this.ui.questionCounter.innerText = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
-        this.ui.unitBadge.innerText = `Unidad ${q.unidad}`;
+        this.ui.unitBadge.innerText = `Unidad ${q.unidad} · Pregunta ${q.numero}`;
         this.ui.scoreVal.innerText = this.score;
         this.ui.progressBar.style.width = `${((this.currentQuestionIndex + 1) / this.questions.length) * 100}%`;
 
         // Question
         this.ui.questionText.innerHTML = q.pregunta;
 
-        // Pending
+        // Update counts
+        this.ui.pendingCount.innerText = this.pendingQuestions.size > 0 ? this.pendingQuestions.size : '';
+        const wrongCount = this.getWrongAnswerIndices().length;
+        this.ui.wrongCount.innerText = wrongCount > 0 ? wrongCount : '';
+
+        // Pending button style
         const isPending = this.pendingQuestions.has(this.currentQuestionIndex);
-        this.ui.btnPending.innerHTML = isPending ? '✅' : '📝';
-        this.ui.btnPending.style.background = isPending ? 'rgba(255, 167, 38, 0.2)' : '';
+        this.ui.btnPending.style.background = isPending ? 'rgba(255, 167, 38, 0.3)' : '';
+        this.ui.btnPending.style.borderColor = isPending ? 'var(--pending-color)' : '';
 
         // Options
         this.ui.optionsContainer.innerHTML = '';
@@ -534,7 +706,7 @@ class QuizApp {
 
     showPendingList() {
         if (this.pendingQuestions.size === 0) {
-            alert("No hay pendientes");
+            alert("No hay preguntas marcadas");
             return;
         }
 
@@ -542,9 +714,10 @@ class QuizApp {
         const list = Array.from(this.pendingQuestions).sort((a, b) => a - b);
 
         list.forEach(idx => {
+            const q = this.questions[idx];
             const item = document.createElement('div');
             item.className = 'pending-item';
-            item.innerText = `Pregunta ${idx + 1} (Unidad ${this.questions[idx].unidad})`;
+            item.innerText = `Pregunta ${idx + 1} (Unidad ${q.unidad} · P${q.numero})`;
             item.onclick = () => {
                 this.currentQuestionIndex = idx;
                 this.renderQuestion();
@@ -554,6 +727,33 @@ class QuizApp {
         });
 
         this.ui.modalPending.classList.remove('hidden');
+    }
+
+    showWrongList() {
+        const wrongIndices = this.getWrongAnswerIndices();
+
+        if (wrongIndices.length === 0) {
+            alert("¡No hay preguntas falladas! 🎉");
+            return;
+        }
+
+        this.ui.wrongList.innerHTML = '';
+
+        wrongIndices.forEach(idx => {
+            const q = this.questions[idx];
+            const item = document.createElement('div');
+            item.className = 'pending-item';
+            item.style.borderLeft = '3px solid var(--incorrect-color)';
+            item.innerText = `Pregunta ${idx + 1} (Unidad ${q.unidad} · P${q.numero})`;
+            item.onclick = () => {
+                this.currentQuestionIndex = idx;
+                this.renderQuestion();
+                this.ui.modalWrong.classList.add('hidden');
+            };
+            this.ui.wrongList.appendChild(item);
+        });
+
+        this.ui.modalWrong.classList.remove('hidden');
     }
 
     showResults() {
@@ -580,6 +780,10 @@ class QuizApp {
             this.ui.resultsIcon.textContent = '📚';
             this.ui.resultsTitle.textContent = 'Sigue estudiando';
         }
+
+        // Show/hide review button based on wrong answers
+        const wrongCount = this.getWrongAnswerIndices().length;
+        this.ui.btnReviewWrong.style.display = wrongCount > 0 ? 'block' : 'none';
 
         this.ui.modalResults.classList.remove('hidden');
     }
