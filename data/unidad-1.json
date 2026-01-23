@@ -12,7 +12,8 @@
         "d": "Todas las respuestas anteriores son correctas."
       },
       "respuesta_correcta": "d",
-      "explicacion": "La economía clásica clasifica los factores de producción en tres grandes grupos: Tierra (Recursos naturales), Trabajo (Mano de obra y tiempo humano) y Capital (Bienes producidos que sirven para producir). Por tanto, la respuesta correcta es 'Todas las anteriores'."
+      "explicacion": "La economía clásica clasifica los factores de producción en tres grandes grupos: Tierra (Recursos naturales), Trabajo (Mano de obra y tiempo humano) y Capital (Bienes producidos que sirven para producir). Por tanto, la respuesta correcta es 'Todas las anteriores'.",
+      "imagen": "test_icon.png"
     },
     {
       "numero": 2,

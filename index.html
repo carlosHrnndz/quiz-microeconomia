@@ -61,6 +61,8 @@
                 <p class="mode-desc" id="mode-description">Responde preguntas y obtén tu puntuación.</p>
                 <div style="margin-top: 10px;">
                     <button id="btn-stats" class="nav-btn secondary full-width">📊 Ver Estadísticas</button>
+                    <button id="btn-ranking" class="nav-btn secondary full-width" style="margin-top: 8px;">🏆 Ranking
+                        Global</button>
                 </div>
             </div>
 
@@ -246,6 +248,33 @@
                 </button>
                 <button id="btn-restart-results" class="nav-btn primary full-width">Volver al Inicio</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Leaderboard Modal -->
+    <div id="modal-leaderboard" class="modal hidden">
+        <div class="modal-content ranking-modal-content">
+            <h3>🏆 Tabla de Clasificación</h3>
+            <div id="leaderboard-list" class="leaderboard-list">
+                <div class="empty-state">Cargando...</div>
+            </div>
+
+            <div class="submit-score-section">
+                <input type="text" id="username-input" class="session-input" placeholder="Tu nombre" maxlength="15">
+                <button id="btn-submit-score" class="nav-btn primary full-width" style="margin-top: 5px;">Enviar mi
+                    Puntuación</button>
+            </div>
+
+            <button id="btn-close-leaderboard" class="nav-btn secondary full-width"
+                style="margin-top: 15px;">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Image Zoom Modal -->
+    <div id="modal-image-zoom" class="modal hidden">
+        <div class="modal-content image-zoom-content">
+            <span class="close-zoom">&times;</span>
+            <img id="zoomed-image" class="zoomed-image" src="" alt="Zoom">
         </div>
     </div>
 

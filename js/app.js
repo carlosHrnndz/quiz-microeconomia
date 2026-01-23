@@ -33,7 +33,9 @@ class QuizApp {
             totalAttempts: 0,
             totalCorrect: 0,
             unitStats: {},
-            questionHistory: {}
+            unitStats: {},
+            questionHistory: {},
+            srsData: {} // V7: SRS { id: { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 } }
         };
 
         // Swipe vars
@@ -114,7 +116,12 @@ class QuizApp {
             statWrong: document.getElementById('stat-wrong'),
             statScore: document.getElementById('stat-score'),
             btnRestartResults: document.getElementById('btn-restart-results'),
-            btnReviewWrong: document.getElementById('btn-review-wrong')
+            btnReviewWrong: document.getElementById('btn-review-wrong'),
+
+            // V7 Visuals Zoom
+            modalImageZoom: document.getElementById('modal-image-zoom'),
+            zoomedImage: document.getElementById('zoomed-image'),
+            btnCloseZoom: document.querySelector('.close-zoom')
         };
 
         this.init();
@@ -128,6 +135,19 @@ class QuizApp {
         this.setupSplash();
         this.bindQuizEvents();
         this.setupSwipe();
+
+        // V7 Visuals Zoom Bind
+        if (this.ui.btnCloseZoom) {
+            this.ui.btnCloseZoom.onclick = () => this.ui.modalImageZoom.classList.add('hidden');
+            this.ui.modalImageZoom.onclick = (e) => {
+                if (e.target === this.ui.modalImageZoom) this.ui.modalImageZoom.classList.add('hidden');
+            }
+        }
+    }
+
+    openZoom(src) {
+        this.ui.zoomedImage.src = src;
+        this.ui.modalImageZoom.classList.remove('hidden');
     }
 
     // =====================
@@ -460,11 +480,39 @@ class QuizApp {
             }
             filtered.sort((a, b) => a.unidad - b.unidad || a.numero - b.numero);
         } else if (this.mode === 'smart') {
-            filtered.sort((a, b) => {
-                const sA = this.globalStats.questionHistory[a.id] || { wrong: 0 };
-                const sB = this.globalStats.questionHistory[b.id] || { wrong: 0 };
-                return sB.wrong - sA.wrong;
-            });
+            // V7 SRS Logic
+            const now = Date.now();
+            if (this.globalStats.srsData && Object.keys(this.globalStats.srsData).length > 0) {
+                // Filter items due for review
+                filtered = filtered.filter(q => {
+                    const srs = this.globalStats.srsData[q.id];
+                    return !srs || srs.nextReview <= now; // Include seen-and-due OR never-seen-in-srs (optional, but maybe stick to seen)
+                });
+
+                // If filtering reduced it too much (e.g. < 10), maybe add some new ones or oldest reviews?
+                // For now, let's keep it strict: only what needs review.
+                if (filtered.length === 0) {
+                    alert("¡No tienes repasos pendientes! Se añadirán preguntas difíciles.");
+                    // Fallback to old logic (most wrong)
+                    filtered = this.allQuestions.filter(q => this.selectedUnits.has(Number(q.unidad)));
+                } else {
+                    // Sort by relative urgency (who is most overdue?)
+                    // overflow = now - nextReview. Bigger is more overdue.
+                    filtered.sort((a, b) => {
+                        const sA = this.globalStats.srsData[a.id] ? (now - this.globalStats.srsData[a.id].nextReview) : 0;
+                        const sB = this.globalStats.srsData[b.id] ? (now - this.globalStats.srsData[b.id].nextReview) : 0;
+                        return sB - sA;
+                    });
+                }
+            } else {
+                // Fallback V5 logic
+                filtered.sort((a, b) => {
+                    const sA = this.globalStats.questionHistory[a.id] || { wrong: 0 };
+                    const sB = this.globalStats.questionHistory[b.id] || { wrong: 0 };
+                    return sB.wrong - sA.wrong;
+                });
+            }
+
             if (filtered.length > 50) filtered = filtered.slice(0, 50);
         }
 
@@ -492,7 +540,22 @@ class QuizApp {
         this.ui.scoreVal.innerText = this.score;
         this.ui.progressBar.style.width = `${((this.currentQuestionIndex + 1) / this.questions.length) * 100}%`;
 
-        this.ui.questionText.innerHTML = q.pregunta;
+        // V7 Visuals
+        let html = '';
+        if (q.imagen) {
+            html += `<div class="question-image-container">
+                <img src="data/img/${q.imagen}" class="question-image" onclick="new QuizApp().openZoom('data/img/${q.imagen}')" alt="Imagen pregunta">
+            </div>`;
+        }
+        html += q.pregunta;
+        this.ui.questionText.innerHTML = html;
+
+        // Re-bind zoom click manually since onclick in template string might lose context or scope issues
+        // Better: Delegate or bind after HTML set
+        const imgEl = this.ui.questionText.querySelector('.question-image');
+        if (imgEl) {
+            imgEl.onclick = () => this.openZoom(`data/img/${q.imagen}`);
+        }
 
         const isPending = this.pendingQuestions.has(this.currentQuestionIndex);
         this.ui.btnPending.style.background = isPending ? 'rgba(255, 167, 38, 0.3)' : '';
@@ -577,7 +640,36 @@ class QuizApp {
         if (isCorrect) this.globalStats.questionHistory[qid].correct++;
         else this.globalStats.questionHistory[qid].wrong++;
 
+        this.updateSRS(qid, isCorrect);
         this.saveProgress();
+    }
+
+    // V7: SM-2 Simplified Algorithm
+    updateSRS(qid, isCorrect) {
+        if (!this.globalStats.srsData) this.globalStats.srsData = {};
+
+        let item = this.globalStats.srsData[qid] || { interval: 0, repetitions: 0, ef: 2.5, nextReview: 0 };
+
+        if (isCorrect) {
+            if (item.repetitions === 0) item.interval = 1;
+            else if (item.repetitions === 1) item.interval = 6;
+            else item.interval = Math.round(item.interval * item.ef);
+
+            item.repetitions++;
+            if (item.ef < 2.5) item.ef += 0.1;
+        } else {
+            item.repetitions = 0;
+            item.interval = 0; // Reset to learn again
+            item.ef = Math.max(1.3, item.ef - 0.2);
+        }
+
+        // Calculate next review in ms
+        const daysInMs = 24 * 60 * 60 * 1000;
+        // If interval is 0 (wrong), review now (or very soon, e.g. 1 min, but 0 keeps it in pool)
+        // If interval > 0, review in X days
+        item.nextReview = Date.now() + (item.interval * daysInMs);
+
+        this.globalStats.srsData[qid] = item;
     }
 
     showStats() {
@@ -733,6 +825,87 @@ class QuizApp {
             if (this.touchStartX - e.changedTouches[0].screenX > 80) this.nextQuestion();
             if (e.changedTouches[0].screenX - this.touchStartX > 80) this.prevQuestion();
         }, { passive: true });
+    }
+
+    // V7 Leaderboard Methods
+    async openLeaderboard() {
+        this.ui.modalLeaderboard.classList.remove('hidden');
+        this.ui.leaderboardList.innerHTML = '<div class="empty-state">Cargando ranking...</div>';
+
+        if (!this.firebaseInitialized) {
+            this.ui.leaderboardList.innerHTML = '<div class="empty-state">Error: No conectado a la nube.</div>';
+            return;
+        }
+
+        try {
+            const ref = firebase.database().ref('leaderboard');
+            const snapshot = await ref.orderByChild('score').limitToLast(20).once('value');
+
+            const entries = [];
+            snapshot.forEach(child => entries.push(child.val()));
+            entries.reverse(); // Highest first
+
+            this.ui.leaderboardList.innerHTML = '';
+            if (entries.length === 0) {
+                this.ui.leaderboardList.innerHTML = '<div class="empty-state">Aún no hay puntuaciones. ¡Sé el primero!</div>';
+                return;
+            }
+
+            entries.forEach((entry, index) => {
+                const div = document.createElement('div');
+                div.className = 'leaderboard-item'; // Styles needed
+                // Calculate simple efficiency or just show raw
+                const acc = entry.total > 0 ? Math.round((entry.correct / entry.total) * 100) : 0;
+
+                div.innerHTML = `
+                    <div class="rank-badge ${index < 3 ? 'top-rank' : ''}">${index + 1}</div>
+                    <div class="rank-info">
+                        <div class="rank-name">${entry.username}</div>
+                        <div class="rank-details">${entry.correct} aciertos · ${acc}% precisión</div>
+                    </div>
+                    <div class="rank-score">${entry.score} pts</div>
+                `;
+                this.ui.leaderboardList.appendChild(div);
+            });
+
+        } catch (e) {
+            console.error(e);
+            this.ui.leaderboardList.innerHTML = '<div class="empty-state">Error al cargar datos.</div>';
+        }
+    }
+
+    async submitScore() {
+        const username = this.ui.usernameInput.value.trim();
+        if (username.length < 3) { alert("Nombre muy corto"); return; }
+
+        if (!this.firebaseInitialized) return;
+
+        // Custom Score Algo: Correct * 10 + (Correct/Total * 100)
+        const total = this.globalStats.totalAttempts || 0;
+        const correct = this.globalStats.totalCorrect || 0;
+        if (total < 10) { alert("Responde al menos 10 preguntas para aparecer en el ranking."); return; }
+
+        const accuracy = total > 0 ? (correct / total) : 0;
+        const points = Math.round((correct * 10) + (accuracy * 100));
+
+        const data = {
+            username: username,
+            correct: correct,
+            total: total,
+            score: points,
+            timestamp: Date.now()
+        };
+
+        try {
+            // Use push to create unique ID
+            // Ideally we check if user exists to update, but simple push is okay for v1
+            await firebase.database().ref('leaderboard').push(data);
+            alert("¡Puntuación enviada!");
+            this.ui.usernameInput.value = '';
+            this.openLeaderboard(); // refresh
+        } catch (e) {
+            alert("Error al enviar");
+        }
     }
 }
 
