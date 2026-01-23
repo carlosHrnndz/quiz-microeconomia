@@ -44,15 +44,24 @@
             <!-- Mode Selection -->
             <div class="splash-section">
                 <h3>Modo</h3>
-                <div class="mode-toggle">
+                <div class="mode-grid">
                     <button id="mode-quiz" class="mode-btn active" data-mode="quiz">
                         🎓 Quiz
+                    </button>
+                    <button id="mode-exam" class="mode-btn" data-mode="exam">
+                        ⏱️ Examen
+                    </button>
+                    <button id="mode-smart" class="mode-btn" data-mode="smart">
+                        🧠 Repaso
                     </button>
                     <button id="mode-study" class="mode-btn" data-mode="study">
                         📖 Estudio
                     </button>
                 </div>
                 <p class="mode-desc" id="mode-description">Responde preguntas y obtén tu puntuación.</p>
+                <div style="margin-top: 10px;">
+                    <button id="btn-stats" class="nav-btn secondary full-width">📊 Ver Estadísticas</button>
+                </div>
             </div>
 
             <!-- Unit Selection -->
@@ -160,6 +169,32 @@
                 <!-- List items -->
             </div>
             <button id="btn-close-wrong-modal" class="nav-btn secondary full-width">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Stats Modal -->
+    <div id="modal-stats" class="modal hidden">
+        <div class="modal-content stats-modal-content">
+            <h3>📊 Progreso y Estadísticas</h3>
+
+            <div class="stats-overview">
+                <div class="stat-card">
+                    <span class="stat-num" id="global-accuracy">0%</span>
+                    <span class="stat-lbl">Precisión Global</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-num" id="total-answered">0</span>
+                    <span class="stat-lbl">Preguntas Respondidas</span>
+                </div>
+            </div>
+
+            <h4>Unidades más débiles (¡Estúdialas!)</h4>
+            <div id="weak-units-list" class="weak-list">
+                <!-- Injected JS -->
+                <div class="empty-state">No hay datos suficientes aún.</div>
+            </div>
+
+            <button id="btn-close-stats" class="nav-btn secondary full-width" style="margin-top: 20px;">Cerrar</button>
         </div>
     </div>
 
