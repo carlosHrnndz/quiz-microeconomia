@@ -1151,3 +1151,38 @@ body.light-theme {
     color: var(--text-secondary);
     margin-bottom: 4px;
 }
+
+/* Explanation Box (V7) */
+.explanation-container {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(66, 165, 245, 0.15);
+    border-radius: 12px;
+    border-left: 4px solid var(--accent-color);
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    animation: fadeIn 0.3s ease;
+}
+
+.explanation-container.hidden {
+    display: none;
+}
+
+.explanation-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.explanation-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-primary);
+    opacity: 0.9;
+}
+
+/* Light Theme Adjustment */
+body.light-theme .explanation-container {
+    background: rgba(66, 165, 245, 0.1);
+    border-color: var(--accent-color);
+}

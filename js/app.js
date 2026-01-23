@@ -91,6 +91,8 @@ class QuizApp {
             optionsContainer: document.getElementById('options-container'),
             feedbackArea: document.getElementById('feedback-area'),
             feedbackText: document.getElementById('feedback-text'),
+            explanationContainer: document.getElementById('explanation-container'),
+            explanationText: document.getElementById('explanation-text'),
             btnPrev: document.getElementById('btn-prev'),
             btnNext: document.getElementById('btn-next'),
             btnPending: document.getElementById('btn-pending'),
@@ -382,7 +384,8 @@ class QuizApp {
                         pregunta: q.pregunta || q.enunciado || q.texto,
                         opciones: q.opciones,
                         respuesta_correcta: (q.respuesta_correcta || q.correcta || '').toLowerCase().trim(),
-                        id: `u${unitNum}_q${qNum}`
+                        id: `u${unitNum}_q${qNum}`,
+                        explicacion: q.explicacion
                     });
                     this.unitQuestionCounts[unitNum] = (this.unitQuestionCounts[unitNum] || 0) + 1;
                 });
@@ -529,6 +532,20 @@ class QuizApp {
             this.ui.feedbackArea.classList.remove('hidden');
             this.ui.feedbackText.innerText = isCorrect ? "¡Correcto!" : `Incorrecto. Era ${q.respuesta_correcta.toUpperCase()}`;
             this.ui.feedbackArea.style.borderLeft = `4px solid ${isCorrect ? 'var(--correct-color)' : 'var(--incorrect-color)'}`;
+        }
+
+        // Show explanation if available and appropriate
+        if (showCorrect && q.explicacion) {
+            this.ui.explanationContainer.classList.remove('hidden');
+            this.ui.explanationText.innerText = q.explicacion;
+            // Ensure feedback area is visible if in Study mode (where userAnswer might be null)
+            if (this.mode === 'study' && !userAnswer) {
+                this.ui.feedbackArea.classList.remove('hidden');
+                this.ui.feedbackText.innerText = "Modo Estudio: Ver explicación abajo";
+                this.ui.feedbackArea.style.borderLeft = "4px solid var(--accent-color)";
+            }
+        } else {
+            this.ui.explanationContainer.classList.add('hidden');
         }
         this.saveProgress();
     }
