@@ -620,6 +620,14 @@ class QuizApp {
         this.ui.btnRestart.addEventListener('click', () => this.showSplash());
         this.ui.btnHome.addEventListener('click', () => this.showSplash());
 
+        this.ui.modeBtn.addEventListener('click', () => {
+            const newMode = this.mode === 'study' ? 'quiz' : 'study';
+            this.setMode(newMode);
+            const icons = { quiz: '🎓', exam: '⏱️', smart: '🧠', study: '📖' };
+            this.ui.modeBtn.innerText = icons[this.mode] || '🎓';
+            this.renderQuestion();
+        });
+
         this.ui.btnCloseModal.addEventListener('click', () => this.ui.modalPending.classList.add('hidden'));
         this.ui.btnCloseWrongModal.addEventListener('click', () => this.ui.modalWrong.classList.add('hidden'));
 
