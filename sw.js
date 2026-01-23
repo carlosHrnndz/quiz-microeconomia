@@ -1,4 +1,4 @@
-const CACHE_NAME = 'microquiz-v6.2-hotfix';
+const CACHE_NAME = 'microquiz-v7.0';
 const ASSETS = [
     './',
     './index.html',
