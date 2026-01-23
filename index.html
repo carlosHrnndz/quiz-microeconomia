@@ -90,6 +90,8 @@
         <!-- Header / Stats -->
         <header class="app-header">
             <div class="header-left">
+                <button id="btn-theme" class="icon-btn" title="Cambiar Tema">🌙</button>
+                <button id="btn-search" class="icon-btn" title="Buscar Pregunta">🔍</button>
                 <button id="btn-home" class="icon-btn" title="Menú Principal">
                     🏠
                 </button>
@@ -198,36 +200,59 @@
         </div>
     </div>
 
+    <!-- Search Modal -->
+    <div id="modal-search" class="modal hidden">
+        <div class="modal-content search-modal-content">
+            <h3>🔍 Buscar Pregunta</h3>
+            <input type="text" id="search-input" class="search-input" placeholder="Escribe para buscar...">
+            <div id="search-results" class="search-results-list">
+                <div class="empty-state">Escribe al menos 3 caracteres...</div>
+            </div>
+            <button id="btn-close-search" class="nav-btn secondary full-width" style="margin-top: 10px;">Cerrar</button>
+        </div>
+    </div>
+
     <!-- Results Modal -->
     <div id="modal-results" class="modal hidden">
         <div class="modal-content results-modal">
-            <div class="results-icon" id="results-icon">🏆</div>
-            <h2 id="results-title">¡Quiz Completado!</h2>
-            <div class="results-stats">
-                <div class="stat-item">
+            <h2 id="results-title">¡Completado!</h2>
+            <div class="results-icon" id="results-icon">🎉</div>
+
+            <div class="stats-grid">
+                <div class="stat-item correct">
                     <span class="stat-value" id="stat-correct">0</span>
                     <span class="stat-label">Correctas</span>
                 </div>
-                <div class="stat-item">
+                <div class="stat-item wrong">
                     <span class="stat-value" id="stat-wrong">0</span>
                     <span class="stat-label">Incorrectas</span>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-value" id="stat-score">0%</span>
-                    <span class="stat-label">Nota</span>
-                </div>
             </div>
+
+            <div class="score-display" id="stat-score">0%</div>
+
             <div class="results-actions">
-                <button id="btn-review-wrong" class="nav-btn wrong-btn full-width">❌ Repasar Falladas</button>
-                <button id="btn-restart-results" class="start-btn">Volver al inicio</button>
+                <button id="btn-review-wrong" class="nav-btn wrong-btn full-width"
+                    style="display: none; margin-bottom: 10px;">
+                    ❌ Repasar Falladas
+                </button>
+                <button id="btn-restart-results" class="nav-btn primary full-width">Volver al Inicio</button>
             </div>
         </div>
     </div>
 
-    <!-- Firebase SDK -->
+    <!-- Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').catch(err => console.log('SW ref failed', err));
+            });
+        }
+    </script>
 </body>
 
 </html>
