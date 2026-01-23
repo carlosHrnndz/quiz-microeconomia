@@ -1186,3 +1186,12 @@ body.light-theme .explanation-container {
     background: rgba(66, 165, 245, 0.1);
     border-color: var(--accent-color);
 }
+
+.splash-footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.6;
+}
