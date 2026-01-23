@@ -11,7 +11,8 @@
         "c": "Los partidarios de los economistas clásicos.",
         "d": "Las respuestas b y c son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "John Maynard Keynes defendía que, en tiempos de crisis, el mercado no se ajusta solo (o tarda demasiado) y el Estado debe intervenir aumentando el Gasto Público para estimular la demanda agregada."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Hay un régimen general de la Seguridad social.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El Estado del Bienestar es un pacto social donde el Estado garantiza servicios básicos (salud, educación, pensiones = C) financiados con impuestos altos (B) e interviniendo en la economía para redistribuir (A)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Los gastos de inversión y los gastos privados.",
         "d": "Los gastos privados, los gastos corrientes y los gastos de inversión del sector público."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Gasto Público (G) comprende tanto el gasto corriente (sueldos funcionarios, luz hospitales) como la inversión pública (carreteras, I+D). Los gastos privados NO son gasto público."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "El subsidio de jubilación.",
         "d": "Las respuestas a y c son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Las transferencias son pagos del Estado sin contraprestación directa de bienes o servicios (el Estado da dinero pero no recibe nada a cambio en ese momento). Ejemplos: pensiones, subsidio de desempleo."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "la redistribución de la riqueza.",
         "d": "Todas las respuestas son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "A través de impuestos progresivos (paga más quien más tiene), el Estado recauda fondos para financiar servicios públicos y transferencias para los más pobres, redistribuyendo así la renta."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Un desplazamiento de la curva de la demanda agregada hacia la derecha que sólo se mantiene a corto plazo.",
         "d": "No tiene repercusiones económicas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Si baja el Gasto Público (G), se reduce la Demanda Agregada (DA = C+I+G+X-M). Esto desplaza la curva DA a la izquierda, reduciendo el PIB (producción), el empleo y la inflación (precios)."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Se recogen los ingresos, los gastos públicos y la forma de financiarlos.",
         "d": "Se recogen únicamente los gastos públicos y la forma de financiarlos."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Los Presupuestos Generales del Estado (PGE) son el documento contable que prevé todos los Ingresos (impuestos) y autoriza todos los Gastos para un año, detallando también el déficit y cómo financiarlo (deuda)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Déficit presupuestario y superávit.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Déficit (Gastos > Ingresos), Superávit (Ingresos > Gastos) o Equilibrio (Ingresos = Gastos). Son los tres estados contables posibles."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Es una autorización administrativa que se obtiene para poder adquirir determinados bienes producidos en el exterior.",
         "d": "Establece una restricción cuantitativa voluntaria o negociada con los exportadores."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Una cuota de exportación (o restricción voluntaria) es un límite a la cantidad física que un país VENDE al exterior, generalmente pactado para evitar medidas proteccionistas más duras del país comprador."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Las empresas recurren a los mercados extranjeros para hacerse un hueco en ellos y disminuyen el precio que su producto tenía en el mercado nacional.",
         "d": "No está limitado por ningún arancel."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El dumping consiste en vender en el extranjero a un precio inferior al coste ('tirar precios') o inferior al precio en tu propio país, con el objetivo de eliminar a la competencia local. Es una práctica desleal prohibida por la OMC."
     }
   ]
 }

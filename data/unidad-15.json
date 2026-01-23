@@ -11,7 +11,8 @@
         "c": "Harold Helling.",
         "d": "Stuart Mill."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Henry George (1879) argumentó que la renta de la tierra es un ingreso no ganado (creado por la comunidad, no por el dueño), y propuso un 'Single Tax' del 100% sobre la renta de la tierra para financiar todo el estado."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Los árboles, la tierra y el agua.",
         "d": "Los minerales, los árboles y el agua."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "En economía clásica, el factor 'Tierra' incluye todos los regalos de la naturaleza: suelo cultivable, recursos hídricos, atmósfera, minerales, etc."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Los recursos originales.",
         "d": "Los recursos secundarios."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un recurso esencial es aquel indispensable para la vida o la producción y que no puede ser reemplazado por capital o tecnología (ej. el agua o la capa de ozono)."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "En los renovables.",
         "d": "En los no renovables."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "La economía (asignación de recursos escasos) se centra principalmente en recursos apropiables (con derechos de propiedad definidos), ya que son los que pueden intercambiarse en el mercado."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Los apropiables.",
         "d": "Los no apropiables."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Los recursos no apropiables (o de acceso libre, como el aire o los peces en alta mar) suelen ser gratuitos para el usuario, lo que a menudo lleva a su sobreexplotación (Tragedia de los Comunes)."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Thomas Malthus.",
         "d": "David Ricardo."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Malthus suele ser considerado precursor del ecologismo por su preocupación sobre los límites físicos de la tierra para alimentar a una población creciente."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Informe sobre los recursos naturales.",
         "d": "Informe sobre la tierra."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Informe Brundtland ('Nuestro Futuro Común') definió por primera vez el Desarrollo Sostenible: satisfacer las necesidades del presente sin comprometer las de las futuras generaciones."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Como un activo de capital.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Los recursos naturales se ven como 'Capital Natural'. Son un stock de activos que producen flujos de servicios y bienes a lo largo del tiempo. Agotarlos es descapitalizarse."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "De las existencias.",
         "d": "De la rentabilidad que se espera del recurso natural."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La decisión de extraer hoy o dejar para mañana (Hotel rule) depende de si la revalorización esperada del recurso enterrado supera a la rentabilidad de extraerlo e invertir el dinero (tasa de interés)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Precio de ahogo.",
         "d": "Precio de equilibrio."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El 'Choke Price' (Precio de ahogo) es el precio al que la demanda del recurso cae a cero, generalmente porque a ese precio ya sale rentable usar una tecnología sustitutiva (ej. energía solar vs petróleo)."
     }
   ]
 }

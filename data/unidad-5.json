@@ -11,7 +11,8 @@
         "c": "Es un consumidor que tiene una influencia real en los precios de mercado ya que puede hacer variar los precios si de forma continuada no demanda un determinado bien.",
         "d": "La respuesta b y c son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "En competencia perfecta, los consumidores son 'atomísticos' (muy pequeños en relación al mercado). Por tanto, sus decisiones individuales de comprar o no comprar no afectan al precio de mercado. Deben 'aceptar' el precio dado."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Se produce a la vez un desplazamiento de la recta de balance hacia el interior pero no se produce de forma proporcional.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Si aumenta la renta, el consumidor puede comprar más de ambos bienes. Esto desplaza la Restricción Presupuestaria (recta de balance) paralelamente hacia afuera (derecha)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Se produce a la vez un desplazamiento de la recta de balance hacia el exterior en la misma proporción.",
         "d": "No se produce un desplazamiento de la recta de balance."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Si disminuye la renta, el conjunto de oportunidades se reduce. La recta de balance se desplaza paralelamente hacia adentro (izquierda), indicando que ahora podemos comprar menos combinaciones de bienes."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Los consumidores siempre acaban comprando lo que necesitan.",
         "d": "La respuesta a y c son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Al bajar el precio de un bien (ceteris paribus), ocurren dos cosas: el bien se vuelve más barato relativamente (efecto sustitución) y nuestra renta real aumenta (efecto renta). Ambos efectos suelen llevar a comprar más cantidad de X."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Nos muestra todas las combinaciones de bienes que puede comprar el consumidor y dentro de ella hay la combinación mejor para el consumidor.",
         "d": "La respuesta a y c son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Una curva de indiferencia une todos los puntos (cestas de consumo) que le reportan al individuo exactamente la misma utilidad o satisfacción. Al consumidor le da igual ('es indiferente') elegir cualquiera de esos puntos."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Es una curva cóncava.",
         "d": "Es una línea recta."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Si dos bienes son sustitutos perfectos (ej. bolígrafos azules y negros), el consumidor siempre está dispuesto a cambiar uno por otro a una tasa constante. Esto hace que la Tasa Marginal de Sustitución sea constante y la curva sea una línea recta con pendiente negativa."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Son bienes que reportan una utilidad y necesariamente se tienen que consumir de manera conjunta.",
         "d": "La respuesta b y c son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Los complementarios perfectos (ej. zapato izquierdo y derecho) se consumen siempre en proporciones fijas. Tener más de uno sin el otro no aporta utilidad. Esto genera curvas de indiferencia en forma de 'L' (ángulo recto)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Cuando elija la combinación que se encuentre situada en el punto de la recta de balance que sea tangente a la curva de indiferencia más elevada posible.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El óptimo se alcanza donde el consumidor gasta todo su presupuesto (está en la recta de balance) y alcanza la mayor utilidad posible. Gráficamente, es el punto de tangencia donde la pendiente de la restricción presupuestaria iguala a la RMS (pendiente de la curva de indiferencia)."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Son aquellos que a medida que aumenta la renta familiar también aumenta porcentualmente su presencia en los presupuestos de las familias.",
         "d": "Son aquellos que a medida que aumenta la renta familiar se dejan de consumir para poder consumir los bienes de lujo."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Los bienes de primera necesidad (pan, luz) son bienes normales (elasticidad renta positiva) pero inelásticos (menor que 1). Si nuestra renta se duplica, consumimos más pan, pero no el doble de pan."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Son aquellos que a medida que aumenta la renta familiar también aumenta porcentualmente su presencia en los presupuestos de las familias.",
         "d": "Todas las repuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Un bien de lujo tiene elasticidad renta mayor que 1. Si tu renta aumenta un 10%, el consumo de bienes de lujo aumenta más de un 10% (ej. viajes, joyas). Su participación en el presupuesto crece con la riqueza."
     }
   ]
 }

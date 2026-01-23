@@ -11,7 +11,8 @@
         "c": "El equilibrio entre la oferta y la demanda de trabajo.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "En economía, el salario se considera simplemente como el precio que equilibra el mercado del factor producción 'Trabajo' (L)."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "El precio del trabajo.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Como en cualquier mercado, la interacción de oferta y demanda determina dos variables: el Precio (Salario) y la Cantidad de equilibrio (Nivel de empleo/ocupación)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Un instrumento para la perpetuación las diferencias de clase.",
         "d": "Un instrumento para crec analfabetos."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "John Stuart Mill criticó que la educación victoriana, lejos de igualar oportunidades, servía para mantener el status quo y asegurar que los hijos de las clases altas mantuvieran su posición privilegiada."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Salario de compensación.",
         "d": "Salario legal."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Salario de Reserva es el umbral mínimo por debajo del cual una persona prefiere quedarse en casa (ocio o labores domésticas) antes que trabajar. Si el salario de mercado es menor al de reserva, no trabajará."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "El efecto de compensación y el efecto trabajo.",
         "d": "El efecto sustitución y el efecto renta."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Al subir el salario hay dos fuerzas opuestas: Efecto Sustitución (el ocio es más caro, trabajo más) y Efecto Renta (soy más rico, puedo permitirme trabajar menos y disfrutar más). La curva de oferta de trabajo puede curvarse hacia atrás si domina el efecto renta."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Cuando coinciden la oferta y la demanda.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "La empresa contrata hasta que lo que el último trabajador aporta (Valor de la Productividad Marginal) es igual a lo que le cuesta (Salario/Coste Factor Marginal)."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Cuando hay un sólo comprador y muchos vendedores.",
         "d": "Cuando hay varios compradores y varios vendedores."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Monopsonio laboral: Mucha gente queriendo trabajar (vendedores de trabajo) pero una única empresa contratando (comprador de trabajo)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "La exclusividad.",
         "d": "La negociación."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "En un monopolio bilateral (Sindicato único vs Patronal única), no hay una solución de mercado automática. El salario final depende puramente del poder de negociación (fuerza de huelga vs resistencia empresarial)."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "De la formación de los trabajadores.",
         "d": "De la aparición de nuevas empresas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Los cambios estructurales (de agrícola a industrial, o a servicios) cambian la demanda relativa de habilidades, creando diferencias salariales entre sectores en auge y en declive."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Capital humano.",
         "d": "Capital inherente."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El Capital Humano (Gary Becker) es el conjunto de conocimientos, habilidades y salud que los trabajadores acumulan (vía educación y experiencia) y que aumenta su productividad."
     }
   ]
 }

@@ -11,7 +11,8 @@
         "c": "Los ingresos menos los gastos menos los beneficios.",
         "d": "Los ingresos menos los gastos más los beneficios."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La identidad fundamental del ahorro (S) es que es la parte de la Renta Disponible (Y) que no se consume (C). S = Y - C."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "El consumo deseado.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El 'Consumo Deseado' es la planificación óptima de las familias sobre cuánto gastar hoy basándose en sus expectativas de renta presente y futura (Hipótesis del Ciclo Vital o Renta Permanente)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "La inflación deseada.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Para un ahorrador neto, si suben los tipos de interés, obtiene más rentas de sus ahorros. Al sentirse más rico (efecto renta), tiende a consumir más hoy y, por lo tanto, a ahorrar menos 'extra' de lo que tendría que ahorrar antes para el mismo objetivo."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "A sus activos dividido entre sus deudas o pasivos.",
         "d": "A sus activos multiplicado por sus deudas o pasivos."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La Riqueza Nacional Neta es la suma de todos los activos reales y financieros del país menos todas las deudas contraídas con el exterior."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Efecto-causa de interés real en el ahorro.",
         "d": "Efecto-directo de interés real en el ahorro."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El efecto renta captura el cambio en el poder adquisitivo. Si eres deudor y suben los tipos, eres más pobre (tienes que pagar más intereses) y consumes menos. Si eres acreedor, eres más rico y consumes más."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Efecto-causa de interés real en el ahorro.",
         "d": "Efecto-directo de interés real en el ahorro."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "El efecto sustitución siempre actúa en la misma dirección: si sube el tipo de interés, consumir hoy es 'más caro' (renuncias a más intereses futuros). Por tanto, sustituyes consumo presente por consumo futuro -> Ahorras más."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Proposición de la equivalencia de Smith.",
         "d": "Proposición de la equivalencia de Blanchart."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "La Equivalencia Ricardiana sugiere que si el gobierno baja impuestos hoy pero no baja gastos, tendrá que subirlos mañana para pagar la deuda. Los consumidores racionales anticipan esto, ahorran el recorte fiscal para pagar los impuestos futuros, y el consumo no cambia."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Cuál debe ser el producto marginal futuro del capital antes de impuestos para que una empresa esté dispuesta a adquirir una unidad más de capital.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Las empresas invierten hasta que el beneficio marginal de la inversión iguala su coste de uso. Los impuestos distorsionan este coste, aumentando el retorno requerido antes de impuestos."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "El stock de capital se queda igual.",
         "d": "El stock de capital aumenta."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La variación del capital es Inversión Neta = Inversión Bruta - Depreciación. Si la bruta supera al desgaste (depreciación), la capacidad productiva del país (stock de capital) crece."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "El ahorro nacional deseado es igual al consumo óptimo.",
         "d": "El ahorro nacional deseado es igual a la inversión deseada."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "En una economía cerrada, el equilibrio macroeconómico fundamental se da cuando el Ahorro Nacional (S) financia exactamente la Inversión Deseada (I). S = I."
     }
   ]
 }

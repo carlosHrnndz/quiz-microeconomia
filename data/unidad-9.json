@@ -11,7 +11,8 @@
         "c": "Están integrados por un número muy elevado de vendedores y compradores y estos tienen una influencia real sobre el precio.",
         "d": "Están integrados por pocos productores de un determinado bien y muchos consumidores."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La característica clave de la competencia perfecta es la 'atomicidad': hay tantos agentes pequeños que ninguno tiene poder de mercado. El precio es un dato externo (precio-aceptantes)."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Están compuestos por un número de empresas que producen bienes y servicios parecidos pero diferenciados.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un monopolio (del griego 'mono' = uno, 'polein' = vender) se define por la existencia de un único oferente que abastece a todo el mercado, enfrentándose él solo a toda la curva de demanda."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Existen barreras de entradas perfectas",
         "d": "Hay muchos consumidores y productores."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "En competencia perfecta, NO existen barreras de entrada ni de salida (libertad de entrada). Si existieran barreras 'perfectas', sería imposible que nuevas empresas entraran, lo que llevaría a monopolios u oligopolios."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Las empresas no son precio-aceptantes.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En competencia perfecta, el mercado es una 'subasta gigante' donde la interacción libre de la oferta agregada y demanda agregada determina el precio de equilibrio que todos deben aceptar."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Tiene forma de U.",
         "d": "Es en forma de ángulos."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Aunque la demanda del mercado tiene pendiente negativa, la demanda PERCIBIDA por una sola empresa pequeña es una línea horizontal al precio de mercado. Puede vender todo lo que quiera a ese precio, pero nada si lo sube un céntimo (elasticidad infinita)."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Si el precio es inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "El Beneficio unitario es Precio - Coste Medio. Por tanto, para tener beneficios positivos, el Precio debe ser mayor que el Coste Total Medio (CTMi)."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Si el precio del producto es superior al coste total medio.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Si pierdes dinero (P < CTMi) pero cubres tus costes variables (P > CVMi), te conviene seguir produciendo para pagar una parte de los costes fijos. Si cerraras, perderías todos los costes fijos. Es la zona de 'minimización de pérdidas'."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "El precio del producto sea inferior al coste variable medio.",
         "d": "El precio del producto sea superior a CTMi e inferior al CVMi, y el coste fijo sea recuperable."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Si el precio no cubre ni siquiera los costes variables (luz, materiales), cada unidad que produces aumenta tus pérdidas. En este caso, el 'Punto de Cierre' se alcanza y lo mejor es cerrar inmediatamente."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Implica que haya una igualdad entre el precio del producto y CTMi.",
         "d": "Las respuestas a y c son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Los beneficios actúan como un imán. Si un sector es muy rentable, nuevas empresas entrarán atraídas por el lucro. Esto aumentará la oferta, bajará el precio y eliminará los beneficios extraordinarios hasta volver al beneficio normal."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Es decreciente.",
         "d": "Es en forma de U."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En una industria de costes constantes, la oferta a largo plazo es horizontal al nivel del coste medio mínimo a largo plazo. Cualquier aumento de demanda se satisface con la entrada de más empresas, manteniendo el precio constante."
     }
   ]
 }

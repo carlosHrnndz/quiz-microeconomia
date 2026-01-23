@@ -11,7 +11,8 @@
         "c": "El rendimiento.",
         "d": "La variabilidad."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Valor Esperado (Esperanza Matemática) es el promedio ponderado de los resultados posibles de una lotería. (Ej: 50% de ganar 100€ y 50% de ganar 0€ -> Valor Esperado 50€)."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Rendimiento.",
         "d": "Variabilidad."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La variabilidad (medida típicamente por la desviación típica o varianza) indica cuánto se alejan los resultados posibles del valor medio. A mayor variabilidad, mayor riesgo."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "El rendimiento.",
         "d": "La variabilidad."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La probabilidad es la medida numérica (entre 0 y 1) de la verosimilitud de que ocurra un evento."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Sí, cuando son negativas.",
         "d": "Sí, cuando son positivas, no cuando son negativas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Las desviaciones simples suman cero (las positivas cancelan las negativas). Por eso para medir la variabilidad elevamos al cuadrado (Varianza) o usamos valor absoluto."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "La utilidad óptima.",
         "d": "La utilidad por el riesgo."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "La Teoría de la Utilidad Esperada (Von Neumann-Morgenstern) dice que los individuos racionales maximizan el promedio ponderado de la UTILIDAD de los resultados, no el valor monetario. Esto explica la aversión al riesgo."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Amante del riesgo.",
         "d": "Pasivo ante el riesgo."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un individuo 'averso' o 'renuente' al riesgo tiene una función de utilidad cóncava (utilidad marginal decreciente). Prefiere 50€ seguros a un cara o cruz de 100€/0€, aunque el valor esperado sea el mismo."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Prima por peligro concreto.",
         "d": "Prima por el riesgo."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La prima de riesgo es lo que estás dispuesto a 'perder' de valor esperado con tal de tener seguridad (ej. lo que pagas a una aseguradora por encima del coste justo)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Actuarialmente justo.",
         "d": "Ajuste justo."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Un seguro es 'actuarialmente justo' si la prima es exactamente igual a la pérdida esperada (Probabilidad x Pérdida). Las aseguradoras normalmente cobran más para cubrir costes y beneficios."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Activo positivo.",
         "d": "Activo negativo."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un activo arriesgado (como acciones o bonos basura) tiene retornos futuros no garantizados, a diferencia de un activo libre de riesgo (como letras del tesoro a corto plazo)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Anclaje.",
         "d": "Fijación."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El sesgo de 'Anclaje' (Anchoring) ocurre cuando confiamos demasiado en la primera información que recibimos ('ancla') para tomar decisiones posteriores, aunque sea irrelevante."
     }
   ]
 }

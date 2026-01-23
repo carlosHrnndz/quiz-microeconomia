@@ -11,7 +11,8 @@
         "c": "Equilibrio de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Equilibrio de Nash (por John Nash) es una situación donde nadie quiere cambiar su estrategia unilateralmente, porque cada uno está haciendo lo mejor que puede DADO lo que están haciendo los demás."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Bidosonio.",
         "d": "Duopsonio."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Duopolio es el caso más simple de oligopolio, donde solo existen dos productores (ej. Coca-Cola vs Pepsi en algunos contextos, o Airbus vs Boeing)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "En el modelo de Cournot, las empresas compiten eligiendo CANTIDADES (outputs) simultáneamente. Asumen que el rival no cambiará su producción."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Equilibrio de Cournot.",
         "d": "Equilibrio de Hotelling."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El Equilibrio de Cournot es un tipo de Equilibrio de Nash aplicado al modelo de competencia por cantidades. Se da donde se cruzan las 'curvas de reacción' de ambas empresas."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "En el modelo de Stackelberg hay un 'líder' que decide primero y un 'seguidor' que decide después. El líder tiene ventaja ('ventaja del primer movimiento') porque puede anticipar la reacción del seguidor."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En el modelo de Bertrand, las empresas compiten eligiendo PRECIOS. Si el bien es homogéneo, la competencia por precios lleva resultados extremos: el precio cae hasta igualar el coste marginal (como en competencia perfecta), aunque solo haya 2 empresas."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Norteamericano.",
         "d": "Sueco."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Harold Hotelling (1895-1973) fue un estadístico y economista estadounidense famoso por su modelo de localización (por qué las tiendas similares se ponen juntas)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Supone una gran oferta de productos en los mercados oligopolísticos.",
         "d": "Las respuestas b y c son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Dilema del Prisionero demuestra que, aunque la cooperación (no confesar) sería lo mejor para el grupo, los incentivos individuales llevan a competir (traicionar), resultando en un equilibrio peor para ambos."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Monopolio.",
         "d": "Maximín."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un cártel (como la OPEP) es un acuerdo formal para reducir la competencia, comportándose conjuntamente como si fueran un monopolio para subir precios y beneficios."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "La elasticidad de los precios.",
         "d": "La fluctuación de los precios."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "El modelo de la 'Demanda Quebrada' explica la rigidez de precios en oligopolio: si subes precio, los rivales no te siguen y pierdes ventas; si bajas, te siguen y ganas poco. Por eso, los precios tienden a no moverse."
     }
   ]
 }

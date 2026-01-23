@@ -4,36 +4,39 @@
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "Los beneficios de la empresa se calculan de la siguiente manera...",
-      "opciones": {
-        "a": "Ingresos totales menos costes totales.",
-        "b": "Ingresos totales menos costes fijos.",
-        "c": "Ingresos totales menos costes variables.",
-        "d": "Ingresos totales menos costes marginales."
-      },
-      "respuesta_correcta": "a"
-    },
-    {
-      "numero": 2,
-      "pregunta": "Los coste implícitos son...",
-      "opciones": {
-        "a": "Son aquellos que exigen a la empresa que haga un desembolso de dinero.",
-        "b": "Son aquellos que no exigen un desembolso de dinero.",
-        "c": "Las materias primas.",
-        "d": "Los salarios de los trabajadores."
-      },
-      "respuesta_correcta": "b"
-    },
-    {
-      "numero": 3,
       "pregunta": "Los costes fijos...",
       "opciones": {
-        "a": "Son aquellos que se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
-        "b": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y dependen del volumen de producción.",
+        "a": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
+        "b": "Son los edificios.",
         "c": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Los costes fijos (CF) no varían con la cantidad producida (Q). Ejemplos típicos son el alquiler o los seguros. Se pagan igual produzcas 0 o produzcas 1000 unidades, y a corto plazo son inevitables."
+    },
+    {
+      "numero": 2,
+      "pregunta": "Los costes variables...",
+      "opciones": {
+        "a": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
+        "b": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
+        "c": "Son aquellos que aumentan o disminuyen cuando la producción de la empresa aumenta o disminuye.",
+        "d": "Son la mano de obra directa."
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "Los costes variables (CV) dependen directamente del nivel de actividad. Si produces más coches, necesitas más acero y más ruedas. Si cierras la fábrica temporalmente, los costes variables caen a cero."
+    },
+    {
+      "numero": 3,
+      "pregunta": "Los costes totales...",
+      "opciones": {
+        "a": "La suma de los costes fijos y variables.",
+        "b": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
+        "c": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
+        "d": "Todas las respuestas anteriores son incorrectas."
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "Por definición contable y económica, el Coste Total (CT) es la suma de los Costes Fijos (CF) más los Costes Variables (CV)."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Son los edificios.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Un coste fijo recuperable es un activo que puedes revender si sales del mercado (ej. un edificio o un coche, opción B y C). Si el coste fuera 'hundido' o irrecuperable (ej. publicidad ya emitida), no se podría recuperar."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Es el salario de los trabajadores.",
         "d": "Es aquel que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Coste Marginal (CMg) es fundamental en economía: responde a la pregunta '¿cuánto me cuesta producir LA ÚLTIMA unidad?'. Matemáticamente es la derivada del Coste Total respecto a la Cantidad."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "El precio de venta del producto o servicio por el número de unidades vendidas.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El Ingreso Total (IT) es simplemente Precio x Cantidad (P x Q). No se debe confundir con el Beneficio (que es Ingreso - Coste)."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "El beneficio económico siempre es negativo.",
         "d": "El beneficio económico siempre es nulo."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "El beneficio contable solo resta gastos explícitos. El beneficio ECONÓMICO resta también los costes de oportunidad (lo que podrías ganar en otra actividad). Por eso, puedes tener ganancias contables pero pérdidas económicas si tu capital estaría mejor invertido en bonos del tesoro."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "El beneficio económico será nulo o negativo.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Si ya pierdes dinero contablemente (Ingresos < Gastos explícitos), seguro que también pierdes económicamente, porque al restar además el coste de oportunidad, el resultado será aún más negativo."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Si los beneficios contables son inferiores al coste de oportunidad.",
         "d": "Las repuestas a y b son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Beneficio normal (o nulo) significa que la empresa gana exactamente lo mismo que ganaría en su mejor alternativa. Contablemente gana dinero, pero económicamente está 'en paz' con el coste de oportunidad."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Ingreso total=coste marginal.",
         "d": "Beneficio total=coste marginal."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Regla de oro de maximización: Producir hasta que IMg = CMg. Si producir una unidad más te aporta más ingreso que coste (IMg > CMg), debes producirla. Si te cuesta más de lo que ganas (CMg > IMg), no debes."
     }
   ]
 }

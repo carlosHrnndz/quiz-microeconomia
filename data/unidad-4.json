@@ -4,47 +4,51 @@
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "¿De qué factores depende la demanda de un bien?",
+      "pregunta": "¿Qué ocurre si se establece un precio mínimo por encima del equilibrio?",
       "opciones": {
-        "a": "Del precio.",
-        "b": "De la renta de los consumidores.",
-        "c": "Del precio de los bienes sustitutos.",
-        "d": "Todas las respuestas anteriores son correctas."
+        "a": "Exceso de demanda.",
+        "b": "Exceso de oferta.",
+        "c": "Equilibrio.",
+        "d": "Déficit."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "b",
+      "explicacion": "Un precio mínimo efectivo (alto) incentiva a los productores a ofrecer mucho, pero disuade a los consumidores de comprar. El resultado es que sobra producto (exceso de oferta), como ocurre con los excedentes agrícolas en la UE."
     },
     {
       "numero": 2,
-      "pregunta": "Cuando existen bienes sustitutos la demanda...",
+      "pregunta": "La mano invisible de Adam Smith sugiere que...",
       "opciones": {
-        "a": "Es muy elástica con respecto al precio.",
-        "b": "Es poco elástica con respecto al precio.",
-        "c": "No se ve afectada por la elasticidad respecto del precio.",
-        "d": "Todas las respuestas son incorrectas."
+        "a": "El Estado debe intervenir siempre.",
+        "b": "El egoísmo individual lleva al bienestar colectivo.",
+        "c": "Los mercados siempre fallan.",
+        "d": "La caridad es el motor de la economía."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "b",
+      "explicacion": "La metáfora de la 'mano invisible' explica cómo los individuos, buscando su propio interés (ganar dinero), acaban produciendo lo que la sociedad necesita y al mejor precio posible, promoviendo el bienestar general sin proponérselo."
     },
     {
       "numero": 3,
-      "pregunta": "Los consumidores comprarán todo lo que puedan a un único precio...",
+      "pregunta": "¿Cuál es la función del precio en una economía de mercado?",
       "opciones": {
-        "a": "Ante una demanda completamente inelástica.",
-        "b": "Ante una demanda muy elástica.",
-        "c": "Ante una demanda infinitamente elástica.",
-        "d": "Ante una demanda poco elástica."
+        "a": "Solo medir valor.",
+        "b": "Transmitir señales e incentivos.",
+        "c": "Enriquecer a los ricos.",
+        "d": "Garantizar la justicia."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "b",
+      "explicacion": "Los precios actúan como un sistema de señales: si un precio sube, indica escasez y 'llama' a más productores a entrar; si baja, indica abundancia y sugiere a los productores que se vayan a otro sector."
     },
     {
       "numero": 4,
-      "pregunta": "¿En qué bienes la demanda es más elástica a corto plazo que a largo plazo?",
+      "pregunta": "En un mercado de competencia perfecta, las empresas son...",
       "opciones": {
-        "a": "Lavadoras.",
-        "b": "Hornos.",
-        "c": "Automóviles.",
-        "d": "Todas las respuestas son correctas."
+        "a": "Precio-decisoras.",
+        "b": "Precio-aceptantes.",
+        "c": "Monopolistas.",
+        "d": "Oligopolistas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "b",
+      "explicacion": "En competencia perfecta hay tantas empresas pequeñas vendiendo lo mismo que ninguna tiene fuerza para influir en el precio. Deben 'aceptar' el precio que marca el mercado."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "A corto plazo la demanda de gasolina se desploma.",
         "d": "A corto plazo aumentan las ventas de coches híbridos y eléctricos."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La demanda de gasolina es muy inelástica a corto plazo porque la gente necesita conducir para ir a trabajar y no puede cambiar de coche o de hábitos inmediatamente. Por eso, aunque suba el precio, la cantidad consumida varía poco al principio."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Más inelástica con respecto al precio a largo plazo que a corto plazo.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "A largo plazo, la oferta es más elástica porque las empresas tienen tiempo para construir nuevas fábricas, contratar personal o cerrar si no son rentables. A corto plazo están atadas a su capacidad instalada (capital fijo)."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Completamente inelástica.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "A corto plazo, el número de pisos en una calle concreta es fijo. No se pueden construir más de la noche a la mañana. La curva de oferta es una línea vertical (perfectamente inelástica)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "En los bienes fungibles.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En bienes duraderos (que se pueden reciclar o revender, como el cobre o coches usados), la oferta a corto plazo puede ser muy elástica porque si el precio sube, sale oferta 'secundaria' (chatarra) rápidamente. A largo plazo, depende de la minería, que es más lenta."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "1976.",
         "d": "1978."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Este es un dato histórico específico sobre la crisis del café provocada por las heladas en Brasil. En 1977, el precio se disparó debido a un shock de oferta negativo enorme."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Recuperan su elasticidad.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Tras un shock inicial (oferta inelástica a muy corto plazo), a medio plazo (un año), los productores de otros países aumentan su producción y los consumidores sustituyen el bien, por lo que tanto oferta como demanda se vuelven más elásticas."
     }
   ]
 }

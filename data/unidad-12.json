@@ -11,7 +11,8 @@
         "c": "Una externalidad afirmativa.",
         "d": "Una externalidad solidaria."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Una externalidad positiva ocurre cuando mi actividad (ej. vacunar a mis hijos, investigar tecnología, cuidar mi jardín) genera beneficios indirectos a terceros por los que no recibo compensación."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Las que deciden ellos y las que decide la sociedad",
         "d": "La preferencia del consumidor y las que decide el vendedor"
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En modelos con externalidades, tu bienestar depende de tus decisiones (qué comes) y de decisiones ajenas que no controlas (cuánto contaminan los demás)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Un elevado precio del producto.",
         "d": "Mala gestión en la empresa."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Si contaminar es gratis (barato para la empresa), producirán más de lo socialmente óptimo. El mercado 'falla' por exceso de provisión de bienes contaminantes."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Es aquel en el que el precio del producto es igual al coste social marginal (CSM) de producción.",
         "d": "Es aquel en el que el precio de producir es igual al coste de venta más impuestos."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "La eficiencia social requiere que el precio (lo que la gente valora el bien) cubra TODOS los costes, incluyendo el Coste Social Marginal (Coste privado + Daño externo)."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Igual que el coste marginal.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Coste Social Marginal = Coste Privado Marginal + Coste Externo Marginal (Daño). Por tanto, si hay daño, el Coste Social > Coste Privado."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Beneficio social marginal.",
         "d": "Beneficio externo marginal."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Igual que con los costes, el Beneficio Social es la suma de lo que gana el comprador individual (Privado) más lo que gana el resto de la sociedad (Externo) gracias a esa actividad."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Teorema de Corpase.",
         "d": "Teorema de Coes."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Ronald Coase (Nobel) argumentó que si los costes de transacción son nulos y los derechos están bien definidos, las partes negociarán privadamente hasta la solución eficiente, sin necesidad de intervención estatal."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Impuestos roussonianos.",
         "d": "Impuestos pigouvianos."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Arthur Pigou propuso gravar (impuesto) a quien contamina por un valor igual al daño causado. Así se 'internaliza' la externalidad: el que contamina, paga."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Bien público.",
         "d": "Bien privado."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "La 'rivalidad' en el consumo significa que si yo como una manzana, tú no puedes comer esa misma manzana. Los bienes privados son rivales. (El aire limpio típicamente no es rival)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Sobre bienes absolutos.",
         "d": "Sobre bienes parciales."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Los Bienes Privados Puros se caracterizan por ser Excluyentes (hay que pagar) y Rivales (se gastan al usarse). Ej: comida, ropa, gasolina."
     }
   ]
 }
