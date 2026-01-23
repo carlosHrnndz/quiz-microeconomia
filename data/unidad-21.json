@@ -11,7 +11,8 @@
         "c": "Por el equilibrio en la renta nacional.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "A corto plazo las fluctuaciones se deben a la Demanda (Keynes), pero a largo plazo el crecimiento económico solo es posible si aumenta la Capacidad Productiva (Oferta Agregada): más fábricas, mejores trabajadores, mejor tecnología."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Conlleva un aumento de la calidad de vida de población.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El crecimiento económico (aumento continuo del PIB real) es la base para mejorar el bienestar material: permite más consumo, mayores beneficios y salarios, y financia mejores servicios públicos."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Solow.",
         "d": "Marx."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "El Modelo de Solow-Swan es el pilar del crecimiento neoclásico. Demostró que acumular capital (máquinas) no basta por los rendimientos decrecientes; la clave a largo plazo es el Progreso Tecnológico (eficacia/productividad total de los factores)."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Considera que la inversión en formación es imprescindible para conseguir una buena calidad de trabajo que permitirá el desarrollo económico.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Surgida en la CEPAL (Prebisch), sostiene que la economía mundial es desigual: el 'Centro' rico explota a la 'Periferia' pobre, que exporta materias primas baratas e importa manufacturas caras, perpetuando su subdesarrollo."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "La fase de depresión.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La economía nunca crece en línea recta. Oscila entre fases positivas (recuperación, expansión/auge) y negativas (desaceleración, recesión, fondo/depresión)."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Keynes.",
         "d": "Ricardo."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Joseph Schumpeter acuñó el concepto de 'Destrucción Creativa'. Los ciclos económicos están impulsados por oleadas de innovaciones tecnológicas (vapor, electricidad, internet) que destruyen lo viejo y crean lo nuevo."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Keynes.",
         "d": "Ricardo."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Keynes diagnosticó que las crisis no se curan solas porque puede haber una insuficiencia crónica de Demanda Agregada (subconsumo/exceso de ahorro), llevando a un equilibrio con desempleo."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Los efectos que tiene en el medio ambiente la producción y el consumo de bienes y servicios.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El PIB mide producción, no bienestar. No dice si la riqueza está en manos de uno solo (desigualdad), si estamos destruyendo el planeta (medio ambiente) o si la gente es feliz."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "La existencia de democracia en el país donde viven.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El IDH (PNUD) corrige al PIB integrando tres dimensiones: Salud (esperanza de vida), Educación (años de escolaridad) y Nivel de Vida (PIB per cápita)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "En América del Norte y Asia.",
         "d": "En Europa y Oceanía."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "A pesar del rápido crecimiento de China e India, el África Subsahariana y el Sur de Asia siguen concentrando la gran mayoría de personas que viven con menos de 1,90$ al día."
     }
   ]
 }

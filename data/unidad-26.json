@@ -11,7 +11,8 @@
         "c": "Solamente en la renta disponible.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Al cambiar los Impuestos (T), el Estado afecta directamente a la Renta Disponible de las familias. Al cambiar el Gasto Público (G), afecta directamente a la Demanda Agregada."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Para realizar transferencias sin ninguna contrapartida.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Gasto Corriente cubre el funcionamiento diario del Estado: sueldos de médicos y profesores, medicinas, luz de los colegios... (La opción A se referiría a Gasto de Inversión)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Son fruto de los impuestos directos que recaen sobre el patrimonio y las rentas de los sujetos pasivos.",
         "d": "Son fruto de los impuestos indirectos."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Los ingresos fiscales provienen de impuestos directos (IRPF sobre renta, Impuesto Patrimonio) e indirectos (IVA sobre consumo). La respuesta C es la más completa referida a la imposición directa."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Sólo persigue aumentar la renta del país.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Una política expansiva busca 'expandir' la economía: aumentar el PIB y el empleo. Para ello intenta aumentar la Demanda Agregada gastando más (G) o bajando impuestos (T)."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Tiene como finalidad frenar la demanda agregada y el nivel de renta de la economía.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Se usa para 'enfriar' la economía cuando hay riesgo de inflación alta. Al reducir G o subir T, se reduce la demanda y se frenan los precios."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Sólo se tradujo en una caída de la producción, ya que la ocupación aumentó con la ruralización de las sociedades industriales.",
         "d": "Todas las respuestas son incorrectas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La Gran Depresión de los años 30 se caracterizó por una deflación brutal y tasas de desempleo (desocupación) que llegaron al 25% en EEUU."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Aumenta los impuestos y esto permite a las familiar tener una mayor renta disponible, y consiguientemente, poder consumir más.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Una de las dos vías expansivas es bajar impuestos. Si el Estado te quita menos dinero, tienes más Renta Disponible, gastas más (Consumo) y la economía se mueve."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Los impuestos y las transferencias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Son mecanismos que suavizan el ciclo sin que el gobierno haga nada nuevo. En recesión, la recaudación de impuestos baja sola (pagas menos porque ganas menos) y el subsidio de paro sube solo (transferencia), sosteniendo la renta."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Las transferencias.",
         "d": "La emisión de deuda pública y los créditos al Banco Central."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Para financiar déficits fiscales, el Estado emite Deuda Pública (bonos). Históricamente también podía pedir créditos directos a su Banco Central (monetización), práctica hoy prohibida en la Eurozona."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "La evolución y el crecimiento de la economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El Pacto de Estabilidad y Crecimiento exige a los países presentar Programas de Estabilidad detallando sus previsiones de crecimiento, deuda y déficit a medio plazo."
     }
   ]
 }

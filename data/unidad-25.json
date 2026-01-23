@@ -4,36 +4,39 @@
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "La inflación...",
+      "pregunta": "¿Qué variables distingue la macroeconomía?",
       "opciones": {
-        "a": "Consiste en un aumento continuo y generalizado de los precios de los bienes y servicios de una economía.",
-        "b": "Consiste en una reducción continua y generalizada de los precios de los bienes y servicios de una economía.",
-        "c": "Implica un aumento del valor del dinero.",
-        "d": "Las respuestas a) y c) son correctas."
+        "a": "Variables reales y variables nominales.",
+        "b": "Variables reales y variables monetarias.",
+        "c": "Variables nominales y variables monetarias.",
+        "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La distinción clásica en macroeconomía es entre variables Nominales (medidas en euros corrientes, afectadas por precios) y Reales (medidas en bienes físicos, ajustadas por inflación)."
     },
     {
       "numero": 2,
-      "pregunta": "La inflación se puede medir por...",
+      "pregunta": "¿Qué es la inflación?",
       "opciones": {
-        "a": "El índice de precios al consumo (IPC).",
-        "b": "El deflector implícito del PIB.",
-        "c": "El Índice de Precios Industriales y los costes laborales.",
-        "d": "Todas las respuestas anteriores son correctas."
+        "a": "El crecimiento continuo y generalizado de los precios de los bienes y servicios.",
+        "b": "El crecimiento de los precios de los bienes y servicios.",
+        "c": "El crecimiento continuo de los precios de los bienes.",
+        "d": "El crecimiento generalizado de los precios de los bienes y servicios."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "a",
+      "explicacion": "Para que sea inflación, la subida de precios debe ser general (afecta a casi todo) y sostenida en el tiempo (continua), no un evento puntual."
     },
     {
       "numero": 3,
-      "pregunta": "Para calcular el IPC hay que tener en cuenta...",
+      "pregunta": "¿Qué conceptos permiten distinguir la inflación?",
       "opciones": {
-        "a": "Los grupos de precios que tenemos que utilizar y la ponderación de los precios de los bienes de consumo.",
-        "b": "Los grupos de precios que tenemos que utilizar y la totalidad de los precios de cada uno de los bienes que cada familia compra.",
-        "c": "Los valores reales y los nominales del PIB, afectados por los incrementos de precios de bienes y servicios.",
+        "a": "Los valores reales y los nominales del PIB, afectados por los incrementos de precios de bienes y servicios.",
+        "b": "Los valores reales.",
+        "c": "Los valores nominales.",
         "d": "Los salarios de los trabajadores en relación con la productividad."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La inflación es precisamente la 'brecha' o diferencia de crecimiento entre las magnitudes nominales (que crecen con los precios) y las reales (que crecen con la producción física)."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "El índice de precios al consumo (IPC), el deflector implícito del PIB y el Índice de Precios Industriales y los costes laborales.",
         "d": "El índice de precios al consumo (IPC) y el índice de precios de consumo armonizado (IPCA)."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El IPCA (Armonizado) usa una cesta y metodología idéntica para todos los países miembros, permitiendo comparar si la inflación en España es mayor o menor que en Alemania."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Si la gente quiere comprar más cosas (Demanda Agregada alta) de las que las fábricas pueden producir (Oferta Agregada limitada), los precios suben ('demasiado dinero persiguiendo muy pocos bienes')."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Milton Friedman (Monetarismo) sentenció: 'La inflación es siempre y en todo lugar un fenómeno monetario'. Se produce cuando el Banco Central imprime dinero más rápido de lo que crece la producción real."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Encarece el precio nominal del dinero.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La inflación erosiona el poder adquisitivo (A), introduce incertidumbre que frena la inversión (B) y eleva los tipos de interés nominales (C)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Disminuyendo el gasto.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Para enfriar la demanda se aplican políticas contractivas: Monetarias (subir tipos para que sea caro pedir crédito) o Fiscales (subir impuestos o bajar gasto público para quitar dinero del bolsillo de la gente)."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Ausencia de fuertes subidas en los precios de la energía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La 'Gran Moderación' (1990-2008) se logró combinando bancos centrales independientes (control monetario), disciplina fiscal y globalización/liberalización que bajó costes."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Pleno empleo.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Aunque para el BCE el objetivo prioritario es la estabilidad de precios (control inflación), en general la política monetaria busca el equilibrio mágico: crecimiento sostenido y pleno empleo con precios estables."
     }
   ]
 }

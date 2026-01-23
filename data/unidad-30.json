@@ -11,7 +11,8 @@
         "c": "Los turistas americanos que vengan a Europa podrán comprar más bienes con la misma cantidad de dólares.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Una disminución del tipo de cambio (definido como $/€) significa una depreciación del euro. El euro vale menos dólares (b), por lo que hacen falta más euros para comprar un dólar (a), y los turistas con dólares tienen más poder adquisitivo en Europa (c)."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Diremos que ha aumentado la cantidad de euros que hay que entregar para adquirir una unidad de dólares.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Si el tipo de cambio $/€ aumenta, significa que el euro se aprecia respecto al dólar (cada euro compra más dólares)."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Los exportadores nacionales (los turistas o las empresas estadounidenses)",
         "d": "Las personas y empresas que quieren comprar activos financieros estadounidenses."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "La demanda de euros proviene de extranjeros que necesitan euros para comprar nuestros bienes (exportadores) o invertir aquí, y de turistas extranjeros (como los estadounidenses) que visitan la Eurozona."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Es decreciente y tiene pendiente positiva.",
         "d": "Es creciente y tiene pendiente positiva."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Como cualquier curva de demanda normal, es decreciente (pendiente negativa). Cuanto más caro es el euro (mayor tipo de cambio), menor cantidad de euros se demandarán."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Hay un aumento de los precios nacionales.",
         "d": "Hay una reducción de los precios extranjeros."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Si aumenta la renta extranjera (ej. EEUU crece), sus ciudadanos importarán más bienes europeos, aumentando la demanda de euros para pagarlos."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Es decreciente y tiene pendiente positiva.",
         "d": "Es creciente y tiene pendiente positiva."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La curva de oferta de euros tiene pendiente positiva. Cuanto mayor es el tipo de cambio ($/€), más euros ofrecerán los europeos para comprar dólares baratos y bienes extranjeros."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Sólo cuando haya reducción de los precios extranjeros.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "La oferta de euros aumenta (se desplaza a la derecha) cuando importamos más. Esto ocurre si: nuestra renta sube (compramos más fuera), nuestros precios suben (lo de fuera es más barato relativo), o los precios extranjeros bajan."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Es el mercado con el juego de la demanda y la oferta de divisas el que determina el tipo de cambio, pero en determinadas situaciones puede intervenir el Banco Central Europeo.",
         "d": "Los bancos centrales no están obligados a intervenir de forma constante para mantener el tipo de cambio siempre en el tipo de cambio oficial."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "En tipo de cambio fijo, el Banco Central se compromete a mantener un valor oficial, comprando o vendiendo divisas (interviniendo) constantemente para absorber excesos de oferta o demanda."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Que continúe la incertidumbre con el tipo de cambio.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La moneda única elimina el riesgo cambiario interno (a) y obliga a converger en inflación (b) para no perder competitividad, ya que no se puede devaluar."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Mercados financieros más potentes.",
         "d": "Mejora en las finanzas públicas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "El principal coste de la unión monetaria es la pérdida de la política monetaria y cambiaria nacional. Ante una crisis asimétrica, España no puede devaluar para ganar competitividad externa rápidamente."
     }
   ]
 }

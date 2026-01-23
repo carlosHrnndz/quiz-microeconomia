@@ -11,7 +11,8 @@
         "c": "John M. Keynes.",
         "d": "Karl Marx."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Adam Smith (La Riqueza de las Naciones, 1776) argumentó que si un país es más eficiente produciendo vino y otro produciendo telas (ventaja absoluta), ambos ganan intercambiando."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Más competencia en las economías nacionales.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El comercio intraindustrial (ej. Alemania vende BMW a Francia y Francia vende Peugeot a Alemania) no se explica por ventajas comparativas, sino por economías de escala (producir mucho es barato) y amor por la variedad del consumidor."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Las subvenciones a la exportación.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La política comercial (proteccionista) usa tres armas principales: Impuestos en frontera (aranceles), límites de cantidad (cuotas/contingentes) y ayudas directas a sus empresas para vender fuera (subvenciones)."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Las subvenciones a la exportación.",
         "d": "Las barreras no arancelarias."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Un contingente o cuota ('quota') dice: 'Solo pueden entrar 1000 coches japoneses este año'. A diferencia del arancel (que sube el precio), la cuota limita físicamente la cantidad."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Barreras no arancelarias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Las Barreras No Arancelarias son regulaciones (sanitarias, técnicas, ecológicas) que, bajo la excusa de proteger al consumidor, dificultan en la práctica la entrada de productos extranjeros."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Barreras no arancelarias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Una subvención a la exportación es un pago (o perdón fiscal) del gobierno a la empresa que exporta. Esto le permite vender más barato en el extranjero (dumping) y ganar cuota de mercado artificialmente."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "La partida de errores y omisiones.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La estructura estándar (FMI) de la Balanza de Pagos tiene tres grandes cuentas: Corriente (bienes, servicios, rentas), Capital (transferencias capital) y Financiera (inversiones). Y una cuenta de cierre para cuadrar (Errores)."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Los servicios de seguros.",
         "d": "Precios y cualidad."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "La competitividad comercial se reduce finalmente a la relación Calidad-Precio. Si ofreces lo mismo más barato, o algo mejor al mismo precio, ganarás mercado."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "En la balanza de transferencias.",
         "d": "En la balanza de servicios."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Las ayudas de la PAC que recibe España de Bruselas son transferencias corrientes unilaterales (dinero sin contrapartida directa de bienes). Van a la Balanza de Transferencias Corrientes (dentro de la Cuenta Corriente)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Ha gastado más de lo que ingresa, necesita financiación exterior para poder obtener recursos corrientes.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Tener capacidad o necesidad de financiación depende de la Cuenta Corriente + Capital. Si es positiva (Superávit), hemos ahorrado más de lo invertido y prestamos dinero al resto del mundo (somos acreedores netos)."
     }
   ]
 }

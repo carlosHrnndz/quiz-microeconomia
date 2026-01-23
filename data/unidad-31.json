@@ -11,7 +11,8 @@
         "c": "La relación entre la tasa de inflación y el tipo de interés nominal en el Reino Unido desde 1861 hasta 1957.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Phillips encontró una fuerte correlación negativa histórica: cuando el paro era bajo, la inflación (salarios) era alta, y viceversa. Parecía haber un 'menú' estable de elección política."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "En la década de 1960.",
         "d": "Nunca."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "En los 70, la estanflación (paro alto + inflación alta) destruyó la correlación original. La curva de Phillips se desplazó hacia arriba."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "Espiral de salarios y precios.",
         "d": "Espiral de precios e inflación."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Bajo paro -> Sindicatos fuertes -> Suben salarios -> Empresas suben precios para mantener margen -> Trabajadores piden más salario por la inflación... Es la espiral salarios-precios."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "Nunca desapareció. Sigue en vigor y se estudia hoy en vigor por su validez indiscutida.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "Fue una tormenta perfecta: los shocks de oferta (petróleo) subieron costes, y los agentes cambiaron sus 'expectativas', anticipando que la inflación sería alta permanentemente, rompiendo el anclaje anterior."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "M. Friedman y E. Phelps.",
         "d": "M. Friedman y J. M. Keynes."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Milton Friedman y Edmund Phelps predijeron (antes de que ocurriera) que la curva de Phillips a largo plazo era vertical: no se puede 'comprar' menos paro con más inflación indefinidamente."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Como la tasa de desempleo necesaria para aumentar la inflación.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Es la definición moderna de NAIRU (Non-Accelerating Inflation Rate of Unemployment). Si el desempleo real es igual a la tasa natural, la inflación no cambia."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Del 2,3%.",
         "d": "Del 7%."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Históricamente, Japón mantuvo tasas de desempleo envidiablemente bajas (cercanas al pleno empleo técnico) gracias a su sistema laboral de por vida y estructura social, aunque subió tras la 'Década Perdida' de los 90."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Personal poco calificado.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El paro estructural en España es un problema crónico y complejo. Se atribuye a rigideces del mercado laboral, dualidad (fijos vs temporales), desajuste educativo y baja productividad media."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "Del 6%.",
         "d": "Del 3,5%."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "A finales de los 90, Europa sufría de 'eurosclerosis', con tasas de paro de doble dígito, muy superiores a las de EEUU en esa misma época."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Del 10,6%.",
         "d": "Del 6%."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Durante la Edad de Oro del crecimiento europeo, el problema del paro era inexistente; de hecho, países como Alemania importaban mano de obra masiva ('Gastarbeiter') porque no tenían trabajadores suficientes."
     }
   ]
 }

@@ -11,7 +11,8 @@
         "c": "Regular la cantidad de dinero que hay en la economía, pero nunca supervisa el sistema bancario.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El Banco Central tiene una doble misión fundamental: es la Autoridad Monetaria (controla la oferta de dinero y tipos de interés) y el Supervisor Bancario (vigila la solvencia de los bancos comerciales)."
     },
     {
       "numero": 2,
@@ -22,7 +23,8 @@
         "c": "Están dirigidas por la Reserva Federal de los Estados Unidos de América.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "Al entrar en el Euro, el Banco de España transfirió su soberanía monetaria a Frankfurt. Ahora ejecuta las decisiones que toma el Consejo de Gobierno del BCE."
     },
     {
       "numero": 3,
@@ -33,7 +35,8 @@
         "c": "El euro.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El Mercado Único financiero requiere libre circulación de dinero (capitales), que un banco francés pueda operar en España (servicios) y una moneda común (Euro) para eliminar el riesgo de cambio."
     },
     {
       "numero": 4,
@@ -44,7 +47,8 @@
         "c": "El Banco de Santander.",
         "d": "El Banco Central Europeo."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El BCE tiene el monopolio de la política monetaria para los países de la zona euro: decide los tipos de interés oficiales y la cantidad de dinero."
     },
     {
       "numero": 5,
@@ -55,7 +59,8 @@
         "c": "Los Bancos Centrales nacionales de los Estados que están excluidos temporalmente de la Unión monetaria.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El SEBC incluye al BCE y a TODOS los bancos centrales de la UE, usen el euro (Eurosistema) o no (como Suecia o Polonia)."
     },
     {
       "numero": 6,
@@ -66,7 +71,8 @@
         "c": "Representan las reservas de oro de un país.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "a"
+      "respuesta_correcta": "a",
+      "explicacion": "Los activos reales son bienes tangibles (maquinaria, edificios, tierras) que producen bienes y servicios, a diferencia de los activos financieros, que son derechos sobre esos activos reales."
     },
     {
       "numero": 7,
@@ -77,7 +83,8 @@
         "c": "Instrumentos estabilizadores de la política monetaria.",
         "d": "Instrumentos desestabilizadores de la política fiscal."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Son la principal herramienta del BCE para controlar los tipos de interés y la liquidez: compra y vende bonos a los bancos comerciales para inyectar o drenar dinero del sistema."
     },
     {
       "numero": 8,
@@ -88,7 +95,8 @@
         "c": "Expansiva o contractiva.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c"
+      "respuesta_correcta": "c",
+      "explicacion": "Expansiva (bajar tipos, inyectar dinero) para luchar contra la recesión/deflación. Contractiva (subir tipos, retirar dinero) para luchar contra la inflación."
     },
     {
       "numero": 9,
@@ -99,7 +107,8 @@
         "c": "No lleva a cabo ninguna política económica.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b"
+      "respuesta_correcta": "b",
+      "explicacion": "El mandato único y principal del BCE (a diferencia de la Fed) es mantener la inflación cerca, pero por debajo, del 2% (política antiinflacionista)."
     },
     {
       "numero": 10,
@@ -110,7 +119,8 @@
         "c": "Son instrumentos de política monetaria que tienen como objetivo estabilizar los tipos de interés a corto plazo.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "d"
+      "respuesta_correcta": "d",
+      "explicacion": "El Coeficiente de Caja (reservas mínimas) obliga a los bancos a 'congelar' un % de sus depósitos en el Banco Central. Esto crea una demanda estructural de liquidez y estabiliza los tipos de interés interbancarios."
     }
   ]
 }
