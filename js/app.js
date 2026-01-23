@@ -432,6 +432,19 @@ class QuizApp {
         this.ui.btnStart.style.opacity = count === 0 ? '0.5' : '1';
     }
 
+    showSplash() {
+        this.ui.quizApp.classList.add('hidden');
+        this.ui.splashScreen.classList.remove('hidden');
+        this.ui.modalResults.classList.add('hidden');
+        this.ui.modalPending.classList.add('hidden');
+        this.ui.modalWrong.classList.add('hidden');
+        this.ui.modalStats.classList.add('hidden');
+        this.ui.modalSearch.classList.add('hidden');
+
+        // Update selection if needed (e.g. if we want to refresh grid)
+        this.updateSelectedCount();
+    }
+
     startQuiz() {
         this.saveSessionCode();
         let filtered = this.allQuestions.filter(q => this.selectedUnits.has(Number(q.unidad)));
