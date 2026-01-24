@@ -1,42 +1,42 @@
 {
   "unidad": 25,
-  "titulo": "Examen Unidad 25",
+  "titulo": "Macroeconomía: Conceptos de Inflación",
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "¿Qué variables distingue la macroeconomía?",
+      "pregunta": "La inflación...",
       "opciones": {
-        "a": "Variables reales y variables nominales.",
-        "b": "Variables reales y variables monetarias.",
-        "c": "Variables nominales y variables monetarias.",
-        "d": "Todas las respuestas anteriores son correctas."
+        "a": "Consiste en un aumento continuo y generalizado de los precios de los bienes y servicios de una economía.",
+        "b": "Consiste en una reducción continua y generalizada de los precios de los bienes y servicios de una economía.",
+        "c": "Implica un aumento del valor del dinero.",
+        "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La distinción clásica en macroeconomía es entre variables Nominales (medidas en euros corrientes, afectadas por precios) y Reales (medidas en bienes físicos, ajustadas por inflación)."
+      "explicacion": "La inflación se define técnicamente como el incremento sostenido y generalizado del nivel de precios de bienes y servicios en un periodo de tiempo, lo que conlleva una pérdida del poder adquisitivo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
-      "pregunta": "¿Qué es la inflación?",
+      "pregunta": "La inflación se puede medir por...",
       "opciones": {
-        "a": "El crecimiento continuo y generalizado de los precios de los bienes y servicios.",
-        "b": "El crecimiento de los precios de los bienes y servicios.",
-        "c": "El crecimiento continuo de los precios de los bienes.",
-        "d": "El crecimiento generalizado de los precios de los bienes y servicios."
+        "a": "El índice de precios al consumo (IPC).",
+        "b": "El deflector implícito del PIB.",
+        "c": "El Índice de Precios Industriales y los costes laborales.",
+        "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Para que sea inflación, la subida de precios debe ser general (afecta a casi todo) y sostenida en el tiempo (continua), no un evento puntual."
+      "explicacion": "Existen múltiples indicadores para medir la evolución de los precios: el IPC se centra en el consumo familiar, el deflactor del PIB en toda la producción nacional, y los índices industriales o de costes laborales analizan la inflación desde la perspectiva de la producción.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 3,
-      "pregunta": "¿Qué conceptos permiten distinguir la inflación?",
+      "pregunta": "Para calcular el IPC hay que tener en cuenta...",
       "opciones": {
-        "a": "Los valores reales y los nominales del PIB, afectados por los incrementos de precios de bienes y servicios.",
-        "b": "Los valores reales.",
-        "c": "Los valores nominales.",
+        "a": "Los grupos de precios que tenemos que utilizar y la ponderación de los precios de los bienes de consumo.",
+        "b": "Los grupos de precios que tenemos que utilizar y la totalidad de los precios de cada uno de los bienes que cada familia compra.",
+        "c": "Los valores reales y los nominales del PIB, afectados por los incrementos de precios de bienes y servicios.",
         "d": "Los salarios de los trabajadores en relación con la productividad."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La inflación es precisamente la 'brecha' o diferencia de crecimiento entre las magnitudes nominales (que crecen con los precios) y las reales (que crecen con la producción física)."
+      "explicacion": "El cálculo del IPC requiere seleccionar una cesta representativa de bienes (grupos) y asignarles un peso o ponderación según la importancia que tienen en el presupuesto promedio de los consumidores.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "El índice de precios al consumo (IPC), el deflector implícito del PIB y el Índice de Precios Industriales y los costes laborales.",
         "d": "El índice de precios al consumo (IPC) y el índice de precios de consumo armonizado (IPCA)."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El IPCA (Armonizado) usa una cesta y metodología idéntica para todos los países miembros, permitiendo comparar si la inflación en España es mayor o menor que en Alemania."
+      "explicacion": "El IPCA es un indicador cuya metodología ha sido homogeneizada por la Unión Europea para que los datos de inflación de los distintos países miembros sean directamente comparables entre sí.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Si la gente quiere comprar más cosas (Demanda Agregada alta) de las que las fábricas pueden producir (Oferta Agregada limitada), los precios suben ('demasiado dinero persiguiendo muy pocos bienes')."
+      "explicacion": "La inflación de demanda aparece cuando la intención de gasto de los agentes económicos (familias, empresas, gobierno) es superior a lo que la economía es capaz de producir, provocando una escasez relativa que eleva los precios.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Surge cuando los agentes realizan gastos que exceden de la capacidad de producción de su economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Milton Friedman (Monetarismo) sentenció: 'La inflación es siempre y en todo lugar un fenómeno monetario'. Se produce cuando el Banco Central imprime dinero más rápido de lo que crece la producción real."
+      "explicacion": "La visión monetarista, defendida por economistas como Milton Friedman, sostiene que la inflación es siempre y en todas partes un fenómeno monetario, causado por un crecimiento de la oferta de dinero superior al crecimiento de la producción.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Encarece el precio nominal del dinero.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La inflación erosiona el poder adquisitivo (A), introduce incertidumbre que frena la inversión (B) y eleva los tipos de interés nominales (C)."
+      "explicacion": "La inflación reduce el poder adquisitivo (valor real) del dinero, genera incertidumbre que desincentiva la inversión a largo plazo y suele elevar los tipos de interés nominales, que representan el precio del dinero.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Disminuyendo el gasto.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Para enfriar la demanda se aplican políticas contractivas: Monetarias (subir tipos para que sea caro pedir crédito) o Fiscales (subir impuestos o bajar gasto público para quitar dinero del bolsillo de la gente)."
+      "explicacion": "Para frenar un exceso de demanda se aplican políticas contractivas: subir tipos de interés (política monetaria) para reducir el consumo e inversión, y subir impuestos o bajar gasto público (política fiscal) para reducir la demanda agregada.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Ausencia de fuertes subidas en los precios de la energía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La 'Gran Moderación' (1990-2008) se logró combinando bancos centrales independientes (control monetario), disciplina fiscal y globalización/liberalización que bajó costes."
+      "explicacion": "La estabilidad de precios en economías avanzadas suele ser el resultado de una combinación de disciplina fiscal, bancos centrales independientes con políticas monetarias estrictas, mercados más eficientes por la liberalización y estabilidad en costes de insumos clave como la energía.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Pleno empleo.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Aunque para el BCE el objetivo prioritario es la estabilidad de precios (control inflación), en general la política monetaria busca el equilibrio mágico: crecimiento sostenido y pleno empleo con precios estables."
+      "explicacion": "Aunque el objetivo principal de muchos bancos centrales es la estabilidad de precios (control de inflación), la política monetaria también busca crear las condiciones financieras necesarias para fomentar el crecimiento económico y alcanzar el máximo nivel de empleo posible.",
+      "respuesta_correcta": "d"
     }
   ]
 }

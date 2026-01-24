@@ -1,6 +1,6 @@
 {
   "unidad": 27,
-  "titulo": "Examen Unidad 27",
+  "titulo": "Macroeconomía",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Los jubilados.",
         "d": "Los incapacitados."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La Población Activa incluye a todos los que están en edad de trabajar (16-65) y quieren trabajar, es decir, la suma de Ocupados + Parados. (Los jubilados o estudiantes son Inactivos)."
+      "explicacion": "En términos económicos y legales en muchos países, la población en edad de trabajar se sitúa generalmente entre los 16 años (edad mínima legal) y los 65 años (edad habitual de jubilación).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Determina la cantidad de población activa en relación con la población total del país.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Tasa de Paro = (Número de Parados / Población Activa) x 100. Es el porcentaje de gente que queriendo trabajar, no encuentra empleo."
+      "explicacion": "La tasa de desempleo o desocupación se calcula dividiendo el número de personas desempleadas por la población activa total (ocupados + parados), no por la población total del país.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "En épocas de crecimiento económico, disminuye.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El desempleo cíclico sube en las recesiones (cuando las empresas no venden y despiden) y baja en las expansiones (cuando contratan). Es el que Keynes proponía combatir estimulando la demanda."
+      "explicacion": "El desempleo cíclico es aquel que depende directamente de las fases del ciclo económico: aumenta cuando la economía se contrae (recesión) y disminuye cuando la economía se expande.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Está ligado a las fluctuaciones económicas y, por lo tanto, las fases del ciclo económico.",
         "d": "También se denomina paro voluntario."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Típico del turismo (camareros en verano) o la agricultura (recolectores en vendimia). Hay meses donde se necesita mucha mano de obra y otros donde no."
+      "explicacion": "El paro estacional ocurre en actividades que solo requieren mano de obra en ciertas épocas del año, como la agricultura en época de cosecha o el turismo en verano.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "La caída de la producción real y los efectos psicológicos negativos.",
         "d": "La caída de la producción real, la disminución de la demanda, el aumento del déficit público, los efectos psicológicos negativos y los efectos discriminatorios."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Económicamente, el paro es un despilfarro de recursos (PIB potencial no producido). Además, daña las cuentas públicas por partida doble: el Estado paga más subsidios y recauda menos impuestos."
+      "explicacion": "Desde una perspectiva estrictamente económica, el desempleo reduce la producción del país (PIB), baja el consumo por falta de ingresos y obliga al Estado a gastar más en subsidios mientras recauda menos impuestos, aumentando el déficit.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Los empresarios preferirán invertir en maquinaria y nuevas tecnologías porque no pueden contratar a trabajadores que están dispuestos a cobrar menos.",
         "d": "La respuesta a y b son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Para los clásicos, si el mercado funciona bien (salarios flexibles), el paro es voluntario: hay trabajo, pero la gente prefiere no trabajar al salario de mercado (prefiere el ocio o buscar algo mejor)."
+      "explicacion": "La desocupación voluntaria ocurre en el equilibrio de mercado; en este punto, quienes desean trabajar al salario vigente encuentran empleo (opción a), mientras que quienes permanecen desempleados lo hacen porque valoran su tiempo de ocio por encima del salario ofrecido (opción b).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "A nivel insuficiente de demanda agregada.",
         "d": "A los salarios de eficiencia."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Keynes afirmó que el paro puede ser INVOLUNTARIO. Si no hay suficiente demanda efectiva, las empresas no contratan, aunque los trabajadores estén dispuestos a trabajar por menos sueldo. 'No se vende, no se fabrica, no se contrata'."
+      "explicacion": "La teoría keynesiana sostiene que el desempleo involuntario surge principalmente cuando la demanda total de bienes y servicios en la economía no es suficiente para motivar a las empresas a producir a plena capacidad y contratar a toda la fuerza laboral.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Se lleven a cabo políticas de oferta agregada.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Si el mercado laboral es como el de las manzanas, si sobra gente (exceso de oferta), la solución es bajar el precio (salario). Al ser más baratos, las empresas contratarán a todos."
+      "explicacion": "Para los clásicos, el mercado de trabajo funciona como cualquier otro mercado; si hay exceso de oferta (paro), los salarios deben bajar libremente hasta que se alcance un nuevo equilibrio donde se elimine el excedente de trabajadores.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Aumentar la ocupación y incrementan el nivel de precios.",
         "d": "La respuesta a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Al mejorar la productividad y competitividad (derecha de la Oferta Agregada), se consigue la situación ideal: crecer más (más PIB) con precios más bajos (menos inflación)."
+      "explicacion": "Las políticas de oferta buscan desplazar la curva de oferta agregada hacia la derecha, lo que permite un mayor nivel de producción nacional (PIB) al mismo tiempo que ejerce una presión a la baja sobre los precios generales.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Hay un descenso de la producción y con ello un aumento de la desocupación.",
         "d": "Hay un nivel elevado de paro y un nivel bajo de demanda en relación con la capacidad productiva de la economía."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Definición técnica de recesión: caída significativa de la actividad económica que se extiende por toda la economía, visible en el PIB real, el ingreso real, el empleo, la producción industrial y las ventas."
+      "explicacion": "Una recesión se caracteriza técnicamente por una caída continuada de la actividad económica, lo que se traduce en una menor producción de bienes y servicios y, consecuentemente, en un incremento del desempleo al reducirse la necesidad de mano de obra.",
+      "respuesta_correcta": "c"
     }
   ]
 }

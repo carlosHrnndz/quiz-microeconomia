@@ -1,6 +1,6 @@
 {
   "unidad": 12,
-  "titulo": "Examen Unidad 12",
+  "titulo": "Microeconomía: Externalidades y Eficiencia",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Una externalidad afirmativa.",
         "d": "Una externalidad solidaria."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Una externalidad positiva ocurre cuando mi actividad (ej. vacunar a mis hijos, investigar tecnología, cuidar mi jardín) genera beneficios indirectos a terceros por los que no recibo compensación."
+      "explicacion": "Una externalidad positiva ocurre cuando la actividad de un agente económico genera un beneficio a terceros sin que estos tengan que pagar por ello.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Las que deciden ellos y las que decide la sociedad",
         "d": "La preferencia del consumidor y las que decide el vendedor"
       },
-      "respuesta_correcta": "b",
-      "explicacion": "En modelos con externalidades, tu bienestar depende de tus decisiones (qué comes) y de decisiones ajenas que no controlas (cuánto contaminan los demás)."
+      "explicacion": "En presencia de externalidades, el bienestar de un individuo depende tanto de sus propias elecciones de consumo como de las acciones realizadas por otros agentes.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Un elevado precio del producto.",
         "d": "Mala gestión en la empresa."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Si contaminar es gratis (barato para la empresa), producirán más de lo socialmente óptimo. El mercado 'falla' por exceso de provisión de bienes contaminantes."
+      "explicacion": "Al ignorar los costes externos (como la contaminación), las empresas perciben un coste marginal inferior al real social, lo que las lleva a producir una cantidad superior a la socialmente óptima.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Es aquel en el que el precio del producto es igual al coste social marginal (CSM) de producción.",
         "d": "Es aquel en el que el precio de producir es igual al coste de venta más impuestos."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La eficiencia social requiere que el precio (lo que la gente valora el bien) cubra TODOS los costes, incluyendo el Coste Social Marginal (Coste privado + Daño externo)."
+      "explicacion": "La eficiencia social se alcanza cuando el beneficio marginal (reflejado en el precio) iguala al coste total que la producción supone para la sociedad (coste social marginal).",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Igual que el coste marginal.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Coste Social Marginal = Coste Privado Marginal + Coste Externo Marginal (Daño). Por tanto, si hay daño, el Coste Social > Coste Privado."
+      "explicacion": "El coste social marginal es la suma del coste privado marginal de la empresa más el coste externo. Si hay un daño (externalidad negativa), el coste social siempre será superior al privado.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Beneficio social marginal.",
         "d": "Beneficio externo marginal."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Igual que con los costes, el Beneficio Social es la suma de lo que gana el comprador individual (Privado) más lo que gana el resto de la sociedad (Externo) gracias a esa actividad."
+      "explicacion": "El beneficio social marginal representa el beneficio total para la sociedad, que incluye tanto el beneficio que recibe el individuo que consume el bien (privado) como los beneficios adicionales que recaen sobre terceros (externo).",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Teorema de Corpase.",
         "d": "Teorema de Coes."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Ronald Coase (Nobel) argumentó que si los costes de transacción son nulos y los derechos están bien definidos, las partes negociarán privadamente hasta la solución eficiente, sin necesidad de intervención estatal."
+      "explicacion": "El Teorema de Coase establece que si los costes de transacción son nulos y los derechos de propiedad están bien definidos, la negociación privada conducirá a una asignación eficiente de los recursos, sin importar quién posea inicialmente el derecho.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Impuestos roussonianos.",
         "d": "Impuestos pigouvianos."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Arthur Pigou propuso gravar (impuesto) a quien contamina por un valor igual al daño causado. Así se 'internaliza' la externalidad: el que contamina, paga."
+      "explicacion": "Los impuestos pigouvianos son herramientas económicas diseñadas para internalizar los costes de las externalidades negativas (como la contaminación), igualando el coste privado al coste social.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Bien público.",
         "d": "Bien privado."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La 'rivalidad' en el consumo significa que si yo como una manzana, tú no puedes comer esa misma manzana. Los bienes privados son rivales. (El aire limpio típicamente no es rival)."
+      "explicacion": "La rivalidad es una característica de los bienes donde el uso por una persona disminuye la cantidad disponible para los demás. Es un concepto clave para distinguir entre bienes privados y públicos.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Sobre bienes absolutos.",
         "d": "Sobre bienes parciales."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Los Bienes Privados Puros se caracterizan por ser Excluyentes (hay que pagar) y Rivales (se gastan al usarse). Ej: comida, ropa, gasolina."
+      "explicacion": "Los bienes privados se definen por ser tanto excluibles como rivales. En ellos, la rivalidad es absoluta porque el consumo de una unidad por un individuo impide totalmente que otro individuo consuma esa misma unidad.",
+      "respuesta_correcta": "b"
     }
   ]
 }

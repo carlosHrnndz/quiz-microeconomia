@@ -1,6 +1,6 @@
 {
   "unidad": 30,
-  "titulo": "Examen Unidad 30",
+  "titulo": "Macroeconomía: Mercado de Divisas y Tipos de Cambio",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Los turistas americanos que vengan a Europa podrán comprar más bienes con la misma cantidad de dólares.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Una disminución del tipo de cambio (definido como $/€) significa una depreciación del euro. El euro vale menos dólares (b), por lo que hacen falta más euros para comprar un dólar (a), y los turistas con dólares tienen más poder adquisitivo en Europa (c)."
+      "explicacion": "Una disminución del tipo de cambio del euro frente al dólar implica una depreciación del euro. Esto significa que el euro pierde valor adquisitivo frente al dólar, por lo que se necesitan más euros para comprar un dólar, cada euro compra menos dólares y los poseedores de dólares tienen mayor poder de compra en la eurozona.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Diremos que ha aumentado la cantidad de euros que hay que entregar para adquirir una unidad de dólares.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Si el tipo de cambio $/€ aumenta, significa que el euro se aprecia respecto al dólar (cada euro compra más dólares)."
+      "explicacion": "Si el tipo de cambio se expresa como dólares por euro ($/€), un aumento significa que ahora se reciben más dólares por cada euro, lo cual define una apreciación de la moneda nacional (el euro).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Los exportadores nacionales (los turistas o las empresas estadounidenses)",
         "d": "Las personas y empresas que quieren comprar activos financieros estadounidenses."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La demanda de euros proviene de extranjeros que necesitan euros para comprar nuestros bienes (exportadores) o invertir aquí, y de turistas extranjeros (como los estadounidenses) que visitan la Eurozona."
+      "explicacion": "La demanda de euros proviene de agentes extranjeros que necesitan la moneda para adquirir bienes, servicios o activos europeos. Los exportadores nacionales generan esta demanda indirectamente a través de sus clientes extranjeros (como turistas o empresas de EE.UU.) que deben cambiar sus divisas por euros.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Es decreciente y tiene pendiente positiva.",
         "d": "Es creciente y tiene pendiente positiva."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Como cualquier curva de demanda normal, es decreciente (pendiente negativa). Cuanto más caro es el euro (mayor tipo de cambio), menor cantidad de euros se demandarán."
+      "explicacion": "Al igual que la mayoría de las curvas de demanda, la de divisas tiene pendiente negativa. Esto se debe a que, a un menor precio del euro (tipo de cambio más bajo), los productos europeos resultan más baratos para los extranjeros, lo que incentiva una mayor cantidad demandada de euros.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Hay un aumento de los precios nacionales.",
         "d": "Hay una reducción de los precios extranjeros."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si aumenta la renta extranjera (ej. EEUU crece), sus ciudadanos importarán más bienes europeos, aumentando la demanda de euros para pagarlos."
+      "explicacion": "Un aumento de la renta en el extranjero permite a los ciudadanos de otros países consumir más, incluyendo importaciones desde Europa. Para comprar estos productos europeos, necesitarán más euros, desplazando la curva de demanda hacia la derecha.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Es decreciente y tiene pendiente positiva.",
         "d": "Es creciente y tiene pendiente positiva."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La curva de oferta de euros tiene pendiente positiva. Cuanto mayor es el tipo de cambio ($/€), más euros ofrecerán los europeos para comprar dólares baratos y bienes extranjeros."
+      "explicacion": "En el mercado de divisas, la curva de oferta de una moneda tiene pendiente positiva porque a medida que aumenta el tipo de cambio (el precio de la moneda), los agentes económicos están más dispuestos a ofrecer esa moneda para adquirir otras divisas extranjeras.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Sólo cuando haya reducción de los precios extranjeros.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La oferta de euros aumenta (se desplaza a la derecha) cuando importamos más. Esto ocurre si: nuestra renta sube (compramos más fuera), nuestros precios suben (lo de fuera es más barato relativo), o los precios extranjeros bajan."
+      "explicacion": "Un aumento de la renta nacional eleva el consumo de bienes importados, lo que requiere ofrecer más euros. Asimismo, si los precios nacionales suben o los extranjeros bajan, las importaciones se vuelven más atractivas, aumentando la oferta de euros en el mercado de divisas.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Es el mercado con el juego de la demanda y la oferta de divisas el que determina el tipo de cambio, pero en determinadas situaciones puede intervenir el Banco Central Europeo.",
         "d": "Los bancos centrales no están obligados a intervenir de forma constante para mantener el tipo de cambio siempre en el tipo de cambio oficial."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "En tipo de cambio fijo, el Banco Central se compromete a mantener un valor oficial, comprando o vendiendo divisas (interviniendo) constantemente para absorber excesos de oferta o demanda."
+      "explicacion": "En un régimen de tipo de cambio fijo, la autoridad monetaria se compromete a mantener el valor de su moneda en un nivel preestablecido, interviniendo activamente comprando o vendiendo divisas para contrarrestar las presiones del mercado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,20 +107,20 @@
         "c": "Que continúe la incertidumbre con el tipo de cambio.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La moneda única elimina el riesgo cambiario interno (a) y obliga a converger en inflación (b) para no perder competitividad, ya que no se puede devaluar."
+      "explicacion": "La moneda única elimina el riesgo de fluctuación cambiaria entre los países miembros y, al estar bajo el mandato de un banco central común orientado a la estabilidad, se refuerza el compromiso con el control de la inflación.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
       "pregunta": "¿Qué inconvenientes supone para España el establecimiento del euro como moneda única?",
       "opciones": {
         "a": "Hace imposible que se puedan utilizar mecanismos de tipo de cambio para impulsar las exportaciones y reactivar el mercado interior.",
-        "b": "Disminución del tipo de interés.",
+        "b": "Disminución del tipo de interés",
         "c": "Mercados financieros más potentes.",
         "d": "Mejora en las finanzas públicas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El principal coste de la unión monetaria es la pérdida de la política monetaria y cambiaria nacional. Ante una crisis asimétrica, España no puede devaluar para ganar competitividad externa rápidamente."
+      "explicacion": "Al adoptar el euro, España cedió su soberanía monetaria, perdiendo la capacidad de devaluar la peseta para abaratar sus productos en el extranjero y mejorar su competitividad de forma inmediata ante crisis económicas.",
+      "respuesta_correcta": "a"
     }
   ]
 }

@@ -1,126 +1,126 @@
 {
   "unidad": 2,
-  "titulo": "Examen Unidad 2",
+  "titulo": "Microeconomía: Introducción y Frontera de Posibilidades de Producción",
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "Una disminución de la demanda se representa gráficamente como...",
+      "pregunta": "¿Qué es la economía?",
       "opciones": {
-        "a": "Un movimiento a lo largo de la curva de demanda.",
-        "b": "Un desplazamiento de la curva de demanda hacia la derecha.",
-        "c": "Un desplazamiento de la curva de demanda hacia la izquierda.",
-        "d": "Las respuestas a) y c) son correctas."
+        "a": "Una ciencia abstracta que estudia cómo dar respuesta a las necesidades limitadas humanas de bienes, dados una serie de recursos ilimitados.",
+        "b": "Una ciencia empírica que estudia cómo dar respuesta a las necesidades humanas de servicios tecnológicos, dados una serie de recursos ilimitados.",
+        "c": "Una ciencia empírica que estudia cómo dar respuesta a las necesidades ilimitadas humanas de bienes y servicios, dados una serie de recursos escasos y limitados.",
+        "d": "Todas las respuestas son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Una disminución de la demanda implica que, a cualquier precio dado, la cantidad demandada es menor. Esto desplaza la curva entera hacia la izquierda. Los movimientos a lo largo de la curva ocurren solo cuando cambia el precio."
+      "explicacion": "La economía se define fundamentalmente por el conflicto entre necesidades humanas ilimitadas y recursos productivos que son escasos y limitados.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 2,
-      "pregunta": "¿Qué ocurre con la demanda de un bien normal si aumenta la renta de los consumidores?",
+      "pregunta": "La frontera de posibilidades de producción (FPP) ...",
       "opciones": {
-        "a": "La curva de demanda se desplaza hacia la derecha.",
-        "b": "La curva de demanda se desplaza hacia la izquierda.",
-        "c": "No ocurre nada.",
-        "d": "Nos movemos a lo largo de la curva de demanda."
+        "a": "Es el límite a partir del que producir una unidad de un bien X supone reducir el margen de beneficio.",
+        "b": "Representa las combinaciones posibles de bienes y servicios que se pueden producir en una economía dando unos recursos y una tecnología en un determinado periodo de tiempo.",
+        "c": "Representa el límite de demanda de un determinado colectivo en un período de tipo fijo.",
+        "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un bien normal es aquel cuyo consumo aumenta cuando aumenta la renta. Al tener más dinero, los consumidores compran más a cualquier precio, desplazando la demanda a la derecha."
+      "explicacion": "La FPP es un modelo que muestra el máximo de combinaciones de productos que una economía puede producir utilizando todos sus recursos y tecnología de forma eficiente.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
-      "pregunta": "Si un bien tiene sustitutivos perfectos, su demanda es...",
+      "pregunta": "Un punto que se encuentra por debajo de la frontera de posibilidades de producción (FPP) muestra...",
       "opciones": {
-        "a": "Inelástica.",
-        "b": "Perfectamente elástica.",
-        "c": "Elástica unitaria.",
-        "d": "Rígida."
+        "a": "La plena utilización de recursos.",
+        "b": "Es imposible estar en este punto.",
+        "c": "Una ineficiente utilización de los recursos.",
+        "d": "Teóricamente se puede dar, pero nunca se ha dado."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si existen sustitutivos perfectos, los consumidores son extremadamente sensibles al precio. Si el precio sube lo más mínimo, dejarán de comprarlo por completo para comprar el sustituto, lo que implica una elasticidad infinita (perfectamente elástica)."
+      "explicacion": "Cualquier punto situado en el interior (debajo) de la curva indica que no se están aprovechando todos los recursos disponibles o que se están usando de forma ineficiente.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
-      "pregunta": "Si la elasticidad precio de la demanda es mayor que 1 (en valor absoluto), decimos que la demanda es...",
+      "pregunta": "La frontera de posibilidades de producción (FPP) de una economía puede desplazarse hacia la derecha debido a varias causas. ¿Cuál de las siguientes es errónea?",
       "opciones": {
-        "a": "Inelástica.",
-        "b": "Elástica.",
-        "c": "Unitaria.",
-        "d": "Nula."
+        "a": "Se están realizando continuas inversiones en equipos y nuevas plantas.",
+        "b": "La población activa está aumentando.",
+        "c": "Se están desarrollando métodos de producción más eficientes.",
+        "d": "Han acaecido fuertes desastres naturales."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Por definición, si la elasticidad es mayor que 1, la variación porcentual de la cantidad es mayor que la variación del precio, lo que significa que la demanda es elástica (sensible)."
+      "explicacion": "Un desastre natural destruye capital o mano de obra, lo que reduce la capacidad productiva y desplaza la FPP hacia la izquierda, no hacia la derecha.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
-      "pregunta": "Si la demanda es inelástica y el precio aumenta, ¿qué ocurre con el ingreso total de los productores?",
+      "pregunta": "La pendiente de la frontera de posibilidades de producción (FPP) es...",
       "opciones": {
-        "a": "Disminuye.",
-        "b": "Se mantiene constante.",
-        "c": "Aumenta.",
-        "d": "No podemos saberlo."
+        "a": "Siempre positiva.",
+        "b": "Siempre negativa.",
+        "c": "Depende de las circunstancias en que se encuentre.",
+        "d": "Nunca será negativa."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Si la demanda es inelástica (poco sensible), al subir el precio, la cantidad vendida baja pero muy poco. El efecto precio domina al efecto cantidad, por lo que el ingreso total (Precio x Cantidad) aumenta."
+      "explicacion": "La pendiente es negativa porque refleja el coste de oportunidad: debido a la escasez, para obtener más de un bien, la sociedad debe renunciar a parte de otro bien.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
-      "pregunta": "La ley de la demanda establece que...",
+      "pregunta": "El coste de oportunidad será creciente cuando gráficamente tome la forma...",
       "opciones": {
-        "a": "Si sube el precio, aumenta la cantidad demandada.",
-        "b": "Si sube el precio, disminuye la cantidad demandada, ceteris paribus.",
-        "c": "La oferta es igual a la demanda.",
-        "d": "Los consumidores siempre quieren comprar más."
+        "a": "Cóncava.",
+        "b": "Convexa.",
+        "c": "Constante.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La Ley de la Demanda establece la relación inversa entre precio y cantidad: ceteris paribus (todo lo demás constante), si el precio sube, la gente compra menos."
+      "explicacion": "Una Frontera de Posibilidades de Producción (FPP) cóncava respecto al origen indica que los recursos no son perfectamente adaptables, por lo que para obtener unidades adicionales de un bien, se debe renunciar a cantidades cada vez mayores del otro bien.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
-      "pregunta": "Un bien Giffen es aquel que...",
+      "pregunta": "El coste de oportunidad decreciente se representa gráficamente de forma...",
       "opciones": {
-        "a": "Su demanda aumenta cuando sube su precio.",
-        "b": "Es un bien de lujo.",
-        "c": "Tiene elasticidad unitaria.",
-        "d": "Se comporta como un bien normal."
+        "a": "Cóncava.",
+        "b": "Convexa.",
+        "c": "Constante.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los bienes Giffen son una rareza teórica (bienes inferiores muy básicos) donde el efecto renta negativo es tan fuerte que supera al efecto sustitución, haciendo que al subir el precio, aumente su consumo."
+      "explicacion": "Gráficamente, un coste de oportunidad decreciente se asocia con una curva convexa respecto al origen, lo que implicaría que a medida que producimos más de un bien, el sacrificio del otro bien es cada vez menor.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
-      "pregunta": "¿Qué mide la elasticidad cruzada?",
+      "pregunta": "¿Cuál de estas afirmaciones se refiere a la economía normativa?",
       "opciones": {
-        "a": "La sensibilidad de la demanda ante cambios en la renta.",
-        "b": "La sensibilidad de la demanda de un bien ante cambios en el precio de otro bien.",
-        "c": "La sensibilidad de la oferta ante cambios en el precio.",
-        "d": "Ninguna de las anteriores."
+        "a": "Una reducción de los tipos impositivos inicialmente reduce la recaudación pública.",
+        "b": "Se tiene de luchar contra el paro concediendo subvenciones a las pequeñas y medianas empresas.",
+        "c": "Un aumento del tipo impositivo del IRPF reducirá la renta disponible de las familias.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La elasticidad cruzada mide cómo varía la cantidad demandada del bien X cuando cambia el precio del bien Y. Permite saber si son sustitutivos (positiva) o complementarios (negativa)."
+      "explicacion": "La economía normativa se basa en juicios de valor y propone lo que 'debería ser'. La opción b es una recomendación de política económica basada en un objetivo social, a diferencia de las otras que describen hechos objetivos (economía positiva).",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
-      "pregunta": "Si la elasticidad renta es negativa, el bien es...",
+      "pregunta": "La microeconomía...",
       "opciones": {
-        "a": "Normal.",
-        "b": "De lujo.",
-        "c": "Inferior.",
-        "d": "Superior."
+        "a": "Estudia el comportamiento económico en su conjunto, de forma agregada. Sólo existe un precio, un bien y servicio y una cantidad.",
+        "b": "No forma parte de la ciencia económica, pues es una rama de la economía política.",
+        "c": "Estudia el comportamiento de los agentes económicos de forma individual: empresas y familias en un determinado mercado.",
+        "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Un bien inferior es aquel que dejamos de consumir cuando nos hacemos más ricos (ej. comida de baja calidad). Por tanto, si la renta sube y el consumo baja, la elasticidad renta es negativa."
+      "explicacion": "La microeconomía es la rama de la economía que estudia cómo los agentes individuales (familias y empresas) toman decisiones e interactúan en mercados específicos.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 10,
-      "pregunta": "Una curva de demanda vertical tiene una elasticidad...",
+      "pregunta": "¿En qué sistemas económicos se puede clasificar la economía?",
       "opciones": {
-        "a": "Infinita.",
-        "b": "Igual a 1.",
-        "c": "Cero (Perfectamente inelástica).",
-        "d": "Positiva."
+        "a": "Economía mixta y economía de libre mercado.",
+        "b": "Economía planificada, economía de mercado libre y economía mixta.",
+        "c": "Economía de libre mercado y economía planificada.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Una curva vertical significa que la cantidad demandada es la misma sin importar el precio (ej. insulina necesaria para vivir). La sensibilidad al precio es nula, es decir, elasticidad cero."
+      "explicacion": "Tradicionalmente, los sistemas económicos se clasifican según el grado de intervención del estado y el papel del mercado en: economía de mercado (libre), economía autoritaria (planificada) y economía mixta.",
+      "respuesta_correcta": "b"
     }
   ]
 }

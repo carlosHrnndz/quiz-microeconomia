@@ -1,6 +1,6 @@
 {
   "unidad": 22,
-  "titulo": "Examen Unidad 22",
+  "titulo": "Macroeconomía: Demanda y Oferta Agregada",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Gasto público y exportaciones netas.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La fórmula clásica de la Demanda Agregada es DA = C + I + G + (X - M). Suma las compras de las familias, empresas, estado y sector exterior."
+      "explicacion": "La demanda agregada (DA) representa el gasto total que los agentes económicos (familias, empresas, gobierno y sector exterior) están dispuestos a realizar. Se calcula como la suma del Consumo (C), la Inversión (I), el Gasto Público (G) y las Exportaciones Netas (X-M).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Los fenómenos naturales.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los shocks exógenos (externos al modelo económico) como una pandemia, una guerra (que dispara el gasto militar o destruye comercio) o un desastre climático afectan drásticamente a lo que la economía gasta y produce."
+      "explicacion": "Los factores exógenos son variables externas al modelo económico que pueden alterar el comportamiento de los agentes. Guerras, cambios climáticos o desastres naturales pueden afectar drásticamente las expectativas, el consumo y la producción, desplazando la curva de demanda.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "La demanda de todos los productos de la economía de un país con el nivel de precios.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La Curva DA muestra la relación inversa entre el Nivel General de Precios (eje Y) y la Cantidad Total Demandada de bienes y servicios (eje X). Si los precios bajan, la demanda sube (efecto riqueza, efecto tipo interés, efecto tipo cambio)."
+      "explicacion": "La curva de demanda agregada muestra la relación inversa entre el nivel general de precios de una economía y la cantidad total de bienes y servicios que se demandan (producción real).",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,20 +47,20 @@
         "c": "De la tecnología disponible.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La cantidad que las empresas quieren vender depende del precio que pueden cobrar, pero su CAPACIDAD para producir (OALP) depende de cuántos trabajadores y máquinas tienen (L, K) y lo eficientes que son (Tecnología)."
+      "explicacion": "La oferta agregada refleja la capacidad de producción de un país. Esta depende del nivel de precios (que incentiva o desincentiva la producción), de la cantidad de recursos disponibles (trabajo y capital) y de la eficiencia con la que se usan (tecnología).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
-      "pregunta": "La curva de la demanda agregada se desplaza hacía la derecha cuando se produce un incremento de la demanda agregada. Esto se puede dar, entre otras razones, por:",
+      "pregunta": "La curva de la demanda agregada se desplaza hacia la derecha cuando se produce un incremento de la demanda agregada. Esto se puede dar, entre otras razones, por:",
       "opciones": {
         "a": "Una disminución de los impuestos.",
         "b": "Un incremento del gasto público.",
         "c": "Un incremento de las exportaciones netas.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Cualquier cosa que aumente uno de los componentes (C, I, G, XN) desplaza la DA a la derecha: menos impuestos (sube C), más gasto público (sube G) o vender más fuera (sube XN)."
+      "explicacion": "Un desplazamiento a la derecha indica un aumento de la demanda para cualquier nivel de precios. Menos impuestos aumentan la renta disponible (más consumo), más gasto público aumenta la demanda directa del estado, y más exportaciones netas aumentan la demanda externa.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "A un aumento del nivel de precios y a un aumento de la renta nacional real.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Estanflación (Estancamiento + Inflación) es el peor escenario macroeconómico (como en los años 70). El PIB cae (recesión) pero los precios suben, lo que suele ocurrir por un shock de oferta negativo (ej. petróleo carísimo)."
+      "explicacion": "La estanflación es un fenómeno económico que combina el estancamiento económico (caída de la renta nacional y aumento del desempleo) con la inflación (aumento generalizado de los precios).",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "El conjunto de bienes y servicios producidos en un país por un período de tiempo cierto y determinado.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La PMC mide cuánto se gasta de cada euro extra que se gana. Si ganas 100€ más y gastas 80€, tu PMC es 0,8. Es clave para el Multiplicador Keynesiano."
+      "explicacion": "La propensión marginal a consumir mide cuánto se incrementa el consumo por cada unidad adicional de renta que recibe un agente económico.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Las expectativas empresariales.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Las empresas invierten si esperan vender (expectativas, ingresos) y si les sale barato financiarse (tipo de interés). Si el interés sube, la inversión baja."
+      "explicacion": "La inversión empresarial depende del coste de financiación (interés), de la capacidad de generar recursos (ingresos) y de la confianza en el futuro del mercado (expectativas).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Sólo si su importe le es reembolsado a través de subvenciones públicas.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Lógica básica de negocios: solo inviertes en una máquina nueva si el Valor Actual Neto (VAN) de los beneficios que te va a dar supera lo que te cuesta comprarla."
+      "explicacion": "Desde el punto de vista de la racionalidad económica, una inversión solo se lleva a cabo si se espera que los beneficios o ingresos futuros cubran, al menos, los costes de la inversión.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Se produce una brecha de producción o recesiva.",
         "d": "Se produce una aceleración de producción o expansiva."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Si el PIB Real < PIB Potencial, estamos infrautilizando recursos (fábricas paradas, gente en paro). Esa diferencia se llama Brecha Recesiva (Output Gap negativo)."
+      "explicacion": "Cuando el PIB real es inferior al PIB potencial (lo máximo que la economía puede producir a pleno empleo), se genera una brecha recesiva, indicando infrautilización de recursos.",
+      "respuesta_correcta": "c"
     }
   ]
 }

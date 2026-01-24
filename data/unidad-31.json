@@ -1,6 +1,6 @@
 {
   "unidad": 31,
-  "titulo": "Examen Unidad 31",
+  "titulo": "Macroeconomía: La Curva de Phillips",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "La relación entre la tasa de inflación y el tipo de interés nominal en el Reino Unido desde 1861 hasta 1957.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Phillips encontró una fuerte correlación negativa histórica: cuando el paro era bajo, la inflación (salarios) era alta, y viceversa. Parecía haber un 'menú' estable de elección política."
+      "explicacion": "A.W. Phillips publicó un estudio empírico en 1958 donde observó una relación inversa y estable entre el desempleo y la variación de los salarios nominales (que se traduce en inflación) en el Reino Unido durante casi un siglo.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "En la década de 1960.",
         "d": "Nunca."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En los 70, la estanflación (paro alto + inflación alta) destruyó la correlación original. La curva de Phillips se desplazó hacia arriba."
+      "explicacion": "Durante la década de 1970, la aparición de la estanflación (alta inflación combinada con alto desempleo) rompió la correlación negativa que se había observado anteriormente, invalidando la idea de una curva de Phillips estable a largo plazo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Espiral de salarios y precios.",
         "d": "Espiral de precios e inflación."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Bajo paro -> Sindicatos fuertes -> Suben salarios -> Empresas suben precios para mantener margen -> Trabajadores piden más salario por la inflación... Es la espiral salarios-precios."
+      "explicacion": "Se denomina espiral de salarios y precios porque un bajo desempleo aumenta el poder de negociación de los trabajadores, elevando los salarios; las empresas trasladan este coste a los precios, lo que genera inflación y nuevas demandas salariales.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Nunca desapareció. Sigue en vigor y se estudia hoy en vigor por su validez indiscutida.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Fue una tormenta perfecta: los shocks de oferta (petróleo) subieron costes, y los agentes cambiaron sus 'expectativas', anticipando que la inflación sería alta permanentemente, rompiendo el anclaje anterior."
+      "explicacion": "La curva original falló debido a shocks de oferta externos (como las crisis del petróleo) y a que los agentes económicos empezaron a incorporar la inflación esperada en sus negociaciones salariales, haciendo que la inflación fuera persistente.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "M. Friedman y E. Phelps.",
         "d": "M. Friedman y J. M. Keynes."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Milton Friedman y Edmund Phelps predijeron (antes de que ocurriera) que la curva de Phillips a largo plazo era vertical: no se puede 'comprar' menos paro con más inflación indefinidamente."
+      "explicacion": "Milton Friedman y Edmund Phelps argumentaron de forma independiente que no existe un intercambio permanente entre inflación y desempleo a largo plazo, introduciendo el concepto de la tasa natural de desempleo.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Como la tasa de desempleo necesaria para aumentar la inflación.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Es la definición moderna de NAIRU (Non-Accelerating Inflation Rate of Unemployment). Si el desempleo real es igual a la tasa natural, la inflación no cambia."
+      "explicacion": "La tasa natural de desempleo también se conoce como NAIRU (Non-Accelerating Inflation Rate of Unemployment), que es el nivel de desempleo en el cual la inflación se mantiene estable sin acelerarse ni desacelerarse.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Del 2,3%.",
         "d": "Del 7%."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Históricamente, Japón mantuvo tasas de desempleo envidiablemente bajas (cercanas al pleno empleo técnico) gracias a su sistema laboral de por vida y estructura social, aunque subió tras la 'Década Perdida' de los 90."
+      "explicacion": "Históricamente, Japón ha mantenido tasas de desempleo muy bajas en comparación con otras economías desarrolladas debido a su estructura de mercado laboral y cultura empresarial de empleo a largo plazo.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Personal poco calificado.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El paro estructural en España es un problema crónico y complejo. Se atribuye a rigideces del mercado laboral, dualidad (fijos vs temporales), desajuste educativo y baja productividad media."
+      "explicacion": "El desempleo estructural en España es un problema complejo que se deriva de la combinación de baja productividad, falta de competitividad en ciertos sectores y un desajuste entre la formación de los trabajadores y las necesidades del mercado.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Del 6%.",
         "d": "Del 3,5%."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "A finales de los 90, Europa sufría de 'eurosclerosis', con tasas de paro de doble dígito, muy superiores a las de EEUU en esa misma época."
+      "explicacion": "A finales de la década de los 90, la Unión Europea presentaba niveles de desempleo significativos, situándose la media estadística en torno al 10,6% antes de las expansiones económicas posteriores.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Del 10,6%.",
         "d": "Del 6%."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Durante la Edad de Oro del crecimiento europeo, el problema del paro era inexistente; de hecho, países como Alemania importaban mano de obra masiva ('Gastarbeiter') porque no tenían trabajadores suficientes."
+      "explicacion": "Durante los años 60, Europa vivió un periodo de gran crecimiento económico conocido como la 'Edad de Oro', donde la mayoría de los países disfrutaban de situaciones cercanas al pleno empleo con tasas de paro muy bajas.",
+      "respuesta_correcta": "a"
     }
   ]
 }

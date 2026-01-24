@@ -1,6 +1,6 @@
 {
   "unidad": 11,
-  "titulo": "Examen Unidad 11",
+  "titulo": "Microeconomía: Modelos de Oligopolio",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Equilibrio de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Equilibrio de Nash (por John Nash) es una situación donde nadie quiere cambiar su estrategia unilateralmente, porque cada uno está haciendo lo mejor que puede DADO lo que están haciendo los demás."
+      "explicacion": "El equilibrio de Nash describe una situación en la que cada jugador (o empresa) elige la mejor estrategia posible dadas las estrategias de los demás, de modo que ningún jugador tiene incentivos para cambiar su decisión de forma unilateral.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Bidosonio.",
         "d": "Duopsonio."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Duopolio es el caso más simple de oligopolio, donde solo existen dos productores (ej. Coca-Cola vs Pepsi en algunos contextos, o Airbus vs Boeing)."
+      "explicacion": "Un duopolio es una forma específica de oligopolio en la que el mercado está dominado por exactamente dos productores o vendedores que compiten entre sí.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En el modelo de Cournot, las empresas compiten eligiendo CANTIDADES (outputs) simultáneamente. Asumen que el rival no cambiará su producción."
+      "explicacion": "El modelo de Cournot es un modelo de competencia en cantidades donde las empresas deciden simultáneamente cuánto producir, asumiendo que la producción de la competencia no variará ante sus propios cambios.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Equilibrio de Cournot.",
         "d": "Equilibrio de Hotelling."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El Equilibrio de Cournot es un tipo de Equilibrio de Nash aplicado al modelo de competencia por cantidades. Se da donde se cruzan las 'curvas de reacción' de ambas empresas."
+      "explicacion": "El equilibrio de Cournot es la aplicación del equilibrio de Nash al modelo de Cournot; ocurre cuando las expectativas de cada empresa sobre la producción de sus rivales se confirman en la realidad del mercado.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En el modelo de Stackelberg hay un 'líder' que decide primero y un 'seguidor' que decide después. El líder tiene ventaja ('ventaja del primer movimiento') porque puede anticipar la reacción del seguidor."
+      "explicacion": "El modelo de Stackelberg es un modelo de competencia secuencial donde existe una empresa 'líder' que elige su nivel de producción primero, y las empresas 'seguidoras' eligen después basándose en la decisión de la líder.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Modelo de Cournot.",
         "d": "Modelo de Hotelling."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "En el modelo de Bertrand, las empresas compiten eligiendo PRECIOS. Si el bien es homogéneo, la competencia por precios lleva resultados extremos: el precio cae hasta igualar el coste marginal (como en competencia perfecta), aunque solo haya 2 empresas."
+      "explicacion": "El modelo de Bertrand describe la competencia en un oligopolio donde las empresas compiten fijando precios en lugar de cantidades, asumiendo que los precios de los competidores permanecen constantes.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Norteamericano.",
         "d": "Sueco."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Harold Hotelling (1895-1973) fue un estadístico y economista estadounidense famoso por su modelo de localización (por qué las tiendas similares se ponen juntas)."
+      "explicacion": "Harold Hotelling fue un influyente estadístico y economista estadounidense (norteamericano), conocido por sus contribuciones a la teoría de la localización y la economía de los recursos naturales.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Supone una gran oferta de productos en los mercados oligopolísticos.",
         "d": "Las respuestas b y c son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Dilema del Prisionero demuestra que, aunque la cooperación (no confesar) sería lo mejor para el grupo, los incentivos individuales llevan a competir (traicionar), resultando en un equilibrio peor para ambos."
+      "explicacion": "El dilema del prisionero ilustra cómo la falta de cooperación puede llevar a un resultado subóptimo para ambas partes, demostrando que la cooperación mutua genera un beneficio colectivo mayor que la competencia individualista.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Monopolio.",
         "d": "Maximín."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un cártel (como la OPEP) es un acuerdo formal para reducir la competencia, comportándose conjuntamente como si fueran un monopolio para subir precios y beneficios."
+      "explicacion": "Un cártel es una organización formal de productores dentro de una industria que acuerdan fijar precios y limitar la producción para maximizar sus beneficios conjuntos, actuando de forma similar a un monopolio.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "La elasticidad de los precios.",
         "d": "La fluctuación de los precios."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El modelo de la 'Demanda Quebrada' explica la rigidez de precios en oligopolio: si subes precio, los rivales no te siguen y pierdes ventas; si bajas, te siguen y ganas poco. Por eso, los precios tienden a no moverse."
+      "explicacion": "En los oligopolios, suele observarse una rigidez de precios debido a la interdependencia estratégica; las empresas temen que si bajan los precios, se inicie una guerra de precios, y si los suben, perderán cuota de mercado si los demás no las siguen.",
+      "respuesta_correcta": "a"
     }
   ]
 }

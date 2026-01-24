@@ -1,6 +1,6 @@
 {
   "unidad": 5,
-  "titulo": "Examen Unidad 5",
+  "titulo": "Microeconomía: Teoría del Consumidor",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Es un consumidor que tiene una influencia real en los precios de mercado ya que puede hacer variar los precios si de forma continuada no demanda un determinado bien.",
         "d": "La respuesta b y c son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En competencia perfecta, los consumidores son 'atomísticos' (muy pequeños en relación al mercado). Por tanto, sus decisiones individuales de comprar o no comprar no afectan al precio de mercado. Deben 'aceptar' el precio dado."
+      "explicacion": "En microeconomía, un consumidor precio-aceptante es aquel que no tiene poder de mercado para alterar el precio de equilibrio; simplemente toma el precio dado por el mercado como un parámetro fijo para sus decisiones de compra.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Se produce a la vez un desplazamiento de la recta de balance hacia el interior pero no se produce de forma proporcional.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si aumenta la renta, el consumidor puede comprar más de ambos bienes. Esto desplaza la Restricción Presupuestaria (recta de balance) paralelamente hacia afuera (derecha)."
+      "explicacion": "Un aumento en la renta (manteniendo los precios constantes) expande el conjunto de posibilidades de consumo, lo que desplaza la recta de balance de forma paralela hacia afuera (derecha), permitiendo adquirir mayores cantidades de ambos bienes.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Se produce a la vez un desplazamiento de la recta de balance hacia el exterior en la misma proporción.",
         "d": "No se produce un desplazamiento de la recta de balance."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si disminuye la renta, el conjunto de oportunidades se reduce. La recta de balance se desplaza paralelamente hacia adentro (izquierda), indicando que ahora podemos comprar menos combinaciones de bienes."
+      "explicacion": "Al disminuir la renta, el poder adquisitivo del consumidor se reduce. Esto provoca que la recta de balance se desplace paralelamente hacia el origen (hacia el interior), ya que ahora puede comprar menos unidades de los bienes con su presupuesto limitado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Los consumidores siempre acaban comprando lo que necesitan.",
         "d": "La respuesta a y c son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Al bajar el precio de un bien (ceteris paribus), ocurren dos cosas: el bien se vuelve más barato relativamente (efecto sustitución) y nuestra renta real aumenta (efecto renta). Ambos efectos suelen llevar a comprar más cantidad de X."
+      "explicacion": "Según la ley de la demanda, existe una relación inversa entre el precio y la cantidad demandada. Si el precio de un bien baja, el consumidor puede comprar más unidades de ese bien con el mismo presupuesto (efecto renta) y el bien se vuelve más atractivo frente a otros (efecto sustitución).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Nos muestra todas las combinaciones de bienes que puede comprar el consumidor y dentro de ella hay la combinación mejor para el consumidor.",
         "d": "La respuesta a y c son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Una curva de indiferencia une todos los puntos (cestas de consumo) que le reportan al individuo exactamente la misma utilidad o satisfacción. Al consumidor le da igual ('es indiferente') elegir cualquiera de esos puntos."
+      "explicacion": "Una curva de indiferencia une todos los puntos (combinaciones de bienes) que proporcionan al consumidor el mismo nivel de utilidad o bienestar, por lo que al consumidor le resulta indiferente situarse en cualquier punto de dicha curva.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Es una curva cóncava.",
         "d": "Es una línea recta."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Si dos bienes son sustitutos perfectos (ej. bolígrafos azules y negros), el consumidor siempre está dispuesto a cambiar uno por otro a una tasa constante. Esto hace que la Tasa Marginal de Sustitución sea constante y la curva sea una línea recta con pendiente negativa."
+      "explicacion": "Para los bienes sustitutos perfectos, la relación marginal de sustitución es constante, lo que significa que el consumidor está dispuesto a intercambiar un bien por otro a una tasa fija, resultando en una curva de indiferencia lineal.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Son bienes que reportan una utilidad y necesariamente se tienen que consumir de manera conjunta.",
         "d": "La respuesta b y c son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Los complementarios perfectos (ej. zapato izquierdo y derecho) se consumen siempre en proporciones fijas. Tener más de uno sin el otro no aporta utilidad. Esto genera curvas de indiferencia en forma de 'L' (ángulo recto)."
+      "explicacion": "Los bienes complementarios perfectos son aquellos que deben consumirse en proporciones fijas (como un zapato izquierdo y uno derecho) para proporcionar utilidad; el incremento de uno solo sin el otro no aumenta el bienestar.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Cuando elija la combinación que se encuentre situada en el punto de la recta de balance que sea tangente a la curva de indiferencia más elevada posible.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El óptimo se alcanza donde el consumidor gasta todo su presupuesto (está en la recta de balance) y alcanza la mayor utilidad posible. Gráficamente, es el punto de tangencia donde la pendiente de la restricción presupuestaria iguala a la RMS (pendiente de la curva de indiferencia)."
+      "explicacion": "El óptimo del consumidor ocurre cuando se maximiza la utilidad dada una restricción presupuestaria. Esto sucede en el punto de tangencia donde las pendientes (RMS y precio relativo) son iguales y no es posible alcanzar una curva de indiferencia superior.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Son aquellos que a medida que aumenta la renta familiar también aumenta porcentualmente su presencia en los presupuestos de las familias.",
         "d": "Son aquellos que a medida que aumenta la renta familiar se dejan de consumir para poder consumir los bienes de lujo."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los bienes de primera necesidad (pan, luz) son bienes normales (elasticidad renta positiva) pero inelásticos (menor que 1). Si nuestra renta se duplica, consumimos más pan, pero no el doble de pan."
+      "explicacion": "Los bienes de primera necesidad son bienes normales cuya demanda aumenta con la renta, pero de forma menos que proporcional (elasticidad-renta entre 0 y 1), por lo que su peso relativo en el presupuesto disminuye al aumentar la renta.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Son aquellos que a medida que aumenta la renta familiar también aumenta porcentualmente su presencia en los presupuestos de las familias.",
         "d": "Todas las repuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Un bien de lujo tiene elasticidad renta mayor que 1. Si tu renta aumenta un 10%, el consumo de bienes de lujo aumenta más de un 10% (ej. viajes, joyas). Su participación en el presupuesto crece con la riqueza."
+      "explicacion": "Los bienes de lujo tienen una elasticidad-renta superior a 1. Esto implica que cuando la renta aumenta, el consumo de estos bienes crece en una proporción mayor, incrementando su participación porcentual en el gasto total del consumidor.",
+      "respuesta_correcta": "c"
     }
   ]
 }

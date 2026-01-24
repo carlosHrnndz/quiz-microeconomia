@@ -1,6 +1,6 @@
 {
   "unidad": 29,
-  "titulo": "Examen Unidad 29",
+  "titulo": "Macroeconomía: Comercio Internacional y Política Comercial",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "John M. Keynes.",
         "d": "Karl Marx."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Adam Smith (La Riqueza de las Naciones, 1776) argumentó que si un país es más eficiente produciendo vino y otro produciendo telas (ventaja absoluta), ambos ganan intercambiando."
+      "explicacion": "Adam Smith postuló en 1776 que un país tiene una ventaja absoluta sobre otro si puede producir una mercancía utilizando menos recursos. Según esta teoría, los países deben especializarse en lo que producen de forma más eficiente.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Más competencia en las economías nacionales.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El comercio intraindustrial (ej. Alemania vende BMW a Francia y Francia vende Peugeot a Alemania) no se explica por ventajas comparativas, sino por economías de escala (producir mucho es barato) y amor por la variedad del consumidor."
+      "explicacion": "El comercio intraindustrial (intercambio de productos similares) aporta beneficios que las teorías clásicas no contemplaban, como la reducción de costes unitarios por volumen (economías de escala), mayor diversidad para el consumidor y el estímulo a la eficiencia por la competencia.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Las subvenciones a la exportación.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La política comercial (proteccionista) usa tres armas principales: Impuestos en frontera (aranceles), límites de cantidad (cuotas/contingentes) y ayudas directas a sus empresas para vender fuera (subvenciones)."
+      "explicacion": "La política comercial comprende el conjunto de instrumentos que utiliza un Estado para regular sus relaciones comerciales con el exterior, incluyendo tanto medidas impositivas (aranceles) como restricciones cuantitativas, técnicas o ayudas directas.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Las subvenciones a la exportación.",
         "d": "Las barreras no arancelarias."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un contingente o cuota ('quota') dice: 'Solo pueden entrar 1000 coches japoneses este año'. A diferencia del arancel (que sube el precio), la cuota limita físicamente la cantidad."
+      "explicacion": "Los contingentes o cuotas son restricciones físicas directas que limitan el volumen o valor máximo de un producto que puede entrar en un país durante un tiempo dado, a diferencia de los aranceles que actúan sobre el precio.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Barreras no arancelarias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Las Barreras No Arancelarias son regulaciones (sanitarias, técnicas, ecológicas) que, bajo la excusa de proteger al consumidor, dificultan en la práctica la entrada de productos extranjeros."
+      "explicacion": "Las barreras no arancelarias son normativas (técnicas, sanitarias, de seguridad o medioambientales) que, sin ser impuestos, dificultan el comercio internacional al exigir estándares que los productos extranjeros deben cumplir para entrar al mercado.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Barreras no arancelarias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Una subvención a la exportación es un pago (o perdón fiscal) del gobierno a la empresa que exporta. Esto le permite vender más barato en el extranjero (dumping) y ganar cuota de mercado artificialmente."
+      "explicacion": "La exención de impuestos a productores locales reduce sus costes operativos, permitiéndoles vender a precios más competitivos en el extranjero. Esto actúa como una ayuda financiera indirecta o subvención para fomentar las ventas internacionales.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "La partida de errores y omisiones.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La estructura estándar (FMI) de la Balanza de Pagos tiene tres grandes cuentas: Corriente (bienes, servicios, rentas), Capital (transferencias capital) y Financiera (inversiones). Y una cuenta de cierre para cuadrar (Errores)."
+      "explicacion": "La balanza de pagos es un documento contable integral que registra todas las transacciones económicas entre un país y el resto del mundo, abarcando flujos comerciales (corriente), de capital, financieros y el ajuste técnico de errores y omisiones.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Los servicios de seguros.",
         "d": "Precios y cualidad."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La competitividad comercial se reduce finalmente a la relación Calidad-Precio. Si ofreces lo mismo más barato, o algo mejor al mismo precio, ganarás mercado."
+      "explicacion": "La competitividad en el comercio internacional se define principalmente por la capacidad de ofrecer productos con una ventaja en precio (eficiencia en costes) o en calidad (diferenciación), lo que permite atraer la demanda global.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "En la balanza de transferencias.",
         "d": "En la balanza de servicios."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Las ayudas de la PAC que recibe España de Bruselas son transferencias corrientes unilaterales (dinero sin contrapartida directa de bienes). Van a la Balanza de Transferencias Corrientes (dentro de la Cuenta Corriente)."
+      "explicacion": "Las ayudas de la UE, como los fondos agrícolas, son pagos que se realizan sin que haya una entrega de bienes o servicios a cambio. Por ello, se clasifican como transferencias corrientes dentro de la balanza de transferencias.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Ha gastado más de lo que ingresa, necesita financiación exterior para poder obtener recursos corrientes.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Tener capacidad o necesidad de financiación depende de la Cuenta Corriente + Capital. Si es positiva (Superávit), hemos ahorrado más de lo invertido y prestamos dinero al resto del mundo (somos acreedores netos)."
+      "explicacion": "Un superávit significa que los ingresos por transacciones con el exterior superan a los pagos. Esto genera una capacidad de financiación, convirtiendo al país en un acreedor o prestamista neto frente al resto del mundo.",
+      "respuesta_correcta": "a"
     }
   ]
 }

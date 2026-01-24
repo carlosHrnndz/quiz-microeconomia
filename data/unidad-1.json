@@ -1,6 +1,6 @@
 {
   "unidad": 1,
-  "titulo": "Examen Unidad 1",
+  "titulo": "Microeconomía - Autoevaluación Unidad 1",
   "preguntas": [
     {
       "numero": 1,
@@ -11,9 +11,8 @@
         "c": "Trabajo (L).",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La economía clásica clasifica los factores de producción en tres grandes grupos: Tierra (Recursos naturales), Trabajo (Mano de obra y tiempo humano) y Capital (Bienes producidos que sirven para producir). Por tanto, la respuesta correcta es 'Todas las anteriores'.",
-      "imagen": "test_icon.png"
+      "explicacion": "En economía, los factores de producción son los recursos empleados para producir bienes y servicios. Tradicionalmente se dividen en tierra (recursos naturales), trabajo (esfuerzo humano) y capital (maquinaria, herramientas y edificios).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 2,
@@ -24,8 +23,8 @@
         "c": "Se refiere a la optimización de los recursos.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El principio coste-beneficio establece que una acción debe realizarse solo si sus beneficios adicionales superan a sus costes adicionales. Es la base de la toma de decisiones racionales en economía."
+      "explicacion": "El principio de coste-beneficio es una regla de decisión que establece que se debe realizar una acción si, y solo si, los beneficios adicionales de realizarla son al menos tan grandes como los costes adicionales.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -36,6 +35,7 @@
         "c": "El Estado.",
         "d": "Todas las respuestas anteriores son correctas."
       },
+      "explicacion": "Los tres agentes económicos principales son las familias (que suelen ser ahorradores netos), las empresas (que demandan financiación para invertir) y el Estado (que regula y también actúa como emisor de deuda).",
       "respuesta_correcta": "d"
     },
     {
@@ -47,6 +47,7 @@
         "c": "Los intermediarios financieros no existen.",
         "d": "Las respuestas a) y c) son correctas."
       },
+      "explicacion": "Los intermediarios financieros (como los bancos) actúan como puente, canalizando el excedente de dinero de los ahorradores hacia aquellos agentes que necesitan financiación para invertir.",
       "respuesta_correcta": "b"
     },
     {
@@ -58,6 +59,7 @@
         "c": "Dealers y brokers.",
         "d": "Compañías de seguros y sociedades de inversión."
       },
+      "explicacion": "En los mercados financieros se distinguen principalmente los brokers (que actúan por cuenta ajena cobrando una comisión) y los dealers (que actúan por cuenta propia comprando y vendiendo activos para sí mismos).",
       "respuesta_correcta": "c"
     },
     {
@@ -69,6 +71,7 @@
         "c": "Cuando se detecta que determinados mercados financieros pierden competitividad debido a un exceso de reglamentación.",
         "d": "Como un fenómeno que recientemente se ha producido en contra de la intervención estatal."
       },
+      "explicacion": "La regulación económica se refiere a la intervención del Estado mediante normas y leyes para supervisar y controlar el funcionamiento de los mercados, como el financiero, con el fin de corregir fallos o proteger el interés público.",
       "respuesta_correcta": "a"
     },
     {
@@ -80,6 +83,7 @@
         "c": "Sólo está relacionada con la producción mundial de alimentos.",
         "d": "Sólo está relacionada con la producción mundial de automóviles."
       },
+      "explicacion": "En finanzas, la volatilidad mide la variabilidad o fluctuación de los precios de un activo en un periodo determinado. A mayor volatilidad, mayor es la incertidumbre y el riesgo asociado a la inversión.",
       "respuesta_correcta": "b"
     },
     {
@@ -91,6 +95,7 @@
         "c": "Con los recursos.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
+      "explicacion": "La demanda representa la cantidad de un bien que los consumidores desean y pueden comprar. Mientras que la tecnología y los recursos se asocian a la producción (oferta), la demanda nace de las preferencias y deseos de los individuos.",
       "respuesta_correcta": "b"
     },
     {
@@ -102,6 +107,7 @@
         "c": "Los propietarios de los recursos naturales que venden los mismos para que éstos se puedan manipular y pueda venderse el producto final, o bien, que arriendan sus tierras a las empresas.",
         "d": "Todas las respuestas son correctas."
       },
+      "explicacion": "En el análisis económico, el término vendedor u oferente incluye a cualquier agente que ofrece algo en el mercado: empresas (bienes), familias (trabajo) o propietarios (recursos naturales).",
       "respuesta_correcta": "d"
     },
     {
@@ -113,6 +119,7 @@
         "c": "Son aquellos que tienen un número importante de compradores y vendedores, y debido a ello, ninguno de los dos puede influir significativamente en el precio del producto.",
         "d": "Todas las respuestas son incorrectas."
       },
+      "explicacion": "La competencia perfecta se define por la atomización del mercado, donde hay tantos compradores y vendedores que ninguno tiene poder suficiente para fijar el precio, actuando todos como precio-aceptantes.",
       "respuesta_correcta": "c"
     }
   ]

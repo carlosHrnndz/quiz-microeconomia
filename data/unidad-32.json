@@ -1,6 +1,6 @@
 {
   "unidad": 32,
-  "titulo": "Examen Unidad 32",
+  "titulo": "Macroeconomía: Historia del Pensamiento Económico",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "M. Friedman.",
         "d": "P. Samuelson."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Publicada en 1936, es la obra fundacional de la macroeconomía moderna."
+      "explicacion": "John Maynard Keynes publicó esta obra fundamental en 1936, la cual revolucionó el pensamiento económico al proponer que la demanda agregada es el motor principal de la economía y que los mercados no siempre se autorregulan hacia el pleno empleo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Un gran consenso basado en la integración de muchas de las ideas de Keynes y las de los economistas anteriores.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Liderada por Paul Samuelson y John Hicks (modelo IS-LM), combinó la micro neoclásica (mercados eficientes) con la macro keynesiana (fallos de mercado a corto plazo)."
+      "explicacion": "La síntesis neoclásica fue un movimiento académico de la posguerra que buscó reconciliar la macroeconomía keynesiana con los principios microeconómicos de la escuela neoclásica, permitiendo un marco teórico unificado.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Creó la teoría de la inversión.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El modelo de Solow es la base de toda teoría del crecimiento moderna. Explica cómo la acumulación de capital y el progreso técnico determinan la renta a largo plazo."
+      "explicacion": "El modelo de Solow-Swan es el marco básico de la teoría del crecimiento económico moderno, centrándose en cómo la acumulación de capital, el crecimiento de la fuerza laboral y el progreso tecnológico determinan el crecimiento a largo plazo.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "M. Friedman.",
         "d": "P. Samuelson."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Milton Friedman (Universidad de Chicago) desafió el consenso keynesiano, argumentando que 'el dinero importa' y que la inflación es siempre un fenómeno monetario."
+      "explicacion": "Milton Friedman fue la figura central de la Escuela de Chicago y el principal defensor del monetarismo, argumentando que la oferta de dinero es el determinante clave del crecimiento económico y la inflación.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "En la política fiscal más que en la monetaria.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En la 'trampa de la liquidez' de los años 30, bajar tipos no servía (ya eran casi 0). Keynes abogó por el Gasto Público directo como la única forma de reactivar la demanda."
+      "explicacion": "Keynes sostenía que en periodos de recesión profunda, la política monetaria podía perder efectividad (trampa de liquidez), por lo que el gasto público y la reducción de impuestos (política fiscal) eran las herramientas más directas para reactivar la demanda.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "La deflación.",
         "d": "La tasa de paro natural por encima del 30%."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La coexistencia de alta inflación y alto paro contradijo la Curva de Phillips simple que usaban los keynesianos, dando la razón a los monetaristas y provocando una crisis teórica."
+      "explicacion": "La estanflación, que combina estancamiento económico con alta inflación, fue un fenómeno imprevisto en los años 70 que rompió con la lógica de la curva de Phillips tradicional, la cual dictaba que no podían coexistir alta inflación y alto desempleo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Tenso.",
         "d": "Tranquilo."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Fue una época de gran batalla ideológica y académica entre Keynesianos (Cambridge, MIT) y Monetaristas/Nuevos Clásicos (Chicago), disputándose la explicación de la crisis."
+      "explicacion": "El clima era tenso debido a la crisis del paradigma neokeynesiano dominante, que no lograba explicar los nuevos problemas económicos de la época, dando lugar a fuertes debates entre diferentes escuelas de pensamiento.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Nunca fue aceptada.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La 'Revolución de las Expectativas Racionales' (Lucas, Sargent) barrió la academia muy rápido, obligando a reescribir todos los modelos macroeconómicos para incluir agentes que no cometen errores sistemáticos."
+      "explicacion": "La revolución de las expectativas racionales, introducida por Robert Lucas, se convirtió rápidamente en el estándar de la investigación macroeconómica académica durante la década de los 70.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "M. Friedman.",
         "d": "E. Prescott."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Edward Prescott (junto a Kydland) impulsó la teoría del Ciclo Real de los Negocios (RBC), donde las recesiones no son fallos de mercado, sino respuestas óptimas a shocks tecnológicos negativos."
+      "explicacion": "Edward Prescott es una figura central de la Nueva Macroeconomía Clásica, conocido especialmente por desarrollar la teoría de los Ciclos Económicos Reales (RBC).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Akerlof.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los Nuevos Keynesianos (Mankiw, Akerlof, Stiglitz) aceptaron las expectativas racionales pero demostraron que precios rígidos (por pequeños 'costes de menú' al cambiar etiquetas) pueden causar grandes recesiones."
+      "explicacion": "Tanto Mankiw como Akerlof son autores clave en la Nueva Economía Keynesiana que utilizaron el concepto de 'costes de menú' (el coste de cambiar los precios) para explicar la rigidez de precios y las fluctuaciones económicas.",
+      "respuesta_correcta": "d"
     }
   ]
 }

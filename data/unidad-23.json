@@ -1,6 +1,6 @@
 {
   "unidad": 23,
-  "titulo": "Examen Unidad 23",
+  "titulo": "Macroeconomía: El Dinero y sus Funciones",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Transportable, homogénea, indivisible, de oferta limitada y duradera.",
         "d": "Transportable, homogénea, divisible, de oferta limitada y duradera."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Para que un bien sirva como dinero (dinero-mercancía, como el oro) debe ser escaso (oferta limitada para tener valor), duradero (no perecedero), divisible (para dar cambio), homogéneo (cada unidad igual a otra) y fácil de transportar."
+      "explicacion": "Para que un bien funcione como dinero mercancía, debe ser fácil de llevar (transportable), idéntico en sus unidades (homogéneo), fraccionable (divisible), escaso para mantener su valor (oferta limitada) y no deteriorarse con el tiempo (duradero).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Es un depósito de valores.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Las tres funciones clásicas del dinero son: Medio de cambio (facilita transacciones), Unidad de cuenta (sirve para poner precios) y Depósito de valor (permite ahorrar poder adquisitivo)."
+      "explicacion": "El dinero cumple tres funciones fundamentales en la economía: sirve para comprar bienes (medio de cambio), para expresar el precio de las cosas (unidad de cuenta) y para ahorrar o mantener riqueza hacia el futuro (depósito de valor).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Es el dinero emitido en monedas de oro.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El dinero legal (o base monetaria) son los billetes y monedas físicos emitidos por la autoridad monetaria. Es lo único que tiene curso legal forzoso."
+      "explicacion": "El dinero legal es aquel que el Estado emite a través de su Banco Central (monedas y billetes) y que tiene poder liberatorio pleno para saldar deudas por ley.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Sólo como la suma de dinero que se encuentra en los depósitos bancarios.",
         "d": "Como la suma de dinero en papel moneda y el dinero en metálico."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La Oferta Monetaria (M) incluye el Efectivo en manos del público (E) más los Depósitos bancarios (D). Porque se puede pagar tanto con billetes como con transferencias o tarjetas."
+      "explicacion": "La oferta monetaria básica (M1) se compone del efectivo en manos del público (monedas y billetes) más los depósitos a la vista en los bancos, ya que ambos pueden utilizarse directamente para realizar pagos.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "También se conoce con el nombre de cuenta corriente.",
         "d": "Las respuestas b) y c) son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Un depósito a la vista (Cuenta Corriente) permite retirar el dinero en cualquier momento (inmediatez), a diferencia de un depósito a plazo fijo."
+      "explicacion": "Un depósito a la vista, comúnmente llamado cuenta corriente, permite al titular disponer de su dinero de forma inmediata (mediante cheques, tarjetas o transferencias) sin necesidad de preaviso al banco.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 6,
@@ -71,20 +71,20 @@
         "c": "2%.",
         "d": "3%."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En la Zona Euro, el coeficiente de caja (o encaje bancario) establecido por el BCE es del 1% (aunque tradicionalmente fue del 2% y es la respuesta correcta en muchos manuales antiguos/clásicos)."
+      "explicacion": "Aunque no está resaltado en la imagen, históricamente en la Eurozona el coeficiente legal de caja o reservas mínimas obligatorias se estableció en el 2% para depósitos a la vista y a plazo hasta dos años.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 7,
       "pregunta": "Los activos financieros tienen las características siguientes...",
       "opciones": {
-        "a": "Liquidez, rentabilidad, seguridad y duración.",
+        "a": "Liquidez, rentabilidad, seguridad y duración",
         "b": "Transportabilidad, liquidez y duración.",
         "c": "Oferta limitada, rentabilidad, seguridad y duración.",
         "d": "Transportabilidad, rentabilidad, seguridad y duración."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El trilema fundamental del inversor: Rentabilidad (cuánto gano), Riesgo/Seguridad (probabilidad de perder) y Liquidez (facilidad para hacerlo efectivo). A veces se añade la duración temporal."
+      "explicacion": "Los activos financieros se definen por cuatro variables fundamentales: la liquidez (facilidad de conversión en dinero), la rentabilidad (capacidad de generar intereses), la seguridad (el riesgo de impago) y la duración (el plazo de vencimiento).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "El dinero en efectivo.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Una acción es un título que representa un derecho de propiedad sobre una parte de una empresa. Es un activo financiero, no físico como una casa."
+      "explicacion": "Las acciones son títulos valores que representan una parte alícuota del capital social de una empresa, otorgando derechos económicos y políticos, lo que las clasifica como un activo financiero típico. Una casa es un activo real o físico.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Se intercambian activos de renta fija (instrumentos financieros a corto plazo).",
         "d": "Se intercambian activos financieros por un financiación a largo plazo."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El mercado monetario negocia activos a muy corto plazo (menos de 12-18 meses), con alta liquidez y bajo riesgo, como Letras del Tesoro o Pagarés. Se usa para gestionar puntas de tesorería."
+      "explicacion": "El mercado monetario es el mercado financiero donde se negocian activos a corto plazo (generalmente menos de 18 meses) con alta liquidez y bajo riesgo, como letras del tesoro o pagarés de empresa.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Los bancos comerciales y las cajas de ahorro, las compañías aseguradoras, el Banco de España y el Instituto de Crédito Oficial.",
         "d": "Los bancos comerciales y las cajas de ahorro, las cooperativas de crédito y las Cajas rurales, el Banco de España y el Instituto de Crédito Oficial."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los intermediarios BANCARIOS tienen capacidad para crear dinero bancario (aceptar depósitos y dar créditos). Incluye Bancos, Cajas de Ahorro, Cooperativas de Crédito (Cajas Rurales) y el ICO."
+      "explicacion": "Los intermediarios bancarios son aquellos que tienen capacidad para crear dinero bancario a través de depósitos y préstamos. En España, este grupo incluye a la banca privada, cajas de ahorro, cooperativas de crédito, así como al Banco de España y al ICO como instituciones de crédito.",
+      "respuesta_correcta": "d"
     }
   ]
 }

@@ -1,126 +1,126 @@
 {
   "unidad": 3,
-  "titulo": "Examen Unidad 3",
+  "titulo": "Microeconomía",
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "¿Qué impacto tiene un impuesto sobre la producción en la curva de oferta?",
+      "pregunta": "Sin la intervención del Estado, la oferta y la demanda determinan...",
       "opciones": {
-        "a": "Desplazamiento a la derecha.",
-        "b": "Desplazamiento a la izquierda.",
-        "c": "Movimiento a lo largo de la curva.",
-        "d": "Ninguno."
+        "a": "En condiciones de equilibrio, sólo la cantidad total producida.",
+        "b": "En condiciones de equilibrio, sólo el precio de mercado de los bienes.",
+        "c": "En condiciones de equilibrio, tanto el precio de mercado de los bienes como la cantidad total producida.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Un impuesto actúa como un incremento en los costes de producción. Por tanto, para cualquier precio dado, los productores ofrecerán menos cantidad. Esto se representa como un desplazamiento de la oferta hacia la izquierda (o hacia arriba)."
+      "explicacion": "En un mercado de libre competencia sin intervención gubernamental, el mecanismo de precios permite que la interacción entre compradores (demanda) y vendedores (oferta) alcance un punto de equilibrio donde se definen simultáneamente el precio y la cantidad intercambiada.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 2,
-      "pregunta": "Si se produce una mejora tecnológica en la producción de un bien...",
+      "pregunta": "La demanda es...",
       "opciones": {
-        "a": "La oferta se desplaza a la derecha.",
-        "b": "La oferta se desplaza a la izquierda.",
-        "c": "Aumenta el precio de equilibrio.",
-        "d": "Disminuye la cantidad de equilibrio."
+        "a": "La cantidad total de un producto que los consumidores desean adquirir.",
+        "b": "La cantidad de bienes y servicios que los productores o fabricantes, generalmente empresas, están dispuestos a vender.",
+        "c": "El punto de equilibrio entre consumidores y productores.",
+        "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Una mejora tecnológica permite producir más con los mismos recursos (o lo mismo con menos costes). Esto incentiva a las empresas a producir más a cualquier precio, desplazando la oferta a la derecha."
+      "explicacion": "La demanda se define desde la perspectiva del consumidor y representa la intención y capacidad de compra de un bien o servicio a diferentes niveles de precios.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
-      "pregunta": "Si en un mercado hay exceso de demanda...",
+      "pregunta": "¿Qué factores confluyen cuando aumenta la demanda?",
       "opciones": {
-        "a": "El precio tiende a bajar.",
-        "b": "El precio tiende a subir.",
-        "c": "El mercado está en equilibrio.",
-        "d": "El gobierno interviene."
+        "a": "El precio de los bienes sustitutos o sin diferenciación.",
+        "b": "La renta de las economías domésticas.",
+        "c": "Las modas, las preferencias y los gustos de los consumidores.",
+        "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Cuando la cantidad demandada supera a la ofrecida (exceso de demanda), los consumidores compiten por los bienes escasos, lo que presiona los precios al alza hasta restablecer el equilibrio."
+      "explicacion": "La demanda no solo depende del precio del bien; factores externos como el aumento del precio de bienes sustitutos, un mayor nivel de ingresos (renta) de las familias o cambios positivos en las preferencias y modas desplazan la curva de demanda hacia la derecha.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 4,
-      "pregunta": "¿Qué ocurre con el precio y cantidad de equilibrio si aumentan simultáneamente oferta y demanda?",
+      "pregunta": "La oferta indica...",
       "opciones": {
-        "a": "El precio sube seguro.",
-        "b": "La cantidad aumenta seguro.",
-        "c": "Ambos bajan.",
-        "d": "El precio baja seguro."
+        "a": "La cantidad total de un producto que los consumidores desean adquirir.",
+        "b": "La cantidad de bienes y servicios que los productores o fabricantes, generalmente empresas, están dispuestos a vender.",
+        "c": "El punto de equilibrio entre consumidores y productores.",
+        "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si aumenta la demanda (derecha) y la oferta (derecha), ambos empujan la cantidad hacia arriba. Sin embargo, el efecto sobre el precio es ambiguo (la demanda lo sube, la oferta lo baja); dependerá de la magnitud de los desplazamientos."
+      "explicacion": "La oferta representa la perspectiva del productor, indicando cuántas unidades de un bien están dispuestos a poner en el mercado los fabricantes a un precio determinado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
-      "pregunta": "El ingreso total de los productores es máximo cuando la demanda tiene elasticidad...",
+      "pregunta": "¿Qué factor influye en la oferta?",
       "opciones": {
-        "a": "Infinita.",
-        "b": "Cero.",
-        "c": "Unitaria.",
-        "d": "Mayor que 1."
+        "a": "Los precios de los recursos escasos.",
+        "b": "La renta de las economías domésticas.",
+        "c": "Las modas, las preferencias y los gustos de los consumidores.",
+        "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El ingreso total (P x Q) se maximiza en el punto donde la elasticidad precio es igual a 1. En este punto, una variación de precio se compensa exactamente con la variación de cantidad."
+      "explicacion": "A diferencia de la demanda (influenciada por renta y gustos), la oferta depende principalmente de los costes de producción. El precio de los recursos escasos (materias primas, energía, mano de obra) es un factor determinante en la capacidad y disposición de las empresas para ofrecer productos.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
-      "pregunta": "La oferta a largo plazo es...",
+      "pregunta": "¿Qué es el equilibrio de mercado?",
       "opciones": {
-        "a": "Más elástica que a corto plazo.",
-        "b": "Menos elástica que a corto plazo.",
-        "c": "Igual que a corto plazo.",
-        "d": "Vertical."
+        "a": "La cantidad total de un producto que los consumidores desean adquirir.",
+        "b": "El punto de confluencia de productores y consumidores, esto es, la intersección entre la curva de la oferta y la curva de la demanda.",
+        "c": "La cantidad de bienes y servicios que los productores o fabricantes, generalmente empresas, están dispuestos a vender.",
+        "d": "Un exceso de oferta."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "A largo plazo, las empresas tienen más flexibilidad para cambiar todos sus factores productivos (ampliar fábricas, etc.) y nuevas empresas pueden entrar al mercado. Esto hace que la oferta sea mucho más sensible (elástica) a los precios."
+      "explicacion": "El equilibrio de mercado se define como la situación en la que el precio ha alcanzado el nivel en el que la cantidad ofrecida y la cantidad demandada se igualan. Gráficamente, es el punto exacto donde se cruzan las curvas de oferta y demanda.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
-      "pregunta": "Si el gobierno fija un precio máximo por debajo del equilibrio...",
+      "pregunta": "En un exceso de demanda...",
       "opciones": {
-        "a": "Se produce exceso de oferta.",
-        "b": "Se produce escasez o exceso de demanda.",
-        "c": "Todos se benefician.",
-        "d": "No tiene efecto."
+        "a": "El precio del bien en el mercado no se ve alterado.",
+        "b": "Disminuirá el precio del bien demandado en el mercado.",
+        "c": "Aumentará el precio del bien demandado en el mercado.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Un precio máximo efectivo (bajo el equilibrio) hace que la demanda supere a la oferta (porque el precio es bajo), creando escasez y colas."
+      "explicacion": "Cuando existe un exceso de demanda (escasez), hay más compradores interesados que productos disponibles al precio actual. Esta competencia entre consumidores presiona el precio al alza hasta que se alcanza un nuevo equilibrio.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
-      "pregunta": "¿Qué es el excedente del productor?",
+      "pregunta": "En un exceso de oferta...",
       "opciones": {
-        "a": "La diferencia entre el precio de mercado y el coste de producción.",
-        "b": "El beneficio total.",
-        "c": "La cantidad sobrante de producto.",
-        "d": "Ninguna de las anteriores."
+        "a": "El precio del bien en el mercado no se ve alterado.",
+        "b": "Disminuirá el precio del bien ofertado en el mercado.",
+        "c": "Aumentará el precio del bien ofertado en el mercado.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El excedente del productor mide el beneficio que obtienen los vendedores por participar en el mercado: es la diferencia entre lo que cobran (precio de mercado) y el mínimo al que estarían dispuestos a vender (su coste marginal)."
+      "explicacion": "Un exceso de oferta (excedente) ocurre cuando el precio es superior al de equilibrio, haciendo que los productores quieran vender más de lo que los consumidores están dispuestos a comprar. Para dar salida al stock acumulado, los vendedores bajan los precios.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
-      "pregunta": "Si la oferta es perfectamente inelástica (vertical), un aumento de la demanda...",
+      "pregunta": "Un decremento de la demanda...",
       "opciones": {
-        "a": "Aumenta solo la cantidad.",
-        "b": "Aumenta solo el precio.",
-        "c": "Aumenta precio y cantidad.",
-        "d": "No afecta nada."
+        "a": "Conlleva una subida del precio en el punto de equilibrio.",
+        "b": "Conlleva una bajada del precio en el punto de equilibrio.",
+        "c": "El precio del bien en el mercado no se ve alterado.",
+        "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si la oferta es fija (vertical), no se puede producir más cantidad pase lo que pase. Por tanto, si la gente quiere más (aumento de demanda), lo único que ocurrirá es que el precio subirá. La cantidad permanece constante."
+      "explicacion": "Si la demanda disminuye (la curva se desplaza hacia la izquierda) y la oferta permanece constante, se genera un excedente temporal al precio inicial, lo que empuja el precio hacia abajo hasta encontrar un nuevo punto de equilibrio inferior.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
-      "pregunta": "En un mercado competitivo, el precio de equilibrio vacía el mercado. Esto significa...",
+      "pregunta": "¿Qué función tienen los precios?",
       "opciones": {
-        "a": "Que no queda ningún producto por vender.",
-        "b": "Que la cantidad ofrecida iguala a la demandada.",
-        "c": "Que el precio es cero.",
-        "d": "Que los consumidores no compran nada."
+        "a": "Dar información.",
+        "b": "La mejor asignación de recursos.",
+        "c": "Hacer variar la producción.",
+        "d": "Todas las respuestas son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Vaciar el mercado significa que no hay excedentes (sobra producto) ni escasez (falta producto). Todos los que quieren comprar al precio de equilibrio encuentran vendedor, y viceversa."
+      "explicacion": "En una economía de mercado, los precios actúan como señales: informan sobre la escasez o abundancia, incentivan a las empresas a ajustar su producción y guían la asignación de recursos hacia donde son más valorados.",
+      "respuesta_correcta": "d"
     }
   ]
 }

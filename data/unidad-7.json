@@ -1,42 +1,42 @@
 {
   "unidad": 7,
-  "titulo": "Examen Unidad 7",
+  "titulo": "Microeconomía - Autoevaluación Unidad 7",
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "Los costes fijos...",
+      "pregunta": "Los beneficios de la empresa se calculan de la siguiente manera...",
       "opciones": {
-        "a": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
-        "b": "Son los edificios.",
-        "c": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
-        "d": "Todas las respuestas anteriores son incorrectas."
+        "a": "Ingresos totales menos costes totales.",
+        "b": "Ingresos totales menos costes fijos.",
+        "c": "Ingresos totales menos costes variables.",
+        "d": "Ingresos totales menos costes marginales."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Los costes fijos (CF) no varían con la cantidad producida (Q). Ejemplos típicos son el alquiler o los seguros. Se pagan igual produzcas 0 o produzcas 1000 unidades, y a corto plazo son inevitables."
+      "explicacion": "El beneficio económico se define fundamentalmente como la diferencia entre los ingresos totales percibidos por la venta de bienes o servicios y los costes totales (tanto fijos como variables) necesarios para producirlos.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
-      "pregunta": "Los costes variables...",
+      "pregunta": "Los coste implícitos son...",
       "opciones": {
-        "a": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
-        "b": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
-        "c": "Son aquellos que aumentan o disminuyen cuando la producción de la empresa aumenta o disminuye.",
-        "d": "Son la mano de obra directa."
+        "a": "Son aquellos que exigen a la empresa que haga un desembolso de dinero.",
+        "b": "Son aquellos que no exigen un desembolso de dinero.",
+        "c": "Las materias primas.",
+        "d": "Los salarios de los trabajadores."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Los costes variables (CV) dependen directamente del nivel de actividad. Si produces más coches, necesitas más acero y más ruedas. Si cierras la fábrica temporalmente, los costes variables caen a cero."
+      "explicacion": "A diferencia de los costes explícitos, los costes implícitos son costes de oportunidad que no requieren un pago monetario directo, como el uso de recursos propios de la empresa o el tiempo del propietario.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
-      "pregunta": "Los costes totales...",
+      "pregunta": "Los costes fijos...",
       "opciones": {
-        "a": "La suma de los costes fijos y variables.",
-        "b": "Son aquellos que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan.",
+        "a": "Son aquellos que se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
+        "b": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y dependen del volumen de producción.",
         "c": "Son aquellos que no se pueden adaptar a corto plazo a las fluctuaciones de producción y no dependen del volumen de producción.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Por definición contable y económica, el Coste Total (CT) es la suma de los Costes Fijos (CF) más los Costes Variables (CV)."
+      "explicacion": "Los costes fijos son aquellos que la empresa debe pagar independientemente de su nivel de producción en el corto plazo, como el alquiler de una oficina o seguros.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Son los edificios.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Un coste fijo recuperable es un activo que puedes revender si sales del mercado (ej. un edificio o un coche, opción B y C). Si el coste fuera 'hundido' o irrecuperable (ej. publicidad ya emitida), no se podría recuperar."
+      "explicacion": "Los costes fijos recuperables son activos que, aunque representan un coste fijo para la operación, mantienen un valor de mercado y pueden ser vendidos o reutilizados si la empresa decide cesar su actividad, como es el caso de inmuebles o vehículos.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Es el salario de los trabajadores.",
         "d": "Es aquel que la mayoría de empresas asumen y que tienen que ver con la actividad productiva que efectúan."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Coste Marginal (CMg) es fundamental en economía: responde a la pregunta '¿cuánto me cuesta producir LA ÚLTIMA unidad?'. Matemáticamente es la derivada del Coste Total respecto a la Cantidad."
+      "explicacion": "El coste marginal es un concepto clave en microeconomía que indica cuánto aumenta el coste total al producir exactamente una unidad adicional de producto.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "El precio de venta del producto o servicio por el número de unidades vendidas.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El Ingreso Total (IT) es simplemente Precio x Cantidad (P x Q). No se debe confundir con el Beneficio (que es Ingreso - Coste)."
+      "explicacion": "El ingreso total representa la entrada bruta de dinero por ventas, por lo que se calcula simplemente multiplicando el precio de cada unidad por la cantidad total de unidades vendidas (P x Q).",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "El beneficio económico siempre es negativo.",
         "d": "El beneficio económico siempre es nulo."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El beneficio contable solo resta gastos explícitos. El beneficio ECONÓMICO resta también los costes de oportunidad (lo que podrías ganar en otra actividad). Por eso, puedes tener ganancias contables pero pérdidas económicas si tu capital estaría mejor invertido en bonos del tesoro."
+      "explicacion": "El beneficio económico tiene en cuenta los costes de oportunidad, que no aparecen en la contabilidad tradicional. Por ello, aunque haya beneficios contables, el beneficio económico dependerá de si estos superan, igualan o son inferiores a lo que se podría haber ganado en la mejor alternativa posible.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "El beneficio económico será nulo o negativo.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Si ya pierdes dinero contablemente (Ingresos < Gastos explícitos), seguro que también pierdes económicamente, porque al restar además el coste de oportunidad, el resultado será aún más negativo."
+      "explicacion": "Si el beneficio contable ya es negativo (pérdidas), al restarle los costes de oportunidad para hallar el beneficio económico, este último será inevitablemente más negativo aún.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Si los beneficios contables son inferiores al coste de oportunidad.",
         "d": "Las repuestas a y b son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Beneficio normal (o nulo) significa que la empresa gana exactamente lo mismo que ganaría en su mejor alternativa. Contablemente gana dinero, pero económicamente está 'en paz' con el coste de oportunidad."
+      "explicacion": "Se habla de beneficios normales cuando el beneficio económico es cero. Esto ocurre cuando el beneficio contable es exactamente igual a los costes de oportunidad de los recursos utilizados por el empresario.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Ingreso total=coste marginal.",
         "d": "Beneficio total=coste marginal."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Regla de oro de maximización: Producir hasta que IMg = CMg. Si producir una unidad más te aporta más ingreso que coste (IMg > CMg), debes producirla. Si te cuesta más de lo que ganas (CMg > IMg), no debes."
+      "explicacion": "La regla de oro de la maximización de beneficios dicta que una empresa debe producir hasta el punto donde el ingreso adicional de vender una unidad más (IMg) sea igual al coste adicional de producirla (CMg).",
+      "respuesta_correcta": "a"
     }
   ]
 }

@@ -1,30 +1,30 @@
 {
   "unidad": 28,
-  "titulo": "Examen Unidad 28",
+  "titulo": "Macroeconomía - Autoevaluación Unidad 28",
   "preguntas": [
     {
       "numero": 1,
-      "pregunta": "¿Qué crecimiento han experimentado los países miembros de la OCDE en las últimas décadas?",
+      "pregunta": "Si observamos la evolución del PIB de Estados Unidos desde 1890 hasta 1990...",
       "opciones": {
-        "a": "El crecimiento ha sido nulo.",
+        "a": "No existe crecimiento, sino estancamiento.",
         "b": "Existe un evidente crecimiento negativo.",
         "c": "Existe un evidente crecimiento positivo.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Desde 1950, los países desarrollados (OCDE) han experimentado un crecimiento sostenido y una mejora del nivel de vida sin precedentes históricos, multiplicando su renta per cápita."
+      "explicacion": "Históricamente, el Producto Interior Bruto (PIB) de los Estados Unidos ha mostrado una tendencia ascendente sostenida a lo largo del siglo XX, reflejando un crecimiento económico robusto a largo plazo a pesar de fluctuaciones cíclicas.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 2,
       "pregunta": "La evolución del nivel de vida de un país viene dado por...",
       "opciones": {
-        "a": "La evolución de la producción total y no por la producción per cápita.",
+        "a": "La evolución de la producción total y no por la producción cápita.",
         "b": "La evolución de la producción per cápita y no por la producción total.",
         "c": "La evolución de los tipos de cambio de divisas.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Lo que importa para el bienestar medio es cuánto toca a cada persona. Si el PIB crece un 2% pero la población crece un 3%, la gente es individualmente más pobre. Por eso miramos el PIB Per Cápita."
+      "explicacion": "El nivel de vida se mide mejor a través del PIB per cápita, ya que este indicador divide la producción total entre el número de habitantes, reflejando el promedio de bienes y servicios disponibles por persona.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "3.620 dólares.",
         "d": "36 dólares."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Dato histórico específico (extraído seguramente del manual de Blanchard o similar usado en el curso). Ilustra la enorme brecha que existía (y existe, aunque menor) entre países ricos y pobres."
+      "explicacion": "Según los datos históricos de contabilidad nacional para ese periodo, el PIB per cápita de la India se situaba en torno a los 362 dólares, reflejando su situación como economía en desarrollo en aquel momento.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Alan Heston.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Las Penn World Tables (PWT) son la base de datos estándar para investigar crecimiento. Permiten comparar el PIB real de países calculando la Paridad de Poder Adquisitivo (PPA), trabajo pionero de Heston, Summers y Kravis."
+      "explicacion": "Las Penn World Tables (PWT) son un conjunto de datos de cuentas nacionales relativos a los niveles de vida relativos, impulsados conjuntamente por los economistas Irving Kravis, Alan Heston y Robert Summers de la Universidad de Pensilvania.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Ha tenido que dar paso a la realidad de un decrecimiento desde 1973.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Tras la 'Edad de Oro' (1950-1973) de posguerra, la Crisis del Petróleo de 1973 marcó un punto de inflexión estructural, reduciendo las tasas de crecimiento promedio en Occidente."
+      "explicacion": "Tras la 'Edad de Oro' del capitalismo (1945-1973), la crisis del petróleo de 1973 marcó el inicio de un periodo de ralentización en el crecimiento de la productividad y de la renta per cápita en la mayoría de las economías desarrolladas.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Venezuela.",
         "d": "Todas las respuestas anteriores con correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Argentina, Uruguay y Venezuela eran países relativamente ricos en la primera mitad del siglo XX, pero sufrieron un estancamiento relativo, divergiendo de EEUU y Europa en lugar de converger."
+      "explicacion": "Estos países latinoamericanos son ejemplos clásicos en macroeconomía de economías que, a pesar de tener niveles de renta relativamente altos a mediados del siglo XX, experimentaron un estancamiento o retroceso relativo frente a las economías avanzadas, fallando en el proceso de convergencia económica.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "La convergencia de la producción per cápita de los países ricos.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los tres hechos estilizados del crecimiento moderno: 1) Crecimiento espectacular posguerra, 2) Ralentización post-73, 3) Convergencia entre países OCDE (club de convergencia)."
+      "explicacion": "El estudio del crecimiento económico moderno abarca tanto la explosión de bienestar tras la posguerra, la ralentización posterior a la crisis del petróleo de los 70 y el fenómeno de convergencia observado entre las naciones desarrolladas (OCDE).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Las tasas de crecimiento fueron las mismas que las actuales.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Aunque la Rev. Industrial fue revolucionaria, las tasas de crecimiento eran del 1-2% anual, bajas comparadas con los 'milagros económicos' de los tigres asiáticos o la China moderna (7-10%)."
+      "explicacion": "Aunque fue un cambio estructural masivo, las tasas de crecimiento del PIB per cápita durante la Revolución Industrial (aprox. 1-1.5%) eran significativamente menores que las tasas de crecimiento observadas en el siglo XX y XXI en países desarrollados o emergentes.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Han decrecido.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "No existe evidencia de 'convergencia absoluta' a nivel mundial. Muchos países pobres (especialmente en África) se quedaron estancados o crecieron menos que los ricos, aumentando la desigualdad global hasta tiempos recientes."
+      "explicacion": "A diferencia de los países ricos que sí convergieron entre sí, los países más pobres del mundo en 1960 no han mostrado una tendencia generalizada a crecer más rápido que los ricos (convergencia absoluta), lo que ha mantenido o ampliado la brecha de desigualdad global.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Siempre debe ser positivo.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El crecimiento económico sostenido es un fenómeno reciente (últimos 200 años) y localizado. Durante milenios la humanidad vivió en estancamiento (trampa malthusiana), por lo que no es una ley natural inevitable."
+      "explicacion": "Desde una perspectiva histórica de largo plazo, el crecimiento económico sostenido es un fenómeno reciente (desde la Revolución Industrial). Durante milenios, la renta per cápita permaneció estancada, por lo que el crecimiento no es una constante o necesidad inherente a todas las épocas de la historia humana.",
+      "respuesta_correcta": "b"
     }
   ]
 }

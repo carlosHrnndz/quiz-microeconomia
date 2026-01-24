@@ -1,6 +1,6 @@
 {
   "unidad": 6,
-  "titulo": "Examen Unidad 6",
+  "titulo": "Microeconomía: Producción y Rendimientos",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Nos muestran los factores de producción que deben utilizar las empresas para producir sus productos.",
         "d": "La respuesta a y b son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Las isocuantas representan todas las combinaciones posibles de factores (capital y trabajo) que generan el mismo nivel de producción. Muestran la flexibilidad técnica (A) y, combinadas con los costes (isocostes), permiten elegir la combinación óptima (B)."
+      "explicacion": "Las isocuantas representan todas las combinaciones posibles de factores (como trabajo y capital) que generan un mismo nivel de producción, lo que demuestra flexibilidad técnica. Además, al combinarlas con las rectas isocoste, permiten identificar el punto de equilibrio donde se minimizan los costes de producción.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Pueden alterar todos los factores de producción.",
         "d": "Hay unos factores fijos de producción que no pueden ser alterados."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En economía, el 'largo plazo' se define precisamente como el horizonte temporal en el que todos los factores son variables (se pueden construir fábricas, comprar maquinaria pesada, etc.). No hay costes fijos a largo plazo."
+      "explicacion": "En microeconomía, el 'largo plazo' se define precisamente como el periodo de tiempo en el cual todos los factores de producción son variables. No existen factores fijos (como el tamaño de la planta o maquinaria pesada), ya que la empresa tiene tiempo suficiente para ajustarlos todos.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Explica porqué la curva de producto marginal es inicialmente creciente y se mantiene siempre creciente.",
         "d": "Explica porqué la curva de producto marginal es inicialmente decreciente."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Al principio, al añadir trabajadores se gana especialización (rendimientos crecientes). Pero eventualmente, si el capital es fijo (pocas máquinas), los nuevos trabajadores se estorban y aportan cada vez menos producción extra (rendimientos decrecientes)."
+      "explicacion": "Esta ley establece que si se añade más de un factor variable a una cantidad fija de otros factores, el incremento en la producción total (producto marginal) eventualmente empezará a disminuir. Inicialmente puede crecer por la especialización, pero luego decrece por la saturación de los factores fijos.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Explica porqué a medida que se incorporan nuevas máquinas e inventos para producir determinado bien o servicio, es imprescindible aportar más factores de producción para conseguir más productos.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Cuidado con esta pregunta, la respuesta correcta marcada es B pero la B describe el PROGRESO TECNOLÓGICO, que contrarresta los rendimientos decrecientes. La ley en sí misma dice lo contrario (cada vez menos producción). La pregunta parece referirse a cómo la tecnología vence a la ley malthusiana."
+      "explicacion": "Aunque la ley de rendimientos decrecientes se refiere a la productividad decreciente al añadir factores variables, en este contexto se asocia a cómo el progreso tecnológico (nuevas máquinas e inventos) permite desplazar la función de producción hacia arriba, logrando una mayor eficiencia con los mismos recursos.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "David Ricardo.",
         "d": "J. M. Keynes."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Aunque David Ricardo la formalizó para la tierra, Thomas Malthus fue pionero al usarla para predecir (erróneamente) que la producción de alimentos no crecería al ritmo de la población."
+      "explicacion": "Thomas Malthus es históricamente reconocido por aplicar esta ley en sus teorías sobre el crecimiento de la población, argumentando que mientras la población crece de forma geométrica, la producción de alimentos lo hace de forma aritmética debido a los rendimientos decrecientes de la tierra.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "El nivel de producción esperado sólo se puede alcanzar con una determinada combinación de factores de producción.",
         "d": "Las respuestas b y c son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Las isocuantas en forma de 'L' (Leontief) indican factores complementarios perfectos (ej. 1 conductor por cada 1 camión). No hay sustituibilidad; necesitas proporciones fijas."
+      "explicacion": "Las isocuantas en forma de ángulo recto (o forma de L) representan la función de producción de Leontief o de proporciones fijas. Esto implica que los factores deben combinarse en una proporción específica y no existe posibilidad de sustitución entre ellos para mantener el mismo nivel de eficiencia.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Se produce cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
         "d": "Se produce cuando la cantidad utilizada de todos los factores y la cantidad obtenida de producto varían en la misma proporción."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Rendimientos crecientes a escala (economías de escala) ocurren cuando al duplicar TODOS los factores (x2), la producción se más que duplica (>x2)."
+      "explicacion": "Los rendimientos crecientes a escala ocurren cuando, al aumentar todos los factores de producción en una proporción determinada (por ejemplo, duplicarlos), la producción resultante aumenta en una proporción mayor (más del doble).",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción más pequeña.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Rendimientos constantes significan que la producción escala linealmente. Si doblas la fábrica y los trabajadores, obtienes exactamente el doble de producto."
+      "explicacion": "Los rendimientos constantes a escala se definen como la situación en la que un incremento proporcional en todos los insumos o factores de producción genera un incremento exactamente igual en la producción total.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Cuando varían todos los factores en una proporción determinada y esto conlleva que la cantidad obtenida del producto varíe en una proporción mayor.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Rendimientos decrecientes a escala (diseconomías) ocurren cuando la empresa se vuelve demasiado grande y burocrática. Duplicar los recursos aumenta la producción en menos del doble."
+      "explicacion": "Los rendimientos decrecientes a escala se presentan cuando, al aumentar todos los factores de producción en una proporción dada, el nivel de producción aumenta en una proporción menor a dicho incremento.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Es la cantidad que puede aumentarse de un factor cuando se utiliza otro factor para obtener el mismo nivel de producción.",
         "d": "Todas las repuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La RMST mide la pendiente de la isocuanta: representa a cuánto Capital debemos renunciar si contratamos una unidad más de Trabajo, manteniéndonos en el mismo nivel de producción."
+      "explicacion": "La RMST mide la tasa a la que una empresa puede sustituir un factor de producción por otro (por ejemplo, capital por trabajo) manteniendo constante el nivel de producción total. Gráficamente, es la pendiente de la curva isocuanta.",
+      "respuesta_correcta": "a"
     }
   ]
 }

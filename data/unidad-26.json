@@ -1,6 +1,6 @@
 {
   "unidad": 26,
-  "titulo": "Examen Unidad 26",
+  "titulo": "Macroeconomía",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Solamente en la renta disponible.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Al cambiar los Impuestos (T), el Estado afecta directamente a la Renta Disponible de las familias. Al cambiar el Gasto Público (G), afecta directamente a la Demanda Agregada."
+      "explicacion": "La política fiscal utiliza instrumentos como el gasto público, que afecta directamente a la demanda agregada, y los impuestos, que determinan cuánta renta disponible les queda a los ciudadanos para consumir e invertir.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Para realizar transferencias sin ninguna contrapartida.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Gasto Corriente cubre el funcionamiento diario del Estado: sueldos de médicos y profesores, medicinas, luz de los colegios... (La opción A se referiría a Gasto de Inversión)."
+      "explicacion": "Los gastos corrientes son aquellos destinados al funcionamiento diario y operativo de los servicios públicos esenciales, permitiendo que el Estado provea educación, salud y seguridad de forma continua.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Son fruto de los impuestos directos que recaen sobre el patrimonio y las rentas de los sujetos pasivos.",
         "d": "Son fruto de los impuestos indirectos."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Los ingresos fiscales provienen de impuestos directos (IRPF sobre renta, Impuesto Patrimonio) e indirectos (IVA sobre consumo). La respuesta C es la más completa referida a la imposición directa."
+      "explicacion": "Los impuestos directos son aquellos que gravan directamente la capacidad económica del contribuyente, manifestada a través de la obtención de rentas o la posesión de un patrimonio.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Sólo persigue aumentar la renta del país.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Una política expansiva busca 'expandir' la economía: aumentar el PIB y el empleo. Para ello intenta aumentar la Demanda Agregada gastando más (G) o bajando impuestos (T)."
+      "explicacion": "Una política fiscal expansiva busca estimular la actividad económica incrementando el gasto público o reduciendo impuestos, lo que eleva la demanda agregada y, consecuentemente, la producción y la renta nacional.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Tiene como finalidad frenar la demanda agregada y el nivel de renta de la economía.",
         "d": "Las respuestas a) y b) son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Se usa para 'enfriar' la economía cuando hay riesgo de inflación alta. Al reducir G o subir T, se reduce la demanda y se frenan los precios."
+      "explicacion": "La política fiscal contractiva se aplica para enfriar la economía, generalmente para combatir la inflación, reduciendo el gasto público o aumentando los impuestos para disminuir la demanda agregada.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Sólo se tradujo en una caída de la producción, ya que la ocupación aumentó con la ruralización de las sociedades industriales.",
         "d": "Todas las respuestas son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La Gran Depresión de los años 30 se caracterizó por una deflación brutal y tasas de desempleo (desocupación) que llegaron al 25% en EEUU."
+      "explicacion": "La Gran Depresión, que comenzó tras el crack de 1929 y se extendió durante los años 30, se caracterizó por una contracción masiva del PIB (caída de producción) y tasas de desempleo históricamente altas en todo el mundo industrializado.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Aumenta los impuestos y esto permite a las familiar tener una mayor renta disponible, y consiguientemente, poder consumir más.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Una de las dos vías expansivas es bajar impuestos. Si el Estado te quita menos dinero, tienes más Renta Disponible, gastas más (Consumo) y la economía se mueve."
+      "explicacion": "Una política fiscal expansiva busca estimular la demanda agregada. Al reducir los impuestos, aumenta la renta disponible de los hogares, lo que incentiva el consumo privado y el crecimiento económico.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Los impuestos y las transferencias.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Son mecanismos que suavizan el ciclo sin que el gobierno haga nada nuevo. En recesión, la recaudación de impuestos baja sola (pagas menos porque ganas menos) y el subsidio de paro sube solo (transferencia), sosteniendo la renta."
+      "explicacion": "Los estabilizadores automáticos son mecanismos que actúan sin intervención gubernamental directa para suavizar el ciclo económico. Los impuestos (que bajan en recesión) y las transferencias como el subsidio por desempleo (que suben en recesión) cumplen esta función.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Las transferencias.",
         "d": "La emisión de deuda pública y los créditos al Banco Central."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Para financiar déficits fiscales, el Estado emite Deuda Pública (bonos). Históricamente también podía pedir créditos directos a su Banco Central (monetización), práctica hoy prohibida en la Eurozona."
+      "explicacion": "Mientras que los impuestos y transferencias son instrumentos ordinarios, la emisión de deuda y la financiación a través del Banco Central (aunque limitada en la Eurozona) se consideran vías extraordinarias para financiar déficits presupuestarios.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "La evolución y el crecimiento de la economía.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El Pacto de Estabilidad y Crecimiento exige a los países presentar Programas de Estabilidad detallando sus previsiones de crecimiento, deuda y déficit a medio plazo."
+      "explicacion": "Bajo el Pacto de Estabilidad y Crecimiento de la UE, los estados miembros deben presentar planes que incluyan sus metas de déficit/superávit, las líneas maestras de su política económica y las previsiones macroeconómicas de crecimiento.",
+      "respuesta_correcta": "d"
     }
   ]
 }

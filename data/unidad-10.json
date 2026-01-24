@@ -1,6 +1,6 @@
 {
   "unidad": 10,
-  "titulo": "Examen Unidad 10",
+  "titulo": "Microeconomía - Estructuras de Mercado",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Un monopolio artificial.",
         "d": "Un oligopolio."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El Monopolio Bilateral es una situación curiosa donde un Monopsonio (único comprador) se enfrenta a un Monopolio (único vendedor). El precio final dependerá del poder de negociación de cada parte."
+      "explicacion": "Un monopolio bilateral es una estructura de mercado donde coexisten un único vendedor (monopolio) y un único comprador (monopsonio).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Muros presentes.",
         "d": "Licencias del Estado."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Las Barreras de Entrada son obstáculos que dificultan o impiden que nuevas empresas entren en un mercado. Pueden ser legales (patentes), económicas (altos costes fijos) o estratégicas."
+      "explicacion": "Las barreras de entrada son obstáculos de diversos tipos (económicos, legales o tecnológicos) que dificultan o impiden que nuevas empresas ingresen a un mercado para competir.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Un monopolio artificial.",
         "d": "Un oligopolio."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Monopsonio (del griego 'mono' = uno, 'opsonia' = compra) es la estructura de mercado donde hay un único demandante. Ejemplo clásico: el Estado comprando armamento pesado o una fábrica única en un pueblo contratando trabajadores."
+      "explicacion": "El monopsonio es una situación de fallo de mercado que aparece cuando en un mercado existe un único consumidor en lugar de varios.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Poder de mercado.",
         "d": "Maximización de los beneficios."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El Poder de Mercado es la capacidad de alterar el precio de mercado por encima (o por debajo) del nivel competitivo. Una empresa competitiva tiene poder de mercado cero."
+      "explicacion": "El poder de mercado se refiere a la capacidad de una empresa (o comprador) para influir de forma rentable en el precio de mercado de un bien o servicio.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "El precio es inferior al coste marginal.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La condición de eficiencia asignativa P = CMg se cumple solo en competencia perfecta. En monopolio, el precio siempre es superior al coste marginal (P > CMg)."
+      "explicacion": "En competencia perfecta, las empresas son precio-aceptantes, por lo que el ingreso marginal es igual al precio. La maximización del beneficio ocurre cuando el precio iguala al coste marginal (P = CMg).",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Índice de Gini del poder de monopolio.",
         "d": "Índice de Lerner del poder de monopolio."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El índice de Lerner (L = (P - CMg) / P) mide el grado de poder de monopolio. Va de 0 (competencia perfecta) a 1 (monopolio puro). Cuanto mayor es, más margen carga la empresa sobre sus costes."
+      "explicacion": "El Índice de Lerner es una medida clásica del poder de mercado de una empresa. Se calcula como (P - CMg) / P. Cuanto más cerca esté de 1, mayor es el poder de monopolio de la empresa.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Un monopolio artificial.",
         "d": "Un oligopolio."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Un Monopolio Natural surge cuando hay enormes economías de escala (costes medios decrecientes). Es más eficiente (barato) que una sola empresa ponga las tuberías de agua o la red eléctrica que tener a tres empresas compitiendo y duplicando infraestructuras."
+      "explicacion": "Un monopolio natural ocurre cuando existen economías de escala tan fuertes que es más eficiente (menos costoso) que una sola empresa provea el bien o servicio a todo el mercado en lugar de tener competencia.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Gasto medio.",
         "d": "Gasto ponderado."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Para un monopsonista, comprar una unidad extra no solo cuesta el precio de esa unidad, sino que sube el precio de TODAS las unidades anteriores (si la oferta tiene pendiente positiva). Por eso el Gasto Marginal es superior al Gasto Medio."
+      "explicacion": "El gasto marginal es el cambio en el gasto total que resulta de la compra de una unidad adicional de un producto. Es un concepto clave para entender el comportamiento del comprador con poder de mercado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Gasto medio.",
         "d": "Gasto ponderado."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "(Pregunta duplicada). El Gasto Marginal es el coste incremental de adquirir un input adicional."
+      "explicacion": "Esta pregunta es idéntica a la anterior; el término técnico para el incremento en el gasto total al adquirir una unidad extra es gasto marginal.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "A un precio inferior al del mercado competitivo.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Al tener poder de mercado en la compra, el monopsonista restringe la cantidad comprada para forzar una bajada de precios en los proveedores. Paga menos y compra menos que en competencia perfecta."
+      "explicacion": "Un monopsonista es un comprador único que tiene poder de mercado. Al enfrentarse solo a la oferta, puede restringir su cantidad de compra para forzar un precio de mercado más bajo que el que habría en competencia perfecta.",
+      "respuesta_correcta": "c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "unidad": 14,
-  "titulo": "Examen Unidad 14",
+  "titulo": "Microeconomía - Mercado de Trabajo",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "El equilibrio entre la oferta y la demanda de trabajo.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En economía, el salario se considera simplemente como el precio que equilibra el mercado del factor producción 'Trabajo' (L)."
+      "explicacion": "Desde el punto de vista económico, el salario se define como el precio que se paga por el uso del factor productivo trabajo en el mercado laboral.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "El precio del trabajo.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Como en cualquier mercado, la interacción de oferta y demanda determina dos variables: el Precio (Salario) y la Cantidad de equilibrio (Nivel de empleo/ocupación)."
+      "explicacion": "Al igual que en otros mercados, la interacción entre la oferta y la demanda en el mercado laboral determina tanto el precio (sueldo) como la cantidad intercambiada (volumen de ocupación).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Un instrumento para la perpetuación las diferencias de clase.",
         "d": "Un instrumento para crec analfabetos."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "John Stuart Mill criticó que la educación victoriana, lejos de igualar oportunidades, servía para mantener el status quo y asegurar que los hijos de las clases altas mantuvieran su posición privilegiada."
+      "explicacion": "John Stuart Mill observó que el sistema educativo de su época a menudo servía para mantener el statu quo y las jerarquías sociales existentes, en lugar de facilitar la movilidad social.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Salario de compensación.",
         "d": "Salario legal."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Salario de Reserva es el umbral mínimo por debajo del cual una persona prefiere quedarse en casa (ocio o labores domésticas) antes que trabajar. Si el salario de mercado es menor al de reserva, no trabajará."
+      "explicacion": "El salario de reserva es el umbral mínimo de ingresos por debajo del cual un individuo prefiere no trabajar, ya que el valor que otorga a su tiempo libre o a otras actividades supera la compensación ofrecida.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "El efecto de compensación y el efecto trabajo.",
         "d": "El efecto sustitución y el efecto renta."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Al subir el salario hay dos fuerzas opuestas: Efecto Sustitución (el ocio es más caro, trabajo más) y Efecto Renta (soy más rico, puedo permitirme trabajar menos y disfrutar más). La curva de oferta de trabajo puede curvarse hacia atrás si domina el efecto renta."
+      "explicacion": "En microeconomía, un aumento salarial genera dos efectos contrapuestos: el efecto sustitución (incentiva a trabajar más al ser el ocio más costoso) y el efecto renta (incentiva a trabajar menos al poder mantener el nivel de vida con menos horas).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Cuando coinciden la oferta y la demanda.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La empresa contrata hasta que lo que el último trabajador aporta (Valor de la Productividad Marginal) es igual a lo que le cuesta (Salario/Coste Factor Marginal)."
+      "explicacion": "En el modelo de monopsonio, el equilibrio se busca donde el ingreso del producto marginal (valor de la productividad marginal) se relaciona con el coste de contratar mano de obra adicional para maximizar el beneficio del único comprador.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Cuando hay un sólo comprador y muchos vendedores.",
         "d": "Cuando hay varios compradores y varios vendedores."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Monopsonio laboral: Mucha gente queriendo trabajar (vendedores de trabajo) pero una única empresa contratando (comprador de trabajo)."
+      "explicacion": "El monopsonio es una estructura de mercado caracterizada por la existencia de un único comprador (demandante) frente a muchos vendedores (oferentes), lo que le otorga al comprador poder sobre el precio.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "La exclusividad.",
         "d": "La negociación."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "En un monopolio bilateral (Sindicato único vs Patronal única), no hay una solución de mercado automática. El salario final depende puramente del poder de negociación (fuerza de huelga vs resistencia empresarial)."
+      "explicacion": "En un monopolio bilateral existe un solo vendedor y un solo comprador. Al tener ambos poder de mercado, el precio y la cantidad finales dependen de la capacidad de negociación de cada parte.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "De la formación de los trabajadores.",
         "d": "De la aparición de nuevas empresas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los cambios estructurales (de agrícola a industrial, o a servicios) cambian la demanda relativa de habilidades, creando diferencias salariales entre sectores en auge y en declive."
+      "explicacion": "Las diferencias estructurales en los salarios suelen derivarse de cambios a largo plazo en la composición y el funcionamiento de la economía global o nacional, afectando a sectores enteros.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Capital humano.",
         "d": "Capital inherente."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El Capital Humano (Gary Becker) es el conjunto de conocimientos, habilidades y salud que los trabajadores acumulan (vía educación y experiencia) y que aumenta su productividad."
+      "explicacion": "El capital humano se refiere al valor económico de las habilidades, experiencia y formación de los trabajadores, factores que incrementan su productividad y potencial de ingresos.",
+      "respuesta_correcta": "c"
     }
   ]
 }

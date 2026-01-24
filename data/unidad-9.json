@@ -1,6 +1,6 @@
 {
   "unidad": 9,
-  "titulo": "Examen Unidad 9",
+  "titulo": "Microeconomía: Competencia Perfecta y Monopolio",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Están integrados por un número muy elevado de vendedores y compradores y estos tienen una influencia real sobre el precio.",
         "d": "Están integrados por pocos productores de un determinado bien y muchos consumidores."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La característica clave de la competencia perfecta es la 'atomicidad': hay tantos agentes pequeños que ninguno tiene poder de mercado. El precio es un dato externo (precio-aceptantes)."
+      "explicacion": "En competencia perfecta, la atomización del mercado (muchos compradores y vendedores) impide que cualquier agente individual tenga poder de mercado para influir en el precio, convirtiéndolos en precio-aceptantes.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Están compuestos por un número de empresas que producen bienes y servicios parecidos pero diferenciados.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un monopolio (del griego 'mono' = uno, 'polein' = vender) se define por la existencia de un único oferente que abastece a todo el mercado, enfrentándose él solo a toda la curva de demanda."
+      "explicacion": "Un monopolio se define por la existencia de un único oferente en el mercado que produce un bien sin sustitutos cercanos, lo que le otorga un control total sobre la oferta.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Existen barreras de entradas perfectas",
         "d": "Hay muchos consumidores y productores."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En competencia perfecta, NO existen barreras de entrada ni de salida (libertad de entrada). Si existieran barreras 'perfectas', sería imposible que nuevas empresas entraran, lo que llevaría a monopolios u oligopolios."
+      "explicacion": "Una de las condiciones fundamentales de la competencia perfecta es la libertad de entrada y salida del mercado. La existencia de barreras de entrada es propia de mercados no competitivos como el monopolio u oligopolio.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Las empresas no son precio-aceptantes.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "En competencia perfecta, el mercado es una 'subasta gigante' donde la interacción libre de la oferta agregada y demanda agregada determina el precio de equilibrio que todos deben aceptar."
+      "explicacion": "En este modelo, el precio no lo decide ninguna empresa individual, sino que surge de la interacción global de la oferta y la demanda agregada en el mercado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Tiene forma de U.",
         "d": "Es en forma de ángulos."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Aunque la demanda del mercado tiene pendiente negativa, la demanda PERCIBIDA por una sola empresa pequeña es una línea horizontal al precio de mercado. Puede vender todo lo que quiera a ese precio, pero nada si lo sube un céntimo (elasticidad infinita)."
+      "explicacion": "Dado que la empresa es precio-aceptante, puede vender cualquier cantidad al precio de mercado vigente, lo que resulta en una curva de demanda perfectamente elástica (horizontal) para la empresa individual.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Si el precio es inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
         "d": "Todas las respuestas anteriores son incorrectas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El Beneficio unitario es Precio - Coste Medio. Por tanto, para tener beneficios positivos, el Precio debe ser mayor que el Coste Total Medio (CTMi)."
+      "explicacion": "En competencia perfecta, el beneficio se calcula como (Precio - Coste Total Medio) multiplicado por la cantidad. Por lo tanto, para que existan beneficios positivos (extraordinarios), el precio de mercado debe ser mayor que el coste total medio de producción.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Si el precio del producto es superior al coste total medio.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Si pierdes dinero (P < CTMi) pero cubres tus costes variables (P > CVMi), te conviene seguir produciendo para pagar una parte de los costes fijos. Si cerraras, perderías todos los costes fijos. Es la zona de 'minimización de pérdidas'."
+      "explicacion": "Si el precio es menor al Coste Total Medio (CTMi) hay pérdidas. Sin embargo, si el precio es mayor al Coste Variable Medio (CVMi), la empresa cubre todos sus costes variables y parte de los fijos. Si cerrara, perdería la totalidad de los costes fijos, por lo que le conviene seguir produciendo para minimizar pérdidas.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -93,10 +93,10 @@
         "a": "El precio del producto sea inferior a CTMi y superior al CVMi, y el coste fijo sea irrecuperable.",
         "b": "El precio del producto sea superior al coste variable medio.",
         "c": "El precio del producto sea inferior al coste variable medio.",
-        "d": "El precio del producto sea superior a CTMi e inferior al CVMi, y el coste fijo sea recuperable."
+        "d": "El precio del producto sea superior a CTMi y inferior al CVMi, y el coste fijo sea recuperable."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Si el precio no cubre ni siquiera los costes variables (luz, materiales), cada unidad que produces aumenta tus pérdidas. En este caso, el 'Punto de Cierre' se alcanza y lo mejor es cerrar inmediatamente."
+      "explicacion": "Este es el punto de cierre. Si el precio es inferior al Coste Variable Medio, la empresa no puede cubrir ni siquiera sus gastos operativos inmediatos. En este caso, las pérdidas por producir serían mayores que los costes fijos, por lo que lo óptimo es cesar la producción.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Implica que haya una igualdad entre el precio del producto y CTMi.",
         "d": "Las respuestas a y c son correctas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los beneficios actúan como un imán. Si un sector es muy rentable, nuevas empresas entrarán atraídas por el lucro. Esto aumentará la oferta, bajará el precio y eliminará los beneficios extraordinarios hasta volver al beneficio normal."
+      "explicacion": "En competencia perfecta hay libertad de entrada y salida. La existencia de beneficios extraordinarios actúa como un incentivo para que nuevas empresas entren al mercado, lo que aumenta la oferta y presiona el precio a la baja hasta que los beneficios desaparecen.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Es decreciente.",
         "d": "Es en forma de U."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "En una industria de costes constantes, la oferta a largo plazo es horizontal al nivel del coste medio mínimo a largo plazo. Cualquier aumento de demanda se satisface con la entrada de más empresas, manteniendo el precio constante."
+      "explicacion": "En una industria de costes constantes, la curva de oferta a largo plazo es horizontal al nivel del coste total medio mínimo. Esto se debe a que la entrada y salida de empresas asegura que, a largo plazo, el precio siempre vuelva al nivel donde el beneficio económico es cero.",
+      "respuesta_correcta": "b"
     }
   ]
 }

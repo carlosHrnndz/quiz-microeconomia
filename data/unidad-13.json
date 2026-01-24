@@ -1,6 +1,6 @@
 {
   "unidad": 13,
-  "titulo": "Examen Unidad 13",
+  "titulo": "Microeconomía: Incertidumbre y Riesgo",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "El rendimiento.",
         "d": "La variabilidad."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Valor Esperado (Esperanza Matemática) es el promedio ponderado de los resultados posibles de una lotería. (Ej: 50% de ganar 100€ y 50% de ganar 0€ -> Valor Esperado 50€)."
+      "explicacion": "El valor esperado es una medida estadística que representa el promedio a largo plazo de los resultados de un experimento aleatorio, calculado multiplicando cada resultado posible por su probabilidad de ocurrencia y sumando dichos productos.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Rendimiento.",
         "d": "Variabilidad."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La variabilidad (medida típicamente por la desviación típica o varianza) indica cuánto se alejan los resultados posibles del valor medio. A mayor variabilidad, mayor riesgo."
+      "explicacion": "La variabilidad mide la dispersión o diferencia entre los posibles resultados de un evento incierto. Cuanto mayor es la diferencia entre los resultados, mayor es la variabilidad y, por tanto, el riesgo.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "El rendimiento.",
         "d": "La variabilidad."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La probabilidad es la medida numérica (entre 0 y 1) de la verosimilitud de que ocurra un evento."
+      "explicacion": "La probabilidad es la medida numérica (entre 0 y 1) de la verosimilitud o posibilidad de que ocurra un evento determinado.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Sí, cuando son negativas.",
         "d": "Sí, cuando son positivas, no cuando son negativas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Las desviaciones simples suman cero (las positivas cancelan las negativas). Por eso para medir la variabilidad elevamos al cuadrado (Varianza) o usamos valor absoluto."
+      "explicacion": "Las desviaciones simples respecto a la media tienden a anularse entre sí (su suma es cero). Por ello, para medir la variabilidad se utilizan la varianza o la desviación típica, que elevan las desviaciones al cuadrado para eliminar el signo negativo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "La utilidad óptima.",
         "d": "La utilidad por el riesgo."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La Teoría de la Utilidad Esperada (Von Neumann-Morgenstern) dice que los individuos racionales maximizan el promedio ponderado de la UTILIDAD de los resultados, no el valor monetario. Esto explica la aversión al riesgo."
+      "explicacion": "La utilidad esperada es el valor promedio de la satisfacción (utilidad) que un individuo espera obtener de una situación con incertidumbre, calculada como la suma de las utilidades de cada resultado posible multiplicadas por su probabilidad.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Amante del riesgo.",
         "d": "Pasivo ante el riesgo."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un individuo 'averso' o 'renuente' al riesgo tiene una función de utilidad cóncava (utilidad marginal decreciente). Prefiere 50€ seguros a un cara o cruz de 100€/0€, aunque el valor esperado sea el mismo."
+      "explicacion": "Una persona renuente o aversa al riesgo prefiere la certidumbre. Ante dos opciones con el mismo valor esperado, elegirá siempre la que no tiene riesgo porque su utilidad marginal de la riqueza es decreciente.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Prima por peligro concreto.",
         "d": "Prima por el riesgo."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La prima de riesgo es lo que estás dispuesto a 'perder' de valor esperado con tal de tener seguridad (ej. lo que pagas a una aseguradora por encima del coste justo)."
+      "explicacion": "La prima por el riesgo es la cantidad de dinero que una persona aversa al riesgo está dispuesta a pagar para evitarlo, igualando su utilidad de la situación incierta con una situación de certeza.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Actuarialmente justo.",
         "d": "Ajuste justo."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Un seguro es 'actuarialmente justo' si la prima es exactamente igual a la pérdida esperada (Probabilidad x Pérdida). Las aseguradoras normalmente cobran más para cubrir costes y beneficios."
+      "explicacion": "Un seguro es actuarialmente justo cuando la prima cobrada es exactamente igual al valor esperado del pago por siniestro, lo que significa que el beneficio esperado para la aseguradora es cero.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "Activo positivo.",
         "d": "Activo negativo."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un activo arriesgado (como acciones o bonos basura) tiene retornos futuros no garantizados, a diferencia de un activo libre de riesgo (como letras del tesoro a corto plazo)."
+      "explicacion": "Un activo arriesgado es aquel cuyos flujos de caja o beneficios futuros no se conocen con certeza en el momento de la inversión, presentando una variabilidad en sus rendimientos.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Anclaje.",
         "d": "Fijación."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El sesgo de 'Anclaje' (Anchoring) ocurre cuando confiamos demasiado en la primera información que recibimos ('ancla') para tomar decisiones posteriores, aunque sea irrelevante."
+      "explicacion": "El anclaje es un sesgo cognitivo que describe la tendencia humana común a confiar demasiado en la primera pieza de información ofrecida (el \"ancla\") al tomar decisiones posteriores.",
+      "respuesta_correcta": "c"
     }
   ]
 }
