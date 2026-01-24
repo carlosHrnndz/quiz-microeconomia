@@ -1,6 +1,6 @@
 {
   "unidad": 15,
-  "titulo": "Examen Unidad 15",
+  "titulo": "Microeconomía: Recursos Naturales",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Harold Helling.",
         "d": "Stuart Mill."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Henry George (1879) argumentó que la renta de la tierra es un ingreso no ganado (creado por la comunidad, no por el dueño), y propuso un 'Single Tax' del 100% sobre la renta de la tierra para financiar todo el estado."
+      "explicacion": "Henry George fue un economista estadounidense famoso por su propuesta del 'impuesto único' sobre el valor de la tierra, argumentando que los beneficios derivados de la naturaleza pertenecen a la comunidad.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Los árboles, la tierra y el agua.",
         "d": "Los minerales, los árboles y el agua."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En economía clásica, el factor 'Tierra' incluye todos los regalos de la naturaleza: suelo cultivable, recursos hídricos, atmósfera, minerales, etc."
+      "explicacion": "En la teoría económica clásica, el factor 'tierra' representa todos los recursos naturales que no han sido transformados por el hombre, incluyendo el suelo, el agua y el aire.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Los recursos originales.",
         "d": "Los recursos secundarios."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Un recurso esencial es aquel indispensable para la vida o la producción y que no puede ser reemplazado por capital o tecnología (ej. el agua o la capa de ozono)."
+      "explicacion": "Los recursos esenciales son aquellos para los cuales no existe un reemplazo viable en los procesos de producción o para el sustento de la vida.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "En los renovables.",
         "d": "En los no renovables."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La economía (asignación de recursos escasos) se centra principalmente en recursos apropiables (con derechos de propiedad definidos), ya que son los que pueden intercambiarse en el mercado."
+      "explicacion": "El análisis económico se enfoca en los recursos apropiables porque sobre ellos se pueden definir derechos de propiedad, lo que permite su intercambio en mercados y la asignación de precios.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Los apropiables.",
         "d": "Los no apropiables."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los recursos no apropiables (o de acceso libre, como el aire o los peces en alta mar) suelen ser gratuitos para el usuario, lo que a menudo lleva a su sobreexplotación (Tragedia de los Comunes)."
+      "explicacion": "Los recursos no apropiables son aquellos sobre los que es difícil o imposible establecer derechos de propiedad privada (como el aire), por lo que suelen ser de acceso libre y gratuito.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Thomas Malthus.",
         "d": "David Ricardo."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Malthus suele ser considerado precursor del ecologismo por su preocupación sobre los límites físicos de la tierra para alimentar a una población creciente."
+      "explicacion": "Thomas Malthus es considerado el más cercano al pensamiento ecológico entre los clásicos debido a su preocupación por los límites físicos del crecimiento, argumentando que la población crece más rápido que la capacidad de la tierra para producir alimentos.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Informe sobre los recursos naturales.",
         "d": "Informe sobre la tierra."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Informe Brundtland ('Nuestro Futuro Común') definió por primera vez el Desarrollo Sostenible: satisfacer las necesidades del presente sin comprometer las de las futuras generaciones."
+      "explicacion": "El Informe Brundtland, titulado 'Nuestro Futuro Común', fue publicado en 1987 por la Comisión Mundial sobre el Medio Ambiente y el Desarrollo de la ONU, y es fundamental por definir el concepto de desarrollo sostenible.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Como un activo de capital.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Los recursos naturales se ven como 'Capital Natural'. Son un stock de activos que producen flujos de servicios y bienes a lo largo del tiempo. Agotarlos es descapitalizarse."
+      "explicacion": "En la economía de los recursos naturales, estos se consideran 'capital natural' o activos de capital, ya que son bienes que tienen la capacidad de generar un flujo de servicios y beneficios económicos a lo largo del tiempo.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "De las existencias.",
         "d": "De la rentabilidad que se espera del recurso natural."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La decisión de extraer hoy o dejar para mañana (Hotel rule) depende de si la revalorización esperada del recurso enterrado supera a la rentabilidad de extraerlo e invertir el dinero (tasa de interés)."
+      "explicacion": "Al tratar el recurso como un activo, su demanda como stock depende de la rentabilidad esperada que el propietario prevé obtener al mantenerlo en el tiempo en comparación con otras inversiones alternativas.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Precio de ahogo.",
         "d": "Precio de equilibrio."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El 'Choke Price' (Precio de ahogo) es el precio al que la demanda del recurso cae a cero, generalmente porque a ese precio ya sale rentable usar una tecnología sustitutiva (ej. energía solar vs petróleo)."
+      "explicacion": "El 'precio de ahogo' (o choke price) es el nivel de precio en el cual la demanda de un recurso natural se vuelve nula, ya sea porque el recurso se agota o porque es sustituido totalmente por una alternativa más barata.",
+      "respuesta_correcta": "c"
     }
   ]
 }

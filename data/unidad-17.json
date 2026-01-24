@@ -1,6 +1,6 @@
 {
   "unidad": 17,
-  "titulo": "Examen Unidad 17",
+  "titulo": "Macroeconomía: Autoevaluación Unidad 17",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "En el año 1936.",
         "d": "En el año 1939."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La 'Teoría General', publicada en 1936 en plena Gran Depresión, revolucionó la economía al proponer que el Estado podía y debía intervenir para sacar a la economía de la recesión estimulando la demanda."
+      "explicacion": "John Maynard Keynes publicó su obra fundamental en 1936, la cual revolucionó el pensamiento económico al proponer que la demanda agregada determina el nivel de actividad económica.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "A través de la emisión de bonos del Estado.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Las dos grandes herramientas de intervención macroeconómica son la Política Fiscal (Impuestos y Gasto Público, controlada por el Gobierno) y la Política Monetaria (Tipos de interés y dinero, controlada por el Banco Central)."
+      "explicacion": "El sector público interviene en la economía principalmente mediante la política fiscal (gestión de impuestos y gasto) y la política monetaria (control de la oferta de dinero y tipos de interés).",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "En la bolsa de Madrid.",
         "d": "En la bolsa de Chicago."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El Jueves Negro (24 de octubre de 1929) marcó el inicio del colapso de la Bolsa de Nueva York (Wall Street), desencadenando la Gran Depresión."
+      "explicacion": "El 'Jueves Negro' se refiere al 24 de octubre de 1929, día en que la Bolsa de Nueva York sufrió una caída estrepitosa, dando inicio al Crac del 29 y la Gran Depresión.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Síntesis Neoclásica.",
         "d": "Síntesis Keynesiana."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La Síntesis Neoclásica (con autores como Samuelson y Hicks) intentó unir la microeconomía neoclásica con la macroeconomía keynesiana (modelos IS-LM), creando el consenso dominante durante décadas."
+      "explicacion": "La Síntesis Neoclásica fue el paradigma económico dominante tras la Segunda Guerra Mundial, combinando elementos de la macroeconomía keynesiana con la microeconomía neoclásica.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "CAIRU.",
         "d": "NAIRU."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La NAIRU (Non-Accelerating Inflation Rate of Unemployment) es la tasa de desempleo compatible con una inflación estable. Si el paro baja de ese nivel, la inflación se dispara."
+      "explicacion": "NAIRU corresponde a las siglas de 'Non-Accelerating Inflation Rate of Unemployment', que representa el nivel de desempleo que no genera presiones inflacionistas al alza.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "En 1977.",
         "d": "En 1976."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El SME entró en vigor el 13 de marzo de 1979 para estabilizar los tipos de cambio entre las monedas europeas y preparar el camino hacia la moneda única (el Euro)."
+      "explicacion": "El Sistema Monetario Europeo (SME) entró en vigor formalmente en marzo de 1979 con el objetivo de reducir la variabilidad del tipo de cambio y lograr la estabilidad monetaria en Europa.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "En un registro internacional.",
         "d": "En el Fondo Monetario Internacional."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La Balanza de Pagos es el documento contable que registra sistemáticamente todas las transacciones económicas (bienes, servicios, capital) entre los residentes de un país y el resto del mundo."
+      "explicacion": "La balanza de pagos es el documento contable que registra sistemáticamente todas las transacciones económicas (comerciales, de servicios y de capitales) de los residentes de un país con el resto del mundo.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "El Banco Central Internacional.",
         "d": "El Banco Mundial."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El Banco Central (como la Fed en EEUU o el BCE en la Eurozona) es la única institución con autoridad para emitir dinero legal y controlar cuánto dinero circula en la economía."
+      "explicacion": "El Banco Central es la autoridad monetaria de un país o región que tiene la función exclusiva de emitir moneda y controlar la cantidad de dinero en circulación (oferta monetaria).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "La política monetaria.",
         "d": "La política cambiaria."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La política cambiaria gestiona el tipo de cambio de la divisa nacional respecto a otras monedas, lo que afecta directamente a la competitividad de las exportaciones e importaciones."
+      "explicacion": "La política cambiaria es la parte de la política económica que se encarga de gestionar el valor de la moneda nacional frente a las divisas extranjeras, afectando directamente a la competitividad de las exportaciones e importaciones.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "Demanda agregada.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La Demanda Agregada es la suma de todo lo que se compra en el país: Consumo de familias (C) + Inversión de empresas (I) + Gasto del gobierno (G) + Exportaciones netas (X-M)."
+      "explicacion": "La demanda agregada es la suma del gasto en bienes y servicios que los consumidores, las empresas, el gobierno y el sector exterior están dispuestos a comprar a un determinado nivel de precios.",
+      "respuesta_correcta": "c"
     }
   ]
 }

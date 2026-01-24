@@ -1,6 +1,6 @@
 {
   "unidad": 20,
-  "titulo": "Examen Unidad 20",
+  "titulo": "Macroeconomía: Consumo, Ahorro y Riqueza",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "Los ingresos menos los gastos menos los beneficios.",
         "d": "Los ingresos menos los gastos más los beneficios."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La identidad fundamental del ahorro (S) es que es la parte de la Renta Disponible (Y) que no se consume (C). S = Y - C."
+      "explicacion": "En macroeconomía básica, el ahorro privado se define como la parte de la renta disponible que no se consume. Por lo tanto, Ahorro = Renta - Consumo.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "El consumo deseado.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El 'Consumo Deseado' es la planificación óptima de las familias sobre cuánto gastar hoy basándose en sus expectativas de renta presente y futura (Hipótesis del Ciclo Vital o Renta Permanente)."
+      "explicacion": "El término 'consumo deseado' se refiere a la cantidad de bienes y servicios que las familias planean o quieren comprar basándose en su nivel de ingresos y otras variables económicas.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "La inflación deseada.",
         "d": "Las respuestas a y b son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Para un ahorrador neto, si suben los tipos de interés, obtiene más rentas de sus ahorros. Al sentirse más rico (efecto renta), tiende a consumir más hoy y, por lo tanto, a ahorrar menos 'extra' de lo que tendría que ahorrar antes para el mismo objetivo."
+      "explicacion": "Para un ahorrador neto, un aumento en el tipo de interés real aumenta su riqueza futura (efecto renta), lo que le permite aumentar su consumo presente y, por ende, reducir su ahorro actual.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "A sus activos dividido entre sus deudas o pasivos.",
         "d": "A sus activos multiplicado por sus deudas o pasivos."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La Riqueza Nacional Neta es la suma de todos los activos reales y financieros del país menos todas las deudas contraídas con el exterior."
+      "explicacion": "La riqueza neta se calcula restando el total de las obligaciones financieras (pasivos o deudas) del valor total de las posesiones (activos).",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "Efecto-causa de interés real en el ahorro.",
         "d": "Efecto-directo de interés real en el ahorro."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El efecto renta captura el cambio en el poder adquisitivo. Si eres deudor y suben los tipos, eres más pobre (tienes que pagar más intereses) y consumes menos. Si eres acreedor, eres más rico y consumes más."
+      "explicacion": "El efecto-renta describe cómo los cambios en el poder adquisitivo derivados de cambios en los precios o tipos de interés afectan a las decisiones de consumo y ahorro.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Efecto-causa de interés real en el ahorro.",
         "d": "Efecto-directo de interés real en el ahorro."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El efecto sustitución siempre actúa en la misma dirección: si sube el tipo de interés, consumir hoy es 'más caro' (renuncias a más intereses futuros). Por tanto, sustituyes consumo presente por consumo futuro -> Ahorras más."
+      "explicacion": "Cuando el tipo de interés real aumenta, el consumo actual se vuelve más caro en términos de consumo futuro sacrificado. El efecto sustitución incentiva a los individuos a consumir menos hoy y ahorrar más para aprovechar la mayor rentabilidad futura.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,20 +83,20 @@
         "c": "Proposición de la equivalencia de Smith.",
         "d": "Proposición de la equivalencia de Blanchart."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "La Equivalencia Ricardiana sugiere que si el gobierno baja impuestos hoy pero no baja gastos, tendrá que subirlos mañana para pagar la deuda. Los consumidores racionales anticipan esto, ahorran el recorte fiscal para pagar los impuestos futuros, y el consumo no cambia."
+      "explicacion": "La equivalencia ricardiana sugiere que los consumidores son previsores y entienden que una reducción de impuestos hoy, financiada con deuda, implicará mayores impuestos en el futuro. Por tanto, ahorran el dinero de la rebaja fiscal para pagar los futuros impuestos, sin alterar su consumo.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
       "pregunta": "El coste de uso del capital ajustado para tener en cuenta los impuestos muestra...",
       "opciones": {
         "a": "Cuál debe ser el producto marginal futuro del capital antes de impuestos para que una empresa esté dispuesta a invertir.",
-        "b": "Cuál debe ser el producto marginal futuro del capital después de impuestos para que una empresa esté dispuesta a adquirir una unidad más de capital.",
+        "b": "Cuál debe ser el producto marginal futuro del capital después de impuestos para que una empresa esté dispuesta a invertir.",
         "c": "Cuál debe ser el producto marginal futuro del capital antes de impuestos para que una empresa esté dispuesta a adquirir una unidad más de capital.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Las empresas invierten hasta que el beneficio marginal de la inversión iguala su coste de uso. Los impuestos distorsionan este coste, aumentando el retorno requerido antes de impuestos."
+      "explicacion": "El coste de uso del capital ajustado por impuestos representa el nivel de productividad marginal bruta (antes de impuestos) que el capital debe generar para que, tras pagar impuestos y cubrir la depreciación y el coste de oportunidad, la inversión siga siendo rentable.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "El stock de capital se queda igual.",
         "d": "El stock de capital aumenta."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La variación del capital es Inversión Neta = Inversión Bruta - Depreciación. Si la bruta supera al desgaste (depreciación), la capacidad productiva del país (stock de capital) crece."
+      "explicacion": "La inversión neta es la diferencia entre la inversión bruta y la depreciación. Si la inversión bruta supera el desgaste del capital (depreciación), la inversión neta es positiva y, por lo tanto, el stock total de capital de la economía se incrementa.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "El ahorro nacional deseado es igual al consumo óptimo.",
         "d": "El ahorro nacional deseado es igual a la inversión deseada."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "En una economía cerrada, el equilibrio macroeconómico fundamental se da cuando el Ahorro Nacional (S) financia exactamente la Inversión Deseada (I). S = I."
+      "explicacion": "En una economía cerrada, la condición de equilibrio en el mercado de bienes (Y = C + I + G) equivale a que el ahorro nacional (S = Y - C - G) sea igual a la inversión (I). Es el punto donde los recursos no consumidos financian exactamente la formación de capital.",
+      "respuesta_correcta": "d"
     }
   ]
 }

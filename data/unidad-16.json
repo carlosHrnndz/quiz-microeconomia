@@ -1,6 +1,6 @@
 {
   "unidad": 16,
-  "titulo": "Examen Unidad 16",
+  "titulo": "Microeconomía: Mercado de Capitales y Activos Financieros",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "De la demanda.",
         "d": "De las empresas."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los fondos prestables (capital financiero) provienen fundamentalmente de la decisión de Ahorro de las familias, que renuncian a consumir hoy para prestar ese dinero a cambio de una rentabilidad futura."
+      "explicacion": "En macroeconomía y microeconomía, la oferta de capital proviene principalmente del ahorro de las unidades familiares, quienes deciden postergar su consumo actual para ofrecer esos fondos en el mercado financiero a cambio de un rendimiento.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "La tasa de interés de equilibrio.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "En el mercado de capitales, el 'precio' del dinero es el tipo de interés. Donde se cruzan oferta (ahorradores) y demanda (inversores) determina el Tipo de Interés de Equilibrio."
+      "explicacion": "En el mercado de capitales, el 'precio' que equilibra la cantidad ofrecida y la cantidad demandada es el tipo o tasa de interés. El punto de intersección define el nivel de interés al cual el mercado se vacía.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "Activos financieros, que son conocidos como valores mobiliarios.",
         "d": "El conjunto de cotizaciones de las principales empresas españolas en el mundo."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "El capital financiero se materializa en 'Valores Mobiliarios' (acciones, bonos), llamados así porque son títulos muebles (se pueden mover/transferir), a diferencia de los bienes raíces (inmuebles)."
+      "explicacion": "El capital financiero se refiere a los derechos sobre flujos de fondos futuros, representados por activos financieros como acciones y bonos, los cuales se denominan valores mobiliarios por su facilidad de transmisión y movimiento.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Por bancos y cajas.",
         "d": "El mercado de dinero y el mercado de capitales."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "La distinción clásica es por plazos: Mercado de Dinero o Monetario (corto plazo, ej. Letras del Tesoro) y Mercado de Capitales (largo plazo, ej. Acciones y Bonos a 10 años)."
+      "explicacion": "El sistema financiero se divide tradicionalmente en el mercado de dinero (activos a corto plazo y alta liquidez) y el mercado de capitales (activos a largo plazo como acciones y obligaciones).",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "En 1833.",
         "d": "En 1834."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "La Bolsa de Madrid, la primera de España, se inauguró oficialmente el 20 de octubre de 1831, ubicada inicialmente en el Consulado de la Plaza del Ángel."
+      "explicacion": "La Bolsa de Madrid, pilar del mercado bursátil español, fue creada oficialmente mediante un Real Decreto el 10 de septiembre de 1831, iniciando sus sesiones de cotización poco después.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Análisis eficaz.",
         "d": "Análisis óptimo."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Existen dos grandes escuelas: el Análisis Fundamental (estudia balances, beneficios y economía para hallar el valor intrínseco) y el Análisis Técnico (estudia gráficos y precios pasados)."
+      "explicacion": "El análisis fundamental es la metodología que busca determinar el valor real de un activo analizando factores económicos, financieros y otros aspectos cualitativos y cuantitativos.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "Son los contratos de subministramiento y contratos de compra venta.",
         "d": "Son los contratos de futuro y los contratos de opciones."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Los derivados financieros son productos cuyo valor 'deriva' de otro activo (subyacente). Los más comunes son los Futuros (obligación de comprar/vender) y las Opciones (derecho a comprar/vender)."
+      "explicacion": "Los derivados financieros son productos cuyo valor se basa en el precio de otro activo. Los futuros y las opciones son los instrumentos estándar y más negociados en estos mercados.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "Estable.",
         "d": "Conservador."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "En jerga bursátil, quien compra ('posición larga') espera que el mercado suba (es alcista u 'optimista'). Si compras un futuro sobre el petróleo a 70$, ganas dinero si sube a 80$."
+      "explicacion": "Se considera optimista (o 'bullish') porque al comprar un futuro se compromete a adquirir un activo a un precio fijo, esperando que el precio de mercado suba por encima de ese nivel para obtener beneficio.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 9,
@@ -107,20 +107,20 @@
         "c": "Participar en los regalos y promociones que ofrece el vendedor, generalmente, una entidad financiera.",
         "d": "Las respuestas a) y c) son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "A diferencia de los futuros, la Ocpión otorga un DERECHO, no una obligación. Por ese privilegio (poder decidir no ejecutar si no me interesa), el comprador debe pagar un precio inicial llamado 'Prima'."
+      "explicacion": "La prima es el coste que el comprador de una opción paga al vendedor para adquirir el derecho (sin la obligación) de comprar o vender un activo subyacente a un precio pactado.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 10,
       "pregunta": "Un swap es...",
       "opciones": {
         "a": "Una unidad de élite de las fuerzas y cuerpos de seguridad del Estado.",
-        "b": "Un titulo opcional que otorga el derecho de comprar o vender un producto derivado al emisor del mismo durante un tiempo determinado.",
+        "b": "Un título opcional que otorga el derecho de comprar o vender un producto derivado al emisor del mismo durante un tiempo determinado.",
         "c": "Un contrato en el que las partes se comprometen a intercambiar dinero en un futuro determinado.",
         "d": "Todas las opciones anteriores son incorrectas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "Un Swap (permuta financiera) es un acuerdo para intercambiar flujos de caja futuros según una fórmula preestablecida (ej. intercambiar un tipo de interés variable por uno fijo)."
+      "explicacion": "Un swap o permuta financiera es un contrato derivado mediante el cual dos partes acuerdan intercambiar flujos de caja (pagos de intereses, divisas, etc.) durante un periodo de tiempo determinado.",
+      "respuesta_correcta": "c"
     }
   ]
 }

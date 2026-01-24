@@ -1,6 +1,6 @@
 {
   "unidad": 18,
-  "titulo": "Examen Unidad 18",
+  "titulo": "Macroeconomía: Autoevaluación Unidad 18",
   "preguntas": [
     {
       "numero": 1,
@@ -11,8 +11,8 @@
         "c": "La recopilación de datos.",
         "d": "La predicción económica."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "Los analistas macroeconómicos en gobiernos y bancos centrales estudian la situación para recomendar medidas (subir impuestos, bajar tipos, etc.) que estabilicen la economía y fomenten el crecimiento."
+      "explicacion": "Los analistas en el sector público actúan como asesores técnicos que proporcionan la base teórica y empírica necesaria para que los gobiernos diseñen políticas fiscales y monetarias efectivas.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 2,
@@ -23,8 +23,8 @@
         "c": "Del estudio financiero.",
         "d": "Del estudio de las tendencias económicas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "Antes de poder analizar, hay que medir. La investigación económica de base (institutos de estadística) se encarga de la inmensa tarea de recopilar datos fiables sobre precios, empleo y producción."
+      "explicacion": "La investigación económica básica comienza con la recopilación sistemática de datos, lo cual es fundamental para poder contrastar teorías y entender el comportamiento de las variables económicas.",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 3,
@@ -35,8 +35,8 @@
         "c": "En la Primera Guerra Mundial.",
         "d": "En la Guerra de Corea."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La necesidad de gestionar economías de guerra masivas durante la Primera Guerra Mundial impulsó el desarrollo de la contabilidad nacional y las primeras estadísticas macroeconómicas sistemáticas."
+      "explicacion": "El desarrollo de la macroeconomía moderna recibió un gran impulso durante la Primera Guerra Mundial, debido a la necesidad de los gobiernos de cuantificar y movilizar recursos nacionales para el esfuerzo bélico.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 4,
@@ -47,8 +47,8 @@
         "c": "Inflación.",
         "d": "Ninguna de las respuestas anteriores es correctas."
       },
-      "respuesta_correcta": "c",
-      "explicacion": "La inflación es el aumento generalizado y sostenido del nivel de precios. Si solo sube el precio de un bien (ej. el pan), no es inflación, es un cambio de precios relativos."
+      "explicacion": "La inflación es el término técnico que define el aumento generalizado y sostenido de los precios de bienes y servicios en un país durante un periodo de tiempo.",
+      "respuesta_correcta": "c"
     },
     {
       "numero": 5,
@@ -59,8 +59,8 @@
         "c": "El coste de lo bienes y servicios durante un año.",
         "d": "El coste de la vida."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El IPC (Índice de Precios de Consumo) mide cómo cambia el coste de la vida para una familia media, basándose en una 'cesta de la compra' fija y representativa de sus gastos habituales."
+      "explicacion": "El Índice de Precios al Consumo (IPC) mide la variación de los precios de una cesta de la compra 'tipo' que refleja los hábitos de consumo de un ciudadano medio.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 6,
@@ -71,8 +71,8 @@
         "c": "Índice de una Cesta Fija de Bienes.",
         "d": "Índice de la Fabricación de Bienes y Servicios."
       },
-      "respuesta_correcta": "a",
-      "explicacion": "El IPCA (a veces escrito IPAC) es el Índice de Precios de Consumo Armonizado, una variante del IPC calculada con una metodología común para todos los países de la UE, permitiendo comparaciones directas de inflación."
+      "explicacion": "El IPAC (o IPCA) es un indicador estadístico cuyo objetivo es proporcionar una medida común de la inflación que permita realizar comparaciones internacionales entre los países de la Unión Europea.",
+      "respuesta_correcta": "a"
     },
     {
       "numero": 7,
@@ -83,8 +83,8 @@
         "c": "La suma del PIB nominal y la inflación.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El Deflactor del PIB es un índice de precios más amplio que el IPC (incluye todo lo producido, no solo lo consumido). Se calcula dividiendo el PIB Nominal (precios corrientes) entre el PIB Real (precios constantes)."
+      "explicacion": "El deflactor del PIB es un índice de precios que calcula la variación de los precios de una economía en un periodo determinado utilizando el cociente entre el PIB nominal (a precios corrientes) y el PIB real (a precios constantes).",
+      "respuesta_correcta": "b"
     },
     {
       "numero": 8,
@@ -95,8 +95,8 @@
         "c": "El interés bancario.",
         "d": "El interés nominal."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "El Tipo de Interés Nominal es el que te dice el banco (ej. 5%). No descuenta la inflación, por lo que no te dice cuánto poder adquisitivo real vas a ganar o perder."
+      "explicacion": "El tipo de interés nominal es el porcentaje que se pacta como pago por el uso del dinero sin descontar la pérdida de valor que supone la inflación. Cuando se ajusta por la inflación, se convierte en interés real.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 9,
@@ -107,8 +107,8 @@
         "c": "El valor real.",
         "d": "El interés real."
       },
-      "respuesta_correcta": "d",
-      "explicacion": "Ecuación de Fisher aproximada: Tipo Real = Tipo Nominal - Inflación. Si el banco te da un 5% pero la inflación es del 3%, tu rentabilidad real es solo del 2%."
+      "explicacion": "Según la ecuación de Fisher, el tipo de interés real es aproximadamente igual al tipo de interés nominal menos la tasa de inflación. Representa el rendimiento neto obtenido tras considerar el aumento de los precios.",
+      "respuesta_correcta": "d"
     },
     {
       "numero": 10,
@@ -119,8 +119,8 @@
         "c": "El aumento del dinero que tenemos depositado en el banco con el paso del tiempo.",
         "d": "Todas las respuestas anteriores son correctas."
       },
-      "respuesta_correcta": "b",
-      "explicacion": "El interés real mide cuántas 'cosas' más podrás comprar mañana si ahorras hoy. Es la verdadera recompensa por el ahorro en términos de bienes y servicios."
+      "explicacion": "El tipo de interés real mide la capacidad de compra efectiva que ganamos con nuestros ahorros o inversiones, ya que descuenta el efecto de la inflación sobre el dinero.",
+      "respuesta_correcta": "b"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "unidad": 19,
-  "titulo": "Examen Unidad 19",
+  "titulo": "Macroeconomía - Introducción a la Contabilidad Nacional",
   "preguntas": [
     {
       "numero": 1,
@@ -11,6 +11,7 @@
         "c": "La cantidad de gasto de los compradores últimos de producción.",
         "d": "Todas las respuestas anteriores son correctas."
       },
+      "explicacion": "La contabilidad nacional utiliza tres enfoques equivalentes para medir el PIB: el enfoque de la producción (valor añadido), el de la renta (ingresos generados) y el del gasto (consumo final). Los tres deben dar el mismo resultado.",
       "respuesta_correcta": "d"
     },
     {
@@ -22,6 +23,7 @@
         "c": "Son complementarios.",
         "d": "Son subsidiarios."
       },
+      "explicacion": "En macroeconomía, estos tres métodos son identidades contables. Todo lo que se produce se vende (gasto) y genera unos ingresos (renta), por lo que los tres métodos llegan a la misma cifra de actividad económica.",
       "respuesta_correcta": "a"
     },
     {
@@ -33,6 +35,7 @@
         "c": "El PIB de un país sumergido.",
         "d": "Ninguna de las respuestas anteriores es correcta."
       },
+      "explicacion": "La economía sumergida comprende tanto las actividades lícitas que no se declaran para evitar impuestos o regulaciones, como las actividades delictivas o ilegales.",
       "respuesta_correcta": "b"
     },
     {
@@ -44,6 +47,7 @@
         "c": "Bienes de capital.",
         "d": "Bienes finales."
       },
+      "explicacion": "Los bienes intermedios son aquellos que sufren transformaciones o se agotan durante el proceso productivo para dar lugar a bienes finales. Se diferencian de los bienes de capital en que estos últimos duran varios periodos.",
       "respuesta_correcta": "b"
     },
     {
@@ -55,6 +59,7 @@
         "c": "Exportaciones netas.",
         "d": "Importaciones finales."
       },
+      "explicacion": "Las exportaciones netas (o balanza comercial) representan la diferencia entre el valor de los bienes vendidos al extranjero y el valor de los bienes comprados al exterior.",
       "respuesta_correcta": "c"
     },
     {
@@ -66,6 +71,7 @@
         "c": "Mide el dinero que dispone el sector público.",
         "d": "Mide el PNN."
       },
+      "explicacion": "La renta disponible es la cantidad neta de ingresos que los hogares y empresas tienen para consumir o ahorrar tras el pago de impuestos y la recepción de transferencias del Estado.",
       "respuesta_correcta": "b"
     },
     {
@@ -77,6 +83,7 @@
         "c": "La renta neta del Estado menos el consumo público.",
         "d": "Todas las respuestas anteriores son correctas."
       },
+      "explicacion": "El ahorro público representa el superávit presupuestario del gobierno, calculado como la diferencia entre sus ingresos corrientes (renta neta) y sus gastos en consumo público.",
       "respuesta_correcta": "c"
     },
     {
@@ -88,6 +95,7 @@
         "c": "Variables circulares.",
         "d": "Variables nacionales."
       },
+      "explicacion": "En economía, las variables de flujo miden una magnitud durante un intervalo temporal (ej. ingresos por mes), mientras que las de stock miden una cantidad en un punto específico del tiempo.",
       "respuesta_correcta": "a"
     },
     {
@@ -99,6 +107,7 @@
         "c": "El tipo de interés real.",
         "d": "El indicador de interés de mercado."
       },
+      "explicacion": "El deflactor del PIB es un índice que refleja los cambios de precios de todos los bienes y servicios producidos domésticamente en una economía, permitiendo comparar el PIB nominal con el real.",
       "respuesta_correcta": "b"
     },
     {
@@ -110,6 +119,7 @@
         "c": "El tipo de interés real.",
         "d": "El indicador de interés de mercado."
       },
+      "explicacion": "El tipo de interés real ajusta el interés nominal eliminando el efecto de la inflación, mostrando así el crecimiento real del poder adquisitivo de una inversión o el coste real de un préstamo.",
       "respuesta_correcta": "c"
     }
   ]
